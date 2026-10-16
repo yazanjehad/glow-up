@@ -1,0 +1,1798 @@
+{
+  "unassigned": "Unassigned",
+  "internalNote": "Internal Note",
+  "adminServices": {
+    "title": "Admin Services",
+    "subtitle": "Review and approve services submitted by providers",
+    "searchPlaceholder": "Search for service or salon...",
+    "stats": {
+      "totalPending": "Total Pending Services"
+    },
+    "table": {
+      "service": "Service",
+      "salon": "Salon",
+      "price": "Price",
+      "duration": "Duration",
+      "actions": "Actions"
+    },
+    "empty": {
+      "title": "No pending services at the moment",
+      "desc": "Services requiring review will appear here once added by providers."
+    }
+  },
+  "loading": "Loading",
+  "upload": "Upload",
+  "change": "Change",
+  "removeImage": "Remove Image",
+  "clickToSelectPhoto": "Click to select a photo",
+  "save": "Save",
+  "Processing": "Processing...",
+  "min": "min",
+  "sar": "SAR",
+  "remaining": "remaining",
+  "more": "More",
+  "providerPackages": {
+    "update": "Update Package"
+  },
+  "packageStatus": {
+    "active": "Active",
+    "used_up": "Fully Consumed",
+    "used": "Used",
+    "expired": "Expired"
+  },
+  "dashboardTitle": "Order List",
+  "loadingMessage": "Loading...",
+  "noImageAvailable": "Loading image...",
+  "serviceLocationProvider": {
+    "title": "Service Location",
+    "subtitle": "Where do you provide your services?",
+    "options": {
+      "home": "Home",
+      "salon": "Salon",
+      "both": "Both"
+    }
+  },
+  "header": {
+    "home": "Home",
+    "salons": "Salons",
+    "specialists": "Specialists",
+    "services": "Services",
+    "blog": "Blog",
+    "about": "About GlowUp",
+    "contact": "Contact Us",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "getApp": "Get App",
+    "bookings": "My Bookings",
+    "chat": "Chats",
+    "searchSalon": "Search Salon",
+    "language": "Language",
+    "profile": "My Profile",
+    "searchPlaceholder": "Search for a salon...",
+    "notifications": "Notifications",
+    "menu": "Menu",
+    "logout": "Logout",
+    "favorites": "Favorites",
+    "support": "Support",
+    "login": "Login",
+    "languageEn": "English",
+    "languageAr": "العربية",
+    "wallet": "Wallet",
+    "packages": "My Packages"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllAsRead": "Mark all as read",
+    "empty": "No notifications yet",
+    "justNow": "Just now",
+    "minutesAgo": "{{count}} min ago",
+    "hoursAgo": "{{count}}h ago",
+    "daysAgo": "{{count}}d ago",
+    "titles": {
+      "new_message": "New Message",
+      "booking_confirmed": "Booking Confirmed",
+      "booking_cancelled": "Booking Cancelled",
+      "booking_completed": "Booking Completed",
+      "new_booking": "New Booking",
+      "appointment_reminder": "Appointment Reminder"
+    }
+  },
+  "bookings": {
+    "cancel": "Cancel Booking",
+    "confirm_yes": "Confirm",
+    "confirm_no": "No",
+    "send_rating": "Send Rating",
+    "cancel_confirm_message": "Are you sure you want to cancel this booking?",
+    "cancel_success_msg": "Booking cancelled successfully",
+    "error_occurred": "An error occurred, please try again later",
+    "title": "My Bookings",
+    "all": "All Bookings",
+    "current": "Current Bookings",
+    "previous": "Previous Bookings",
+    "canceled": "Canceled Bookings",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "week_ago": "Last week",
+    "week_ahead": "Next week",
+    "later": "Later",
+    "this_week": "This week",
+    "week": "This week",
+    "month": "This month",
+    "lastWeek": "Last Week",
+    "lastMonth": "Last Month",
+    "older": "Older",
+    "empty": "You have no bookings",
+    "rebook": "Rebook",
+    "already_rated": "You have already rated this",
+    "rating_success": "Thank you for your rating!",
+    "rate_when_completed": "You can rate after the salon marks the booking as completed.",
+    "status": {
+      "current": "Active",
+      "previous": "Completed",
+      "previous_pending": "Under review",
+      "canceled": "Canceled"
+    },
+    "details_title": "Booking Details",
+    "section_datetime": "Date & time",
+    "day": "Day",
+    "date": "Date",
+    "time": "Time",
+    "section_venue": "Venue & team",
+    "minutes": "min",
+    "services": "Services",
+    "currency": "SAR"
+  },
+  "favoritesPage": {
+    "empty": "You have no favorites yet."
+  },
+  "appName": "GlowUp",
+  "login": "Login",
+  "signUp": "Sign Up",
+  "active":"Active",
+  "wallet": "Wallet",
+  "packages": "My Packages",
+  "search": "Search for a salon",
+  "filter": "Filter",
+  "location": "Location",
+  "rating": "Rating",
+  "price": "Price",
+  "sort": "Sort by",
+  "popular": "Most Popular",
+  "newest": "Newest",
+  "topRated": "Top Rated",
+  "bookNow": "Book Now",
+  "viewDetails": "View Details",
+  "addToFavorites": "Add to Favorites",
+  "removeFromFavorites": "Remove from Favorites",
+  "reviews": "Reviews",
+  "services": "Services",
+  "schedule": "Schedule",
+  "booking": "Booking",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "back": "Back",
+  "next": "Next",
+  "ok": "OK",
+  "phone": "Phone",
+  "email": "Email",
+  "address": "Address",
+  "city": "City",
+  "country": "Country",
+  "date": "Date",
+  "time": "Time",
+  "duration": "Duration",
+  "total": "Total",
+  "subtotal": "Subtotal",
+  "totalDuration": "Total Duration",
+  "paymentMethod": "Payment Method",
+  "creditCard": "Credit Card",
+  "debitCard": "Debit Card",
+  "cashOnArrival": "Cash on Arrival",
+  "confirmBooking": "Confirm Booking",
+  "bookingSuccessful": "Booking Successful",
+  "bookingFailed": "Booking Failed",
+  "specialistProfile": "Specialist Profile",
+  "salonProfile": "Salon Profile",
+  "aboutUs": "About Us",
+  "contactUs": "Contact Us",
+  "shareProfile": "Share Profile",
+  "rate": "Rate",
+  "writeReview": "Write a Review",
+  "selectDate": "Select Date",
+  "selectTime": "Select Time",
+  "selectService": "Select Service",
+  "selectSpecialist": "Select Specialist",
+  "anySpecialist": "Any Specialist",
+  "allSalons": "All Salons",
+  "nearby": "Nearby",
+  "recentlyVisited": "Recently Visited",
+  "messages": "Messages",
+  "orders": "Orders",
+  "editProfile": "Edit Profile",
+  "changePassword": "Change Password",
+  "settings": "Settings",
+  "privacy": "Privacy Policy",
+  "terms": "Terms of Service",
+  "version": "Version",
+  "noResults": "No Results",
+  "emptyCart": "Empty Cart",
+  "loading": "Loading...",
+  "error": "Error",
+  "tryAgain": "Try Again",
+  "success": "Success",
+  "warning": "Warning",
+  "info": "Info",
+  "nearest": "Nearest to you",
+  "highly_rated": "Highly Rated",
+  "recommended": "Recommended",
+  "profile": "Profile",
+  "favorites": "Favorites",
+  "support": "Support",
+  "upgrade": "Upgrade",
+  "whyChooseUs": {
+    "title": "Why Choose The Glow Hub?",
+    "easyBooking": {
+      "title": "Easy Booking Experience",
+      "desc": "Book your appointment in seconds from home"
+    },
+    "genuineReviews": {
+      "title": "Genuine Reviews",
+      "desc": "Read real reviews from real customers"
+    },
+    "realDeals": {
+      "title": "Exclusive Deals & Discounts",
+      "desc": "Get the best deals and discounts on beauty services"
+    }
+  },
+  "hero": {
+    "title_line1": "A platform that connects you to the nearest salon",
+    "title_line2": "that cares about your beauty and health.",
+    "searchPlaceholder": "Search for a salon",
+    "numberOfClient": "New Client",
+    "numberOfSalon": "Salon",
+    "numberOfBookings": "Booking",
+    "appName": "The Glow Hub..."
+  },
+  "home": {
+    "enableLocationToSeeNearest": "Enable location to see salons nearest to you.",
+    "useMyLocation": "Use My Location",
+    "newest": "Newest",
+    "locationNotSupported": "Location is not supported by your browser.",
+    "locationDenied": "Could not get your location. Please allow location access."
+  },
+  "userSearch": {
+    "title": "User Search",
+    "searchUser": "Search for a user",
+    "username": "Username",
+    "searchResults": "Search Results",
+    "noResults": "No results found",
+    "memberSince": "Member since"
+  },
+  "pricing": {
+    "basic": "Basic Plan",
+    "basicPrice": "0",
+    "pro": "Pro Plan",
+    "proPrice": "30",
+    "vip": "VIP Plan",
+    "vipPrice": "55",
+    "perMonth": "/ month"
+  },
+  "loginPage": {
+    "topBarTitle": "User Login",
+    "tabUser": "User",
+    "tabSalon": "Salon",
+    "welcomeTitle": "Welcome back!",
+    "welcomeSubtitle": "Log in to your account",
+    "welcomeSubtitleUser": "Enter your phone number to access your account",
+    "welcomeSubtitleSalon": "Enter your salon phone number to manage your business",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "0555123456",
+    "submit": "Login",
+    "noAccount": "Don't have an account?",
+    "createAccount": "Create Account",
+    "homeAria": "Home",
+    "errorEmailExists": "Email already exists",
+    "sessionExpired": "Session expired, please login again",
+    "errorInvalidPhone": "Invalid phone number",
+    "errorUnknown": "An unexpected error occurred",
+    "errorOtpMissing": "OTP token missing, please verify your phone first",
+    "errorFirstName": "First name is required",
+    "errorLastName": "Last name is required",
+    "errorEmail": "Email is invalid",
+    "errorPassword": "Password must be at least 6 characters",
+    "errorGender": "Gender must be MALE or FEMALE",
+    "errorBirthDate": "Birth date is required",
+    "errorCreateProfile": "Failed to create profile"
+  },
+  "otpPage": {
+    "topBarTitle": "Verification",
+    "backAria": "Back",
+    "title": "Verification Code",
+    "subtitlePrefix": "We sent a 4-digit code to",
+    "subtitleSuffix": "",
+    "otpAria": "Verification Code",
+    "backToPhone": "Change phone number",
+    "errorRequired": "Verification code is required.",
+    "errorLength": "Verification code must be 4 digits.",
+    "errorDigits": "Verification code must contain digits only.",
+    "errorInvalid": "Invalid verification code. Please try again.",
+    "errorSend": "Failed to send verification code. Please try again.",
+    "errorExpired": "Verification code has expired.",
+    "errorInvalidAttempts": "Invalid verification code. Attempts left: {{count}}.",
+    "errorTooManyAttempts": "Too many attempts. Please request a new verification code.",
+    "errorUserNotProvider": "This account is not registered as a provider.",
+    "requestNewOtp": "Request new code",
+    "verifyButton": "Verify",
+    "otpTokenMissing": "Verification session expired. Please verify your phone again.",
+    "resendWait_one": "Please wait 1 second before resending the verification code.",
+    "resendWait_other": "Please wait {{count}} seconds before resending the verification code."
+  },
+  "searchBar": {
+    "allDepartments": "All Departments",
+    "service": "Service",
+    "location": "Location",
+    "searchButton": "Search",
+    "The right time": "The right time",
+    "searchByName": "Search by name"
+  },
+  "categories": {
+    "hair_services": "Hair Services",
+    "skin_care": "Skin Care",
+    "nails": "Nails",
+    "massage_therapy": "Massage Therapy"
+  },
+  "servicesList": {
+    "vipHaircut": "VIP Haircut",
+    "vipHaircutBeard": "VIP Haircut + Beard",
+    "luxuryHairCare": "Luxury Hair Care",
+    "premiumBeardCare": "Premium Beard Care",
+    "vipHairSpa": "VIP Hair Spa",
+    "royalVipPackage": "Royal VIP Package",
+    "haircut": "Haircut",
+    "beardTrim": "Beard Trim",
+    "haircutBeard": "Haircut + Beard",
+    "quickHaircut": "Quick Haircut",
+    "beardExpress": "Beard Express",
+    "dailyStyle": "Daily Style",
+    "kidsHaircut": "Kids Haircut",
+    "kidsHairStyle": "Kids Hairstyle",
+    "kidsFunCut": "Kids Fun Cut",
+    "kidsHairWash": "Kids Hair Wash",
+    "kidsStyleCombo": "Kids Style Combo",
+    "kidsPremiumCare": "Kids Premium Care",
+    "groomPedicure": "Groom Pedicure",
+    "groomPedicureCare": "Groom Pedicure Care",
+    "fullGroomPackage": "Full Groom Package",
+    "groomHairStyle": "Groom Hairstyle",
+    "groomBeardStyle": "Groom Beard Style",
+    "weddingRoyalCare": "Wedding Royal Care",
+    "skinCleaning": "Skin Cleaning",
+    "hydrationMask": "Hydration Mask",
+    "deepSkinCare": "Deep Skin Care",
+    "faceRelaxMassage": "Face Relax Massage",
+    "skinRefresh": "Skin Refresh",
+    "goldenSkinCare": "Golden Skin Care"
+  },
+  "serviceSub": {
+    "hair": "Hair",
+    "beard": "Beard",
+    "skin": "Skin",
+    "nails": "Nails",
+    "package": "Package"
+  },
+  "signupPage": {
+    "userTopBarTitle": "User Signup",
+    "salonTopBarTitle": "Salon Signup",
+    "tabUser": "User",
+    "tabSalon": "Salon",
+    "welcomeTitle": "Welcome to The Glow Hub!",
+    "welcomeSubtitle": "Create your new account",
+    "phoneLabel": "Mobile number",
+    "phonePlaceholder": "Enter mobile number",
+    "phoneRequired": "Phone number is required",
+    "errorPhoneRequired": "Mobile number is required",
+    "errorPhoneLength": "Phone number must be 10 digits",
+    "errorPhoneStart": "Phone number must start with 05",
+    "errorPhoneDigits": "Please enter digits only",
+    "errorNameLength": "Name must be at least 2 characters",
+    "submit": "Create Account",
+    "haveAccount": "Already have an account?",
+    "login": "Login",
+    "homeAria": "Home"
+  },
+  "nameRegistration": {
+    "title": "Create New Account",
+    "subtitle": "Join over 3000 users",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email (optional)",
+    "termsText": "I have read and agree to the",
+    "termsLink": "Terms and Conditions",
+    "submit": "Create Account"
+  },
+  "bookingFor": {
+    "title": "Booking For Self / Others",
+    "back": "Back",
+    "myself": "Booking for myself",
+    "myselfDescription": "Booking will be for you using your account details",
+    "gift": "Booking for someone else",
+    "giftDescription": "Booking will be for someone else as a gift"
+  },
+  "bookingGift": {
+    "title": "Gift to Someone",
+    "back": "Back",
+    "heading": "Gift a Service Coupon",
+    "description": "Enter the phone number of the person you want to gift the coupon to",
+    "phoneLabel": "Receiver's Phone Number",
+    "phonePlaceholder": "05xxxxxxxx",
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Phone number must be 10 digits",
+    "phoneStartInvalid": "Phone number must start with 05",
+    "phoneDigitsOnly": "Phone number must contain digits only",
+    "continue": "Continue",
+    "giftforglowuser": "Gift for current The Glow Hub User",
+    "giftforglowuserDescription": "Send a booking as a gift to a registered user",
+    "inviteFriend": "Invite a friend",
+    "inviteFriendDescription": "Invite a friend to earn points"
+  },
+  "reviewsPage": {
+    "title": "Reviews",
+    "backAria": "Back to Home",
+    "summaryTitle": "Ratings & Reviews",
+    "summarySubtitle": "Summary",
+    "reviewWord": "reviews",
+    "noReviewsYet": "No reviews yet"
+  },
+  "showAll": "Show All",
+  "showedAll": "All Shown",
+  "durationUnit": "m",
+  "showLess": "Show less",
+  "servicePage": {
+    "services": "Services"
+  },
+  "serviceDetails": {
+    "orderDetails": "Order Details",
+    "emptyOrder": "No services selected yet",
+    "total": "Total",
+    "goToPay": "Proceed to Payment"
+  },
+  "welcomeModal": {
+    "title": "Welcome back!",
+    "subtitle": "Log in to complete your request",
+    "next": "Next",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Enter phone number",
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Phone number must be 10 digits",
+    "phoneStartInvalid": "Phone number must start with 05",
+    "phoneDigitsOnly": "Phone number must contain digits only",
+    "invalidCode": "Invalid code"
+  },
+  "successModal": {
+    "title": "Booking Confirmed",
+    "desc": "Your booking has been successfully confirmed. We look forward to seeing you at the scheduled time.",
+    "bookAnother": "Book Another Appointment",
+    "details": "View Details",
+    "invalidCode": "Invalid code"
+  },
+  "bookingSlot": {
+    "title": "Available Slots",
+    "chooseTime": "Choose time",
+    "selected": "Selected",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "backAria": "Back",
+    "noSlotsAvailable": "No available time slots for this day. Please select another day."
+  },
+  "bookingMulti": {
+    "title": "Multi-Service Booking",
+    "noServices": "No services selected",
+    "serviceProgress": "Service {{current}} of {{total}}",
+    "serviceLabel": "Service {{number}}",
+    "previous": "Previous",
+    "next": "Next",
+    "proceedToPayment": "Proceed to Payment",
+    "loadingEmployees": "Loading staff...",
+    "loadEmployeesFailed": "Failed to load staff"
+  },
+  "teamPage": {
+    "loadingEmployees": "Loading staff...",
+    "noEmployeesForService": "There are no employees for this service at this salon.",
+    "loadEmployeesFailed": "Could not load staff. Please try again.",
+    "missingProvider": "Salon information is missing. Please open the salon again and choose a service.",
+    "missingService": "Service information is missing. Please select a service again."
+  },
+  "days": {
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday"
+  },
+  "salonDetailsInfo": {
+    "noSimilarSalons": "No similar salons found",
+    "services": "Services",
+    "reviews": "Reviews",
+    "ourTeam": "Our Team",
+    "policy": "Salon Policy",
+    "similarSalons": "Similar Salons",
+    "placeholderCard": "Reserved for content",
+    "viewAll": "View All",
+    "loadMore": "Show More",
+    "noReviews": "No reviews yet",
+    "notFound": "Salon not found",
+    "backToHome": "Back to home",
+    "packages": "Packages",
+    "documents": "Documents",
+    "noDocuments": "No documents",
+    "document": "Document"
+  },
+  "common": {
+    "share": "Share",
+    "favorite": "Favorite",
+    "men": "Men",
+    "women": "Women",
+    "cancel": "Cancel",
+    "active": "Active",
+    "inactive": "Inactive",
+    "more": "More",
+    "loading": "Loading"
+  },
+  "chat": {
+    "withSalon": "Chat with salon",
+    "pageTitle": "Chat",
+    "with": "Chat with {{name}}",
+    "typeMessage": "Type your message...",
+    "send": "Send",
+    "comingSoon": "Chat will be available soon",
+    "loginRequired": "You must log in to open the chat",
+    "goToLogin": "Log in",
+    "backToSalon": "Back to salon",
+    "noMessages": "No messages yet",
+    "noConversations": "No conversations yet",
+    "noConversationsHint": "Start a chat from a salon page to see it here",
+    "selectConversation": "Select a conversation",
+    "browseSalons": "Browse salons",
+    "demoHint": "Messages are stored locally until the chat API is ready",
+    "demoReply": "Thanks for your message! We'll reply as soon as possible."
+  },
+  "bookingDetails": {
+    "title": "Booking Details",
+    "salonDetails": {
+      "title": "Salon Details",
+      "openNow": "Open Now",
+      "closedNow": "Closed Now",
+      "until": "until {{time}}",
+      "location": "Location",
+      "noReviews": "No reviews"
+    },
+    "orderDetails": {
+      "title": "Order Details",
+      "empty": "No services selected",
+      "haveCoupon": "Do you have a coupon?",
+      "couponPlaceholder": "Enter discount code",
+      "subtotal": "Subtotal",
+      "tax": "Tax",
+      "discount": "Discount",
+      "total": "Total",
+      "couponRequired": "Please enter coupon code",
+      "loginRequired": "Please login first",
+      "couponInactive": "Coupon is inactive",
+      "couponExpired": "Coupon has expired",
+      "couponApplied": "Coupon applied successfully!",
+      "couponInvalid": "Invalid coupon code",
+      "couponSavedForCheckout": "Coupon saved - will be validated at checkout"
+    },
+    "notes": {
+      "title": "Notes",
+      "placeholder": "Write your notes here"
+    }
+  },
+  "currentPlanTitle": "Current Plan Usage",
+  "remainingServices": "{{count}} remaining of {{name}}",
+  "walletPaymentTitle": "Wallet Payment",
+  "amountDue": "Amount Due",
+  "addCreditCardTitle": "Add Credit Card",
+  "addCreditCardDesc": "Add a new card",
+  "otherPaymentMethods": "Other Payment Methods",
+  "paymentCenterTitle": "Cash payment at the service center",
+  "googlePay": "Google Pay",
+  "applePay": "Apple Pay",
+  "payByCoupon": "Pay with Coupon",
+  "couponCode": "Coupon Code",
+  "couponAppliedSuccess": "Coupon applied successfully",
+  "useCurrentPackage": "Use Current Package",
+  "remaining": "Remaining",
+  "selectPackage": "Select Package",
+  "noPackagesAvailable": "No packages available",
+  "paymentDetails": {
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorMissingPackage": "Please go back and select a package or provider.",
+    "errorAlreadyHasActivePackage": "You already have an active package of this type. You can use it for your bookings, or choose a different package to purchase.",
+    "errorAlreadyHasActivePackageUsedUp": "It seems your previous package of this type is still marked as active after you used all sessions. Try refreshing the page (F5) and purchase again. If the problem continues, contact support.",
+    "errorPackageNotFound": "Package not found. Please go back and select a package again.",
+    "appliedDiscount": "Applied Discount"
+  },
+  "bookingDetails.orderDetails.couponAlreadyUsed": "This coupon has already been used and cannot be used again",
+  "accountPage": {
+    "myAccount": "My Account",
+    "profileInfo": "Profile Info",
+    "manageBookings": "Manage Bookings",
+    "paymentMethods": "Payment Methods",
+    "myWallet": "My Wallet",
+    "settings": "Settings",
+    "helpSupport": "Help & Support",
+    "logout": "Logout"
+  },
+  "profilePage": {
+    "title": "Profile",
+    "firstName": {
+      "label": "First Name",
+      "placeholder": "Enter first name"
+    },
+    "lastName": {
+      "label": "Last Name",
+      "placeholder": "Enter last name"
+    },
+    "birthDate": {
+      "label": "Date of Birth",
+      "futureNotAllowed": "Date of birth cannot be in the future."
+    },
+    "gender": {
+      "label": "Gender",
+      "placeholder": "Select",
+      "male": "Male",
+      "female": "Female"
+    },
+    "save": "Save"
+  },
+  "settingsPage": {
+    "title": "Settings",
+    "changePassword": "Change Password",
+    "notifications": "Notifications",
+    "deleteAccount": "Delete Account",
+    "deleteAccountTitle": "Delete Account",
+    "deleteAccountDescription": "Please tell us why you want to delete your account. This will help us improve our service.",
+    "reasonPlaceholder": "Please enter your reason for deleting your account...",
+    "pleaseEnterReason": "Please enter a reason for deleting your account",
+    "continue": "Continue",
+    "verifyOTP": "Verify OTP",
+    "otpSentDescription": "We've sent a verification code to your email. Please enter it below to confirm account deletion.",
+    "otpPlaceholder": "Enter verification code",
+    "pleaseEnterOTP": "Please enter the verification code",
+    "errorRequestingOTP": "Failed to send verification code. Please try again.",
+    "errorVerifyingOTP": "Invalid verification code. Please try again.",
+    "accountDeletedTitle": "Account Deleted Successfully",
+    "accountDeletedMessage": "Your account has been successfully deleted. We're sorry to see you go.",
+    "goToLogin": "Go to Login",
+    "deleteConfirm": "Are you sure you want to delete your account?",
+    "deleteConfirmed": "Account deletion confirmed"
+  },
+  "supportPage": {
+    "support": "Support",
+    "reportProblem": "Report a Problem",
+    "issueType": {
+      "label": "Issue Type",
+      "placeholder": "Select",
+      "problem1": "Issue 1",
+      "problem2": "Issue 2"
+    },
+    "description": {
+      "label": "Problem Description",
+      "placeholder": "Enter problem description"
+    },
+    "send": "Send"
+  },
+  "plans": {
+    "choose": "Choose",
+    "free": {
+      "badge": "Current Plan",
+      "title": "Free Plan",
+      "button": "Current"
+    },
+    "popular": {
+      "badge": "Most Popular",
+      "title": "Full Care Package"
+    },
+    "vip": {
+      "badge": "Premium",
+      "title": "VIP Package"
+    },
+    "period": {
+      "month": "month",
+      "monthly": "monthly"
+    },
+    "features": {
+      "oneServicePerMonth": "Ability to book one service per month",
+      "walletPayment": "Pay with wallet",
+      "discounts": "Discounts",
+      "bookings": "Bookings",
+      "freeSessions2Monthly": "2 free sessions monthly",
+      "freeSessions4OrWeekly": "4 free sessions or weekly alternative",
+      "oneGiftOrder": "1 gift order",
+      "freeSessions4Monthly": "4 free sessions monthly",
+      "freeSessions4OrWeeklyGift": "4 free sessions or weekly gift",
+      "twoGiftOrders": "2 gift orders"
+    },
+    "form": {
+      "editPlan": "Edit Plan",
+      "createNewPlan": "Create New Plan",
+      "planName": "Plan Name",
+      "enterPlanName": "Enter plan name",
+      "planType": "Plan Type",
+      "durationBased": "Duration Based",
+      "commissionBased": "Commission Based",
+      "durationDescription": "Subscription for a fixed period with a set price",
+      "commissionDescription": "A commission is charged on each booking",
+      "commissionPercent": "Commission Percentage (%)",
+      "price": "Price (SAR)",
+      "duration": "Duration (days)",
+      "active": "Active",
+      "activeDescription": "Only active plans can be subscribed to",
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "saveChanges": "Save Changes",
+      "createPlan": "Create Plan",
+      "errors": {
+        "nameRequired": "Plan name is required",
+        "commissionRange": "Commission must be between 1 and 100",
+        "priceRequired": "Price must be greater than 0",
+        "durationRequired": "Duration must be greater than 0",
+        "generic": "An error occurred"
+      }
+    }
+  },
+  "registerPage": {
+    "email": {
+      "label": "Email Address",
+      "placeholder": "Enter email address"
+    },
+    "termsPrefix": "I have read and agree to the",
+    "termsLink": "Terms & Conditions",
+    "createAccountButton": "Create Account",
+    "noAccount": "Don't have an account?",
+    "createAccountLink": "Create an account",
+    "title": "Create New Account",
+    "subtitle": "Join over 3000 users",
+    "salonTitle": "Create New Salon Account"
+  },
+  "activityType": {
+    "title": "Activity Type",
+    "subtitle": "Choose activity type to customize the app according to your services."
+  },
+  "salonProfileProvider": {
+    "title": "Salon Information",
+    "subtitle": "Enter your personal information. Note: This data is not visible to users"
+  },
+  "serviceLocation": {
+    "title": "Where do you provide your services?",
+    "subtitle": "Do customers come to you, do you go to them, or both?"
+  },
+  "salonName": "Salon Name",
+  "salonNamePlaceholder": "e.g., Bob Beauty Salon",
+  "salonDescription": "Salon Description",
+  "salonDescriptionPlaceholder": "Write a brief description about the salon",
+  "salonPolicy": "Salon Policy",
+  "salonPolicyPlaceholder": "e.g., Please arrive 10 minutes early",
+  "charsRemaining": "{{count}} characters remaining",
+  "chooseType": "Choose Type",
+  "types": {
+    "men": "Men",
+    "women": "Women",
+    "both": "Both"
+  },
+  "fromStore": "From Store",
+  "fromHome": "Home Service",
+  "fromBoth": "In Store & Home Service",
+  "skip": "Skip",
+  "provider": {
+    "packages": {
+      "title": "Salon Packages",
+      "subtitle": "You can create special packages that combine multiple services at a discounted price."
+    },
+    "providerPackages": {
+      "noServices": "No services are currently available. Please add services first to be able to create packages.",
+      "loading": "Loading...",
+      "saving": "Saving...",
+      "next": "Next",
+      "skip": "Skip",
+      "providerIdMissing": "Provider ID is missing.",
+      "loadFailed": "Failed to load data.",
+      "saveFailed": "Failed to save packages.",
+      "newPackage": "New Package",
+      "packageName": "Package Name",
+      "packagePrice": "Package Price",
+      "packageServices": "Select Services",
+      "packageDescription": "Package Description",
+      "packageItems": "Items",
+      "add": "Add",
+      "selectService": "Select service"
+    },
+    "services": {
+      "title": "Services",
+      "desc": "Add and edit your services before continuing.",
+      "addNew": "Add New Service",
+      "next": "Next",
+      "currency": "SAR",
+      "hours": "hour",
+      "minutes": "minute",
+      "dialog": {
+        "addTitle": "Add New Service",
+        "editTitle": "Edit Service",
+        "subtitle": "",
+        "nameLabel": "Service Name",
+        "namePlaceholder": "Haircut",
+        "typeLabel": "Service Type",
+        "typePlaceholder": "Select service type",
+        "durationLabel": "Estimated Duration",
+        "priceLabel": "Price",
+        "apply": "Apply"
+      }
+    },
+    "sidebar": {
+      "home": "Home",
+      "orders_section": "Orders",
+      "orders": "Orders List",
+      "business_management": "Business Management",
+      "salon_details": "Salon Details",
+      "service_location": "Service Location",
+      "location": "Map Location",
+      "working_hours": "Working Hours",
+      "services": "Services",
+      "documents": "Documents",
+      "gallery": "Gallery",
+      "team": "Team",
+      "packages": "Packages",
+      "admin_section": "Administration",
+      "users": "Users",
+      "employee_section": "Employee",
+      "request_break": "Break Requests",
+      "breaks_management": "Breaks Management",
+      "manage_breaks": "Manage Breaks",
+      "subscription_section": "Subscription",
+      "my_subscription": "My Subscription",
+      "plans_management": "Plans Management",
+      "settings_section": "Settings",
+      "settings": "Settings"
+    },
+    "uploadImages": {
+      "title": "Add Portfolio Images",
+      "subtitle": "Add photos that showcase the quality of your services to attract customers",
+      "uploadBtn": "Upload Images",
+      "remove": "Remove Image",
+      "errors": {
+        "type": "Unsupported file type.",
+        "size": "Image size must be less than {{max}}MB.",
+        "maxFiles": "You can upload up to {{max}} images only."
+      }
+    },
+    "providerLocation": {
+      "title": "Set Your Salon Location",
+      "subtitle": "You can enter your address manually or use your current location to set it accurately on the map.",
+      "addressLabel": "Address",
+      "addressPlaceholder": "Enter your address",
+      "addressRequired": "Please enter an address or pick your location",
+      "or": "or",
+      "pickMyLocation": "Pick my current location",
+      "detectingLocation": "Detecting location...",
+      "coordinatesDetected": "Location detected",
+      "searchPlaceholder": "Search for a place...",
+      "placeNotFound": "Place not found. Try a different search.",
+      "searchError": "Search failed. Please try again.",
+      "locationNotSupported": "Geolocation is not supported by this browser",
+      "locationDenied": "Location access denied"
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "subtitle": "Set your working hours for each day, and add breaks if needed.",
+      "closed": "Closed",
+      "from": "From",
+      "to": "To",
+      "addBreaks": "Add Breaks",
+      "invalidWorkHours": "End time must be later than start time",
+      "invalidBreakHours": "Break end time must be later than break start time",
+      "breakOutsideWorkHours": "Break time must be within working hours",
+      "duplicateBreakHours": "The same break time cannot be added more than once"
+    },
+    "workingHour": {
+      "workHours": "Working Hours"
+    },
+    "commons": {
+      "next": "Next",
+      "skip": "Skip",
+      "apply": "Apply",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "providerTeam": {
+      "title": "Team",
+      "add": "Add",
+      "tabs": {
+        "basic": "Basic Info",
+        "login": "Login Info",
+        "hours": "Working Hours"
+      },
+      "modal": {
+        "addTitle": "Add New Member",
+        "editAvatar": "Edit Avatar"
+      },
+      "fields": {
+        "name": "Name",
+        "email": "Email (optional)",
+        "jobTitle": "Job Title",
+        "active": "Active",
+        "phone": "Phone Number"
+      },
+      "placeholders": {
+        "name": "e.g., Mahmoud Ibrahim",
+        "email": "Enter email (optional)",
+        "jobTitle": "e.g., Hair Stylist",
+        "phone": "Enter phone number"
+      },
+      "roles": {
+        "title": "Permissions",
+        "canLogin": "Can login",
+        "canViewBookings": "View related bookings",
+        "canViewStats": "View statistics",
+        "canAddBreak": "Can add break time"
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "jobRequired": "Job title is required",
+        "phoneRequired": "Phone number is required"
+      },
+      "errors": {
+        "avatarInvalid": "Only image (jpg, png, webp, gif, svg, heic, heif) are allowed",
+        "avatarTooLarge": "Avatar image size must be less than {{max}}MB."
+      }
+    },
+    "supportPage": {
+      "support": "Support",
+      "reportProblem": "Report a Problem",
+      "issueType": {
+        "label": "Issue Type",
+        "placeholder": "Select issue type"
+      },
+      "subject": {
+        "label": "Subject"
+      },
+      "description": {
+        "label": "Problem Description",
+        "placeholder": "Enter problem description"
+      },
+      "send": "Send"
+    },
+    "providerProfile": {
+      "title": "Your Info",
+      "subtitle": "Enter your personal information. Note: This data is not visible to users.",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g., Ahmad Ashraf",
+      "termsText": "I have read and agree to the",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter email (optional)",
+      "termsLink": "Terms and Conditions",
+      "submit": "Create Account",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Login",
+      "descriptionLabel": "Description",
+      "policyLabel": "Salon Policy",
+      "errors": {
+        "nameRequired": "Name is required",
+        "emailInvalid": "Invalid email address",
+        "mustAgree": "You must agree to the terms"
+      }
+    },
+    "providerTerms": {
+      "title": "Terms & Conditions",
+      "closeAria": "Close",
+      "sections": {
+        "acceptTitle": "Acceptance of Terms",
+        "acceptBody": "By using GlowUp, you agree to comply with these terms and conditions. If you do not agree with any part of them, you must stop using the service immediately.",
+        "accountTitle": "Account Creation",
+        "accountBullets": [
+          "Users must provide accurate and complete information when registering in the GlowUp app.",
+          "Users are responsible for keeping their login details confidential and must not share them with any third party.",
+          "GlowUp management reserves the right to suspend or cancel any account that violates the terms or misuses the service."
+        ],
+        "paymentTitle": "Payment Methods",
+        "paymentBullets": [
+          "Users must pay all fees related to services provided through the GlowUp app using available methods (bank cards, e-wallets, bank transfer, etc.).",
+          "All payments are final and non-refundable except in cases determined by the app management."
+        ],
+        "usageTitle": "Service Use",
+        "usageBullets": [
+          "Users must use the GlowUp app for lawful purposes only.",
+          "It is prohibited to use the app for any illegal activity, harming others, or violating local/international laws.",
+          "The app may be modified or updated from time to time to improve service without prior notice."
+        ],
+        "ipTitle": "Intellectual Property Rights",
+        "ipBullets": [
+          "All intellectual property (texts, designs, logo, content) related to the GlowUp app is owned by the management and may not be copied or reused without prior written permission."
+        ],
+        "disclaimerTitle": "Disclaimer",
+        "disclaimerBullets": [
+          "The GlowUp app is provided \"as is\" without any express or implied warranties.",
+          "GlowUp management is not responsible for technical failures, data loss, or any damages resulting from using the app."
+        ]
+      }
+    },
+    "common": {
+      "next": "Next",
+      "apply": "Apply",
+      "save": "Save",
+      "saving": "Saving...",
+      "skip": "Skip",
+      "cancel": "Cancel",
+      "active": "Active",
+      "inactive": "Inactive",
+      "loading": "Loading"
+    },
+    "successMessage": "Changes saved successfully",
+    "successMessageSupport": "Sent Successfully!",
+    "search_placeholder": "Search...",
+    "Searchdashboard": "Dashboard",
+    "OrdersDashboard": "Search",
+    "status": "Status",
+    "advancedSearch": "Advanced Search",
+    "orderNumber": "Order Number",
+    "orderStatus": "Order Status",
+    "orderDate": "Order Date",
+    "serviceValue": "Service Value",
+    "inProgress": "In Progress",
+    "rowsPerPage": "Rows per page",
+    "actions": "Actions",
+    "cancel": "Cancel",
+    "changeTimeSlot": "Change Time Slot"
+  },
+  "admin-dashboard": {
+    "salonProfileManagement": "Salon Profile Management",
+    "servicesManagement": "Services Management",
+    "workingHoursManagement": "Working Hours Management",
+    "serviceModeManagement": "Service Mode Management",
+    "currentSelectionDesc": "Your current selection is",
+    "updateProfile": "Update Profile",
+    "updateHours": "Update Hours",
+    "finishEditing": "Finish Editing",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "serviceTitle": "Salon Services",
+    "serviceDesc": "Add the services your salon offers with price and duration",
+    "serviceAddNew": "Add New Service",
+    "serviceNext": "Next",
+    "salonImages": "Salon Images",
+    "updateImages": "Update Images",
+    "currentImages": "Current Images",
+    "imageSelectionDesc": "You can add or remove images that customers see on your profile",
+    "updateImagesSubtitle": "Update your salon gallery to provide the best view for your customers",
+    "imageQualityFooter": "High Quality • Supported Formats ",
+    "serviceModeSubtitle": "Choose how your service location appears to your customers on the platform",
+    "updateServiceMode": "Update Service Mode",
+    "locationManagement": "Location Management",
+    "locationSubtitle": "Ensure your location is accurate so customers can reach you easily",
+    "changeLocation": "Change Location",
+    "resetLocation": "Reset Location",
+    "currentSavedLocation": "Currently Saved Location",
+    "locationDisplayPlaceholder": "Your current location is displayed to customers based on the saved GPS coordinates",
+    "documents": {
+      "title": "Documents",
+      "subtitle": "Upload your business documents to verify your account",
+      "upload": "Upload Document",
+      "delete": "Delete",
+      "saved": "Documents saved successfully",
+      "deleted": "Document deleted successfully",
+      "missingProviderId": "Could not find provider id",
+      "nothingToUpload": "Please choose at least one document",
+      "unsupportedType": "Unsupported file type. (PDF or image)",
+      "failedToLoad": "Failed to load document types"
+    },
+    "workingHours": "Working Hours",
+    "customBreaks": "Custom Breaks",
+    "weeklyBreaks": "Weekly Breaks",
+    "addBreak": "Add Break",
+    "noBreaks": "No breaks scheduled",
+    "noCustomBreaks": "No custom breaks scheduled",
+    "customBreaksDescription": "Add breaks for specific dates (e.g., holidays, special events)",
+    "addCustomBreak": "Add Custom Break",
+    "date": "Date",
+    "reason": "Reason",
+    "reasonPlaceholder": "e.g., Holiday",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "validationErrors": {
+      "openTimeBeforeCloseTime": "Open time must be before close time for {{day}}",
+      "breakOverlap": "Break overlaps with another break on {{day}} ({{range}})",
+      "cannotBeInPast": "Custom break date cannot be in the past",
+      "failedToSave": "Failed to save working hours",
+      "closedDayBreak": "Cannot add/edit break on a closed day. Please open the day in the weekly schedule first."
+    }
+  },
+  "sidebar": {
+    "home": "Home",
+    "orders_section": "Orders",
+    "orders": "Incoming Orders",
+    "salons_section": "Salons Management",
+    "salons": "Salons",
+    "employees": "Employees",
+    "ratings": "Ratings",
+    "customers": "Customers",
+    "bookings_section": "Bookings Management",
+    "bookings": "Bookings",
+    "tickets_section": "Ticket Management",
+    "tickets": "Tickets",
+    "lookups": "Lookups",
+    "ads": "Ads",
+    "coupons": "Coupons",
+    "content_section": "Content Management",
+    "subscription_section": "Subscriptions",
+    "plans_management": "Plans Management",
+    "admin_section": "Administration",
+    "users": "Users",
+    "services_admin_section": "Services Management",
+    "services_admin": "Services"
+  },
+  "commonD": {
+    "search": "Search by name or phone",
+    "minutes": "mins",
+    "edit": "Edit",
+    "closed": "Closed",
+    "of": "of",
+    "page": "Page",
+    "showing": "Showing",
+    "all": "All",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "status": "Status",
+    "suspended": "Suspended",
+    "loading": "Loading...",
+    "actions": "Actions"
+  },
+  "salons": {
+    "allSalons": "All Salons",
+    "name": "Salon",
+    "type": "Type",
+    "city": "City",
+    "status": "Status",
+    "rating": "Rating",
+    "employees": "Employees",
+    "details": "Details",
+    "description": "Description",
+    "phones": "Phone Numbers",
+    "workingHours": "Working Hours",
+    "services": "Services"
+  },
+  "actions": {
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "status": {
+    "approved": "Approved",
+    "pending": "Pending",
+    "rejected": "Rejected"
+  },
+  "appointments": {
+    "totalPrice": "Total Price",
+    "services": "Services",
+    "totalAmount": "Total Amount",
+    "bookingType": "Booking Type",
+    "viewProfile": "View Profile",
+    "manage": "Manage",
+    "min": "min",
+    "title": "Appointments",
+    "description": "Monitor and manage all service bookings",
+    "search": "Search by provider or customer",
+    "searchProvider": "Provider",
+    "searchCustomer": "Customer",
+    "total": "Total",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "providers": "Providers",
+    "employee": "Employee",
+    "time": "Time",
+    "note": "Note",
+    "noNote": "No notes provided",
+    "view": "View",
+    "delete": "Delete",
+    "details": "Details",
+    "provider": "Provider",
+    "customer": "Customer",
+    "date": "Date",
+    "statusLabel": "Status",
+    "noAppointments": "No appointments found",
+    "approved": "Confirmed",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "status": {
+      "ALL": "All Appts",
+      "PENDING": "Pending",
+      "CONFIRMED": "Confirmed",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled"
+    }
+  },
+  "supportCenter": {
+    "title": "Support Center",
+    "manageTickets": "Manage and respond to customer inquiries",
+    "searchTickets": "Search tickets...",
+    "allTickets": "All Tickets",
+    "critical": "Critical",
+    "open": "Open",
+    "resolved": "Resolved",
+    "RESOLVED": "Resolved",
+    "issue": "Issue",
+    "priority": "Priority",
+    "status": "Status",
+    "actions": "Actions",
+    "noTicketsFound": "No tickets found matching your criteria.",
+    "ALL": "All",
+    "OPEN": "Open",
+    "IN_PROGRESS": "In Progress",
+    "CLOSED": "Closed",
+    "LOW": "Low",
+    "MEDIUM": "Medium",
+    "HIGH": "High",
+    "typeResponse": "Type your response...",
+    "metadata": "Ticket Data",
+    "createdAt": "Created At",
+    "category": "Category",
+    "assignedAdmin": "Admin",
+    "none": "None",
+    "assignToMe": "Assign to Me",
+    "markUrgent": "Mark as Urgent",
+    "manageProviders": "Manage and monitor service providers",
+    "totalSalons": "Total Salons",
+    "active": "Active",
+    "avgRating": "Avg Rating",
+    "categoriess": "Categories",
+    "assignToAdmin": "Assign to Admin",
+    "URGENT": "Urgent",
+    "selectAdmin": "Select Admin",
+    "categories": {
+      "PAYMENT_ISSUE": "Payment Issue",
+      "TECHNICAL_ISSUE": "Technical Issue",
+      "BOOKING_ISSUE": "Booking Issue",
+      "ACCOUNT_ISSUE": "Account Issue",
+      "REPORT_PROVIDER": "Report Provider",
+      "REPORT_EMPLOYEE": "Report Employee",
+      "GENERAL_INQUIRY": "Other"
+    }
+  },
+  "noAdminsFound": "No admins found",
+  "ads": {
+    "title": "Ads Management",
+    "subtitle": "Manage platform advertisements",
+    "addAd": "Add Advertisement",
+    "noAds": "No advertisements",
+    "viewProvider": "View Provider",
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "fields": {
+      "title": "Title",
+      "description": "Description",
+      "providerId": "Provider ID",
+      "banner": "Banner Image URL",
+      "linkTo": "Link To (Provider ID)"
+    },
+    "placeholders": {
+      "title": "e.g., Best Ramadan Offer",
+      "description": "e.g., Get 50% off on all cuts",
+      "providerId": "Enter provider ID",
+      "banner": "https://example.com/image.jpg",
+      "linkTo": "Provider ID for linking"
+    },
+    "validation": {
+      "titleRequired": "Title is required",
+      "descriptionRequired": "Description is required",
+      "providerIdRequired": "Provider ID is required",
+      "bannerRequired": "Banner is required"
+    },
+    "errors": {
+      "loadFailed": "Failed to load advertisements",
+      "createFailed": "Failed to create advertisement"
+    },
+    "modal": {
+      "title": "Add New Advertisement",
+      "submit": "Create Advertisement"
+    }
+  },
+
+  "adminLogin": {
+    "title": "Login",
+    "welcomeTitle": "Welcome to the control panel",
+    "welcomeSubtitle": "Please enter your phone number to continue",
+    "phoneLabel": "Phone number",
+    "phonePlaceholder": "0555123456",
+    "sendOtp": "Send verification code",
+    "otpTitle": "Enter verification code",
+    "otpSentTo": "Code sent to",
+    "otpAria": "Verification code",
+    "next": "Next",
+    "loading": "Loading...",
+    "back": "Back",
+    "backToChangePhone": "Back to change number",
+    "errorInvalidPhone": "Invalid phone number",
+    "errorOtpFailed": "Failed to send verification code",
+    "errorLoginFailed": "Login failed",
+    "errorInvalidOtp": "Invalid or expired verification code",
+    "errorPhoneNotFound": "Phone number not registered",
+    "errorNotAllowed": "You are not authorized to access"
+  },
+  "orders": "Orders",
+  "manageYourAppointmentsAndOrders": "Manage and track your appointments and orders.",
+  "searchPlaceholder": "Search by order ID or customer name...",
+  "date": "Date",
+  "filterByDate": "Filter by Date",
+  "from": "From",
+  "to": "To",
+  "clear": "Clear",
+  "apply": "Apply",
+  "allStatus": "All Status",
+  "all": "All",
+  "orderNumber": "Order ID",
+  "service": "Service",
+  "orderStatus": "Status",
+  "orderDate": "Order Date",
+  "serviceValue": "Value",
+  "loading": "Loading...",
+  "noDataAvailable": "No data available at the moment",
+  "show": "Show",
+  "rowsPerPage": "Rows per page",
+  "confirmed": "Confirmed",
+  "completed": "Completed",
+  "cancelled": "Cancelled",
+  "pending": "Pending",
+  "changeTimeSlot": "Change Time Slot",
+  "providerDashboard": {
+    "pageTitle": "Reports",
+    "generalStats": "General Statistics",
+    "services": "Services",
+    "products": "Products",
+    "customers": "Customers",
+    "teamMembers": "Team Members",
+    "bookings": "Bookings",
+    "packages": "Packages",
+    "appointmentsChart": "Appointments",
+    "completed": "Completed",
+    "confirmed": "Confirmed",
+    "cancelled": "Cancelled",
+    "pending": "Pending",
+    "revenueChart": "Revenue",
+    "revenue": "Revenue",
+    "days": {
+      "sunday": "Sun",
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat"
+    },
+    "periods": {
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "months": {
+      "01": "Jan",
+      "02": "Feb",
+      "03": "Mar",
+      "04": "Apr",
+      "05": "May",
+      "06": "Jun",
+      "07": "Jul",
+      "08": "Aug",
+      "09": "Sep",
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Dec"
+    }
+  },
+  "employeePage": {
+    "title": "Team Member",
+    "services": "Services",
+    "ratings": "Ratings",
+    "totalRatings": "Total Ratings",
+    "averageRating": "Average Rating",
+    "noServices": "No services available",
+    "noRatings": "No ratings yet",
+    "role": "Role",
+    "position": "Position",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "walletPage": {
+    "title": "My Wallet",
+    "balance": "Current Balance",
+    "addMoney": "Add Money",
+    "transactions": "Transactions",
+    "noTransactions": "No transactions yet",
+    "amount": "Amount",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter description (optional)",
+    "defaultDescription": "Wallet top-up",
+    "fetchError": "Failed to load wallet",
+    "addError": "Failed to add money",
+    "invalidAmount": "Please enter a valid amount",
+    "retry": "Try again"
+  },
+  "adminUsers": {
+    "title": "Users Management",
+    "subtitle": "Manage admin users and their permissions",
+    "addUser": "Add User",
+    "noUsers": "No users found",
+    "noPermissions": "No permissions",
+    "permissionsCount": "permissions",
+    "managePermissions": "Permissions",
+    "table": {
+      "name": "Name",
+      "phone": "Phone",
+      "role": "Role",
+      "status": "Status",
+      "permissions": "Permissions",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "pagination": {
+      "showing": "Showing {{from}} to {{to}} of {{total}}"
+    },
+    "fields": {
+      "name": "Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "note": "Note (optional)"
+    },
+    "placeholders": {
+      "name": "e.g., Ahmad Admin",
+      "phone": "0555123456",
+      "email": "admin@example.com",
+      "note": "Operations admin"
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "phoneRequired": "Phone number is required",
+      "phoneLength": "Phone number must be exactly 10 digits",
+      "phoneStart": "Phone number must start with 05",
+      "phoneDigits": "Phone number must contain digits only",
+      "emailRequired": "Email is required"
+    },
+    "errors": {
+      "loadFailed": "Failed to load users",
+      "createFailed": "Failed to create user",
+      "updateFailed": "Failed to update permissions",
+      "forbidden": "You do not have permission to view the user list. Your account needs USER_MANAGE permission. Contact your system administrator.",
+      "unauthorized": "Your session has expired or you are not logged in. Please log in again.",
+      "serverError": "The server encountered an error. Please try again later."
+    },
+    "addUserModal": {
+      "title": "Add New User",
+      "submit": "Add User"
+    },
+    "permissionsModal": {
+      "title": "Manage Permissions",
+      "save": "Save Permissions"
+    },
+    "permissions": {
+      "APPOINTMENT_VIEW": "View Appointments",
+      "PROVIDER_VIEW": "View Providers",
+      "USER_MANAGE": "Manage Users",
+      "PROVIDER_APPROVE": "Approve Providers",
+      "TICKET_VIEW": "View Tickets",
+      "TICKET_REPLY": "Reply to Tickets",
+      "VIEW_CUSTOMERS": "View Customers",
+      "VIEW_EMPLOYEES": "View Employees",
+      "VIEW_RATINGS": "View Ratings",
+      "DELETE_RATING": "Delete Ratings",
+      "VIEW_COUPONS": "View Coupons",
+      "VIEW_LOOKUPS": "View Lookups",
+      "ADD_LOOKUPS": "Add Lookups",
+      "VIEW_ADS": "View Ads",
+      "ADD_ADS": "Add Ads",
+      "PLAN_MANAGE": "Plan Management",
+      "SUBSCRIPTION_MANAGE": "Subscription Management"
+    }
+  },
+  "lookups": {
+    "title": "Lookups Management",
+    "subtitle": "Manage system lookups and categories",
+    "addLookup": "Add Lookup",
+    "noLookups": "No lookups found",
+    "edit": "Edit",
+    "table": {
+      "key": "Type",
+      "code": "Code",
+      "name": "Name",
+      "status": "Status",
+      "order": "Order",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "filters": {
+      "all": "All"
+    },
+    "keys": {
+      "PROVIDER_TYPE": "Provider Type",
+      "EMPLOYEE_POSITION": "Employee Position",
+      "SERVICE_CATEGORY": "Service Category",
+      "SERVICE_TYPE": "Service Type"
+    },
+    "pagination": {
+      "showing": "Showing {{from}} to {{to}} of {{total}}"
+    },
+    "fields": {
+      "key": "Lookup Type",
+      "code": "Code",
+      "nameEn": "Name (English)",
+      "nameAr": "Name (Arabic)",
+      "order": "Display Order",
+      "isActive": "Active"
+    },
+    "placeholders": {
+      "code": "e.g., HAIRCUT",
+      "nameEn": "Haircut",
+      "nameAr": "قص الشعر"
+    },
+    "validation": {
+      "codeRequired": "Code is required",
+      "nameEnRequired": "English name is required",
+      "nameArRequired": "Arabic name is required"
+    },
+    "errors": {
+      "loadFailed": "Failed to load lookups",
+      "saveFailed": "Failed to save lookup"
+    },
+    "modal": {
+      "addTitle": "Add New Lookup",
+      "editTitle": "Edit Lookup",
+      "save": "Save"
+    }
+  },
+  "ads": {
+    "title": "Ads Management",
+    "subtitle": "Manage platform advertisements",
+    "addAd": "Add Ad",
+    "noAds": "No ads found",
+    "viewProvider": "View Provider",
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "fields": {
+      "title": "Title",
+      "description": "Description",
+      "providerId": "Provider ID",
+      "banner": "Banner Image URL",
+      "linkTo": "Link To (Provider ID)"
+    },
+    "placeholders": {
+      "title": "e.g., Best offer for Ramadan",
+      "description": "e.g., Get 50% off on all haircuts",
+      "providerId": "Enter provider ID",
+      "banner": "https://example.com/image.jpg",
+      "linkTo": "Provider ID to link to"
+    },
+    "validation": {
+      "titleRequired": "Title is required",
+      "descriptionRequired": "Description is required",
+      "providerIdRequired": "Provider ID is required"
+    },
+    "errors": {
+      "loadFailed": "Failed to load ads",
+      "createFailed": "Failed to create ad"
+    },
+    "modal": {
+      "title": "Add New Ad",
+      "submit": "Create Ad"
+    }
+  },
+  "breakRequest": {
+    "title": "Break Requests",
+    "subtitle": "Submit a break request for approval",
+    "noAccess": "Access Denied",
+    "noAccessDescription": "You don't have permission to request breaks. Please contact your manager.",
+    "providerOnly": "This page is only accessible to salon providers.",
+    "success": "Break request submitted successfully! Your manager will review it soon.",
+    "newRequest": "New Request",
+    "myRequests": "My Break Requests",
+    "noRequests": "No break requests found",
+    "manageTitle": "Manage Break Requests",
+    "manageSubtitle": "Review and manage employee break requests",
+    "searchPlaceholder": "Search by employee name...",
+    "employee": "Employee",
+    "approve": "Approve",
+    "reject": "Reject",
+    "fields": {
+      "date": "Date",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "reason": "Reason"
+    },
+    "placeholders": {
+      "reason": "Enter the reason for your break request..."
+    },
+    "validation": {
+      "dateRequired": "Please select a date",
+      "startTimeRequired": "Please select a start time",
+      "endTimeRequired": "Please select an end time",
+      "reasonRequired": "Please enter a reason for your break",
+      "endTimeAfterStart": "End time must be after start time"
+    },
+    "errors": {
+      "submitFailed": "Failed to submit break request"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "submit": "Submit Request"
+  },
+  "search_results": "Search results",
+  "found_results_one": "{{count}} result found",
+  "found_results_other": "{{count}} results found",
+  "clear_search": "Clear Search",
+  "no_results_found": "No results found",
+  "try_adjusting_filters": "Try adjusting your search or filters to find what you're looking for.",
+  "view_all_salons": "View all salons",
+  "myPackages": "My Packages",
+  "noPackages": "No packages found",
+  "packageServices": "Package Services",
+  "remaining": "remaining",
+  "min": "min",
+  "sar": "SAR",
+  "packageStatus": {
+    "active": "Active",
+    "used_up": "Used Up",
+    "used": "Used",
+    "expired": "Expired"
+  },
+  "appointmentDetails": "Appointment Details",
+  "search_results": "Search Results",
+  "no_results_found": "No results found",
+  "try_adjusting_filters": "Try adjusting your search or filters to find what you're looking for.",
+  "view_all_salons": "View all salons",
+  "errorsAuth": {
+    "emailAlreadyExists": "Email already exists",
+    "createProfileFailed": "Failed to create profile"
+  },
+  "salonDetails": {
+    "similarSalons": "Similar Salons",
+    "noSimilarSalons": "No similar salons found",
+    "loadMore": "Load More",
+    "addedToFavorites": "Salon added to favorites",
+    "removedFromFavorites": "Salon removed from favorites"
+  },
+  "filterMessage": {
+    "enter_search_query": "Please enter a text or select a service to search",
+    "view_all_salons": "View all salons",
+    "searching": "Searching...",
+    "search_results": "Search Results",
+    "no_results_found": "No results found",
+    "try_adjusting_filters": "Try adjusting your search or filters to find what you're looking for"
+  },
+  "footer": {
+    "description": "Your premier platform for booking beauty and grooming services. We bring together the best salons and experts in one place for a seamless booking experience.",
+    "about_title": "About Platform",
+    "about_us": "About Us",
+    "join_us": "Join as Service Provider",
+    "faq": "FAQ",
+    "contact_us": "Contact Us",
+    "legal_title": "Legal",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "cancellation_policy": "Cancellation Policy",
+    "download_title": "Download App Now",
+    "download_desc": "Enjoy a faster booking experience and exclusive offers via our app.",
+    "download_btn": "Download App",
+    "rights": "All rights reserved © 2026 The Glow Hub."
+  },
+  "coupons": {
+    "title": "Coupons",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "totalDuration": "Total Duration",
+    "create": "Create Coupon",
+    "createTitle": "Create New Coupon",
+    "code": "Code",
+    "provider": "Provider",
+    "purchaser": "Purchaser",
+    "phone": "Phone",
+    "totalPrice": "Total Price",
+    "remaining": "Remaining",
+    "status": "Status",
+    "expiredAt": "Expires",
+    "createdAt": "Created",
+    "currency": "SAR",
+    "empty": "No coupons found",
+    "page": "Page",
+    "of": "of",
+    "selectProvider": "Select Provider",
+    "loadingProviders": "Loading...",
+    "chooseProvider": "Choose a provider",
+    "receivesPhone": "Receiver Phone",
+    "serviceIds": "Service IDs",
+    "paymentMethod": "Payment Method",
+    "cancel": "Cancel",
+    "submit": "Create",
+    "statuses": {
+      "ACTIVE": "Active",
+      "PARTIAL_USED": "Partially Used",
+      "USED": "Used",
+      "EXPIRED": "Expired"
+    },
+    "found_results_few": "Found {{count}} results",
+    "found_results_many": "Found {{count}} results",
+    "found_results_other": "Found {{count}} results",
+    "clear_search": "Clear Search",
+    "no_results_found": "No results found",
+    "try_adjusting_filters": "Try adjusting your search or filters to find what you're looking for.",
+    "view_all_salons": "View all salons",
+    "myPackages": "My Packages",
+    "noPackages": "No packages available",
+    "packageServices": "Package Services",
+    "min": "min",
+    "sar": "SAR",
+    "packageStatus": {
+      "active": "Active",
+      "used_up": "Used Up",
+      "used": "Used",
+      "expired": "Expired"
+    },
+    "appointmentDetails": "Appointment Details"
+  },
+  "coverImage": "Cover Image",
+  "gallery": "Gallery",
+  "images": "Image",
+  "change": "Change",
+  "removeImage": "Remove Image",
+  "livePreview": "LIVE PREVIEW",
+  "noImageUplodedYet": "No images uploaded yet",
+  "uploadYourFirstImageToStartYourGallery": "Upload your first image to start your gallery",
+  "noPermission": {
+    "title": "Access Denied",
+    "message": "You don't have permission to view this page. Please contact your administrator if you believe this is an error.",
+    "viewTitle": {
+      "default": "View Permission Required",
+      "ads": "Cannot View Ads",
+      "lookups": "Cannot View Lookups",
+      "tickets": "Cannot View Tickets",
+      "salons": "Cannot View Salons",
+      "plans": "Cannot View Plans",
+      "bookings": "Cannot View Bookings",
+      "coupons": "Cannot View Coupons",
+      "users": "Cannot View Users"
+    },
+    "viewMessage": {
+      "default": "You don't have permission to view this content. You can still use available actions above.",
+      "ads": "You don't have permission to view ads list. You can still add new ads using the button above.",
+      "lookups": "You don't have permission to view lookups list. You can still add new lookups using the button above.",
+      "tickets": "You don't have permission to view tickets list. You may still have permission to reply to tickets.",
+      "salons": "You don't have permission to view salons list. You may still have permission to approve salons.",
+      "plans": "You don't have permission to view plans list. You may still have permission to manage subscriptions.",
+      "bookings": "You don't have permission to view bookings list.",
+      "coupons": "You don't have permission to view coupons list.",
+      "users": "You don't have permission to view users list."
+    }
+  },
+  "close": "Close",
+  "view": "View",
+  "am": "AM",
+  "pm": "PM",
+  "choseAction": "Choose an action",
+  "salonNameMustStartWithLetter": "Salon name must start with a letter",
+  "englishOnly": "English characters only"
+}

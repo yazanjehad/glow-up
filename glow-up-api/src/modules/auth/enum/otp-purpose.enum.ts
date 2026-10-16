@@ -1,0 +1,5 @@
+export enum OtpPurpose {
+  REGISTER = 'REGISTER',
+  LOGIN = 'LOGIN',
+  DELETE_ACCOUNT = 'DELETE_ACCOUNT',
+}

@@ -1,0 +1,4 @@
+export enum LookupType {
+  PROVIDER_TYPE = 'PROVIDER_TYPE',
+  SERVICE_CATEGORY = 'SERVICE_CATEGORY',
+}

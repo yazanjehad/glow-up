@@ -1,0 +1,448 @@
+{
+
+  "days": {
+    "MONDAY": "Monday",
+    "TUESDAY": "Tuesday",
+    "WEDNESDAY": "Wednesday",
+    "THURSDAY": "Thursday",
+    "FRIDAY": "Friday",
+    "SATURDAY": "Saturday",
+    "SUNDAY": "Sunday"
+  },
+
+
+  "errors": {
+    "PHONE_REQUIRED": "Phone number is required",
+    "PHONE_INVALID": "Phone number must start with 05 and contain 10 digits",
+    "PHONE_ALREADY_EXISTS": "Phone number already exists",
+    "OTP_FORMAT": "OTP code must be exactly 4 digits",
+
+    "FIRSTNAME_MAX_LENGTH":" First name must be at most 255 characters",
+    "FIRSTNAME_REQUIRED": "First name is required",
+    "FIRSTNAME_STRING": "First name must be a string",
+    "FIRSTNAME_MUST_START_WITH_LETTER": "First name must start with a letter",
+
+
+    "LASTNAME_MAX_LENGTH":" Last name must be at most 255 characters",
+    "LASTNAME_REQUIRED": "Last name is required",
+    "LASTNAME_STRING": "Last name must be a string",
+    "LASTNAME_MUST_START_WITH_LETTER": "Last name must start with a letter",
+
+    "EMAIL_ALREADY_EXISTS":"Email already exists",
+    "EMAIL_INVALID": "Email address is invalid",
+
+    "PASSWORD_REQUIRED": "Password is required",
+    "PASSWORD_STRING": "Password must be a string",
+    "PASSWORD_MIN_LENGTH": "Password must be at least 8 characters",
+
+    "GENDER_INVALID": "Invalid gender value must be 'MALE' or 'FEMALE'",
+
+    "BIRTHDATE_INVALID": "Birth date must be a valid date",
+    "BIRTHDATE_FUTURE_NOT_ALLOWED": "Birth date cannot be in the future",
+    "MINIMUM_AGE_13": "You must be at least 13 years old",
+    "ADMIN_CANNOT_CHANGE_PRIORITY": "Admin cannot change priority",
+"AD_NOT_FOUND": "Ad not found",
+"APPOINTMENT_ALREADY_RATED_AS_TYPE": "Appointment already rated as {{type}}",
+"BLOB_PATH_REQUIRED": "blobPath is required",
+"DOCUMENT_NOT_FOUND": "Document not found",
+"EMPLOYEE_ID_REQUIRED_FOR_RATING": "employeeId is required for rating employee",
+"ENTITY_ID_REQUIRED_FOR_AD": "entityId is required for ad",
+"ENTITY_ID_REQUIRED_FOR_EMPLOYEE": "entityId is required for employee",
+"ENTITY_ID_REQUIRED_FOR_PROVIDER": "entityId is required for provider",
+"FILE_PATH_REQUIRED": "File path is required",
+"FILE_REQUIRED": "File is required",
+"IMAGE_NOT_FOUND_IN_GALLERY": "Image not found in gallery",
+"INTERNAL_NOTES_ADMIN_ONLY": "Internal notes are for admin only",
+"INVALID_ENTITY_ID": "Invalid entity id",
+"INVALID_ENTITY_TYPE": "Invalid entity type",
+"INVALID_FILE_CATEGORY_FOR_DELETION": "Invalid file category for deletion",
+"INVALID_LOOKUP": "Invalid lookup",
+"LINK_TO_SALOON_ID_REQUIRED": "link_to (salon id) is required",
+"LOOKUP_NOT_FOUND": "Lookup not found",
+"NOTIFICATION_NOT_FOUND": "Notification not found",
+"NOT_ALLOWED": "Not allowed",
+"NOT_ASSIGNED_TO_THIS_TICKET": "You are not assigned to this ticket",
+"ONLY_SUPER_ADMIN_CAN_ASSIGN_TICKETS": "Only super admin can assign tickets",
+"RATING_NOT_FOUND": "Rating not found",
+"TICKET_CANNOT_UPDATE_CLOSED": "Cannot update closed ticket",
+"UNSUPPORTED_PROVIDER_FILE_CATEGORY": "Unsupported provider file category: {{fileCategory}}",
+
+
+    "PROVIDER_NAME_REQUIRED": " name is required",
+    "PROVIDER_NAME_STRING": " name must be a string",
+    "PROVIDER_NAME_MUST_START_WITH_LETTER": " name must start with a letter",
+    "PROVIDER_NAME":"name must be at most 255 characters",
+
+    "SERVICE_PROVIDER_NAME_REQUIRED": "Service provider name is required",
+    "SERVICE_PROVIDER_NAME_STRING": "Service provider name must be a string",
+    "SERVICE_PROVIDER_NAME_MUST_START_WITH_LETTER": "Service provider name must start with a letter",
+    "MAX_SERVICE_PROVIDER_NAME_LENGTH":"Service provider name must be at most 255 characters",
+
+    "SERVICE_PROVIDER_DESCRIPTION_STRING": "Provider description must be a valid text",
+    "SERVICE_PROVIDER_DESCRIPTION_MAX_LENGTH":"Provider description must not exceed 500 characters",
+
+    "SERVICE_LOCATION_INVALID": "Invalid service location. Please enter a valid value: 'home', 'salon', or 'both'.",
+    "SERVICE_PROVIDER_ADDRESS_STRING": "Service Provider address must be a valid text",
+    "SERVICE_PROVIDER_ADDRESS_MIN_LENGTH": "Address is too short, it must be at least 3 characters.",
+    "SERVICE_PROVIDER_ADDRESS_MAX_LENGTH": "Address is too long, it must not exceed 255 characters.",
+    "SERVICE_PROVIDER_ADDRESS_INVALID": "Invalid address. It must start with a letter and may contain letters, numbers, or spaces only.",
+    "APPOINTMENT_STRATEGY_INVALID": "Invalid appointment strategy value must be 'DIRECT' or 'NEED_APPROVAL'",
+
+
+
+    "OTP_REQUIRED": "OTP code is required",
+    "OTP_INVALID": "Invalid OTP code",
+    "OTP_STRING": "OTP code must be a string",
+    "OTP_ALREADY_SENT": "OTP already sent. Please wait {{seconds}} seconds.",
+    "OTP_NOT_FOUND": "OTP not found",
+    "OTP_EXPIRED": "OTP expired",
+    "OTP_TOO_MANY_ATTEMPTS": "Too many attempts. Please request a new OTP.",
+    "OTP_INVALID_ATTEMPTS_LEFT": "Invalid OTP. Attempts left: {{left}}",
+
+    "IDENTIFIER_REQUIRED": "Email or phone number is required",
+    "IDENTIFIER_STRING": "Email or phone number must be a string",
+    "INVALID_CREDENTIALS": "INVALID_CREDENTIALS",
+    "PASSWORD_LOGIN_NOT_AVAILABLE_USE_OTP": "Password login is not available. Please use OTP login.",
+
+    "EMPLOYEE_CANT_LOGIN": "Employee can't login",
+    "CUSTOMER_CANT_LOGIN": "Customers can't login from this flow",
+
+    "SERVICE_GENDER_INVALID": "Invalid gender value must be 'MALE' or 'FEMALE' or 'BOTH'",
+
+    "ADMIN_NAME_REQUIRED": "Admin name is required",
+    "ADMIN_NAME_STRING": "Admin name must be a string",
+    "NOTE_STRING": "Note must be a string",
+
+
+
+    "PROVIDER_DESCRIPTION_STRING": "Provider description must be a string",
+    "PROVIDER_TYPE_ID_STRING": "Provider type must be selected",
+
+    "CITY_REQUIRED": "City is required",
+    "CITY_STRING": "City must be a string",
+    "STREET_STRING": "Street must be a string",
+
+    "PROVIDER_ID_REQUIRED": "Provider ID is required",
+    "PROVIDER_ID_INVALID": "Provider ID must be a valid Mongo ID",
+
+    "EMPLOYEE_NAME_REQUIRED": "Employee name is required",
+    "EMPLOYEE_NAME_STRING": "Employee name must be a string",
+    "EMPLOYEE_NAME_MAX_LENGTH": "Employee name must be at most 255 characters",
+    "EMPLOYEE_NAME_MIN_LENGTH": "Employee name must be at least 3 characters",
+    "EMPLOYEE_NAME_MUST_START_WITH_LETTER": "Employee name must start with a letter",
+    "EMPLOYEE_POSITION_REQUIRED": "Employee position is required",
+    "EMPLOYEE_POSITION_ID_INVALID": "Please enter a valid position ID",
+    "EMPLOYEE_WORK_FOR_ENUM": "workFor must be one of the following values: MALE, FEMALE, or BOTH",
+    "SERVICE_ITEM_NOT_ACTIVE_OR_NOT_BELONGS": "Service item is not active or does not belong to this provider",
+
+
+
+
+
+    "EMAIL_REQUIRED": "Email is required",
+
+    "SERVICES_ARRAY": "Services must be an array",
+    "SERVICE_ID_INVALID": "Service ID must be a valid Mongo ID",
+
+    "EMAIL_STRING": "Email must be a string",
+
+    "LOOKUP_KEY_REQUIRED": "Lookup key is required",
+    "LOOKUP_KEY_STRING": "Lookup key must be a string",
+    "LOOKUP_KEY_FORMAT": "Lookup key must contain only uppercase letters and underscores",
+
+    "LOOKUP_CODE_REQUIRED": "Lookup code is required",
+    "LOOKUP_CODE_STRING": "Lookup code must be a string",
+    "LOOKUP_CODE_FORMAT": "Lookup code must contain only uppercase letters and underscores",
+
+    "LOOKUP_NAME_REQUIRED": "Lookup name is required",
+    "LOOKUP_NAME_INVALID": "Lookup name is invalid",
+
+    "LOOKUP_NAME_EN_REQUIRED": "English name is required",
+    "LOOKUP_NAME_EN_STRING": "English name must be a string",
+
+    "LOOKUP_NAME_AR_REQUIRED": "Arabic name is required",
+    "LOOKUP_NAME_AR_STRING": "Arabic name must be a string",
+
+    "IS_ACTIVE_BOOLEAN": "isActive must be a boolean",
+    "ORDER_NUMBER": "order must be a number",
+
+    "SERVICE_ITEM_ID_STRING": "Service item ID must be a string",
+
+    "RECEIVES_PHONE_REQUIRED": "Recipient phone is required",
+
+    "SERVICE_TYPE_REQUIRED": "Service type is required",
+    "SERVICE_TYPE_STRING": "Service type must be a string",
+
+    "SERVICE_NAME_REQUIRED": "Service name is required",
+    "SERVICE_NAME_STRING": "Service name must be a string",
+    "SERVICE_NAME_MUST_START_WITH_LETTER": "Service name must start with a letter",
+    "SERVICE_NAME_MIN_LENGTH":"Service name must be at least 3 characters",
+    "SERVICE_NAME_MAX_LENGTH":"Service name must be at most 50 characters",
+
+    "SERVICE_PRICE_REQUIRED": "Service price is required",
+    "SERVICE_PRICE_NUMBER": "Service price must be a number",
+
+    "SERVICE_DURATION_NUMBER": "Service duration must be a number",
+
+    "SERVICE_DESCRIPTION_STRING": "Service description must be a string",
+    "SERVICE_IMAGE_STRING": "Service image must be a string",
+    "SERVICE_IS_ACTIVE_BOOLEAN": "Service isActive must be boolean",
+
+    "SERVICE_CATEGORY_REQUIRED": "Service category is required",
+    "SERVICE_CATEGORY_STRING": "Service category must be a string",
+
+    "SERVICE_ITEMS_REQUIRED": "Service items are required",
+    "SERVICE_ITEMS_ARRAY": "Service items must be an array",
+
+    "WORKING_DAY_ENUM": "Invalid working day value must be 'MONDAY' or 'TUESDAY' or 'WEDNESDAY' or 'THURSDAY' or 'FRIDAY' or 'SATURDAY' or 'SUNDAY'",
+    "WORKING_IS_OPEN_BOOLEAN": "isOpen must be boolean",
+    "WORKING_OPEN_TIME_STRING": "Open time must be a string",
+    "WORKING_CLOSE_TIME_STRING": "Close time must be a string",
+
+    "TIMEZONE_STRING": "Timezone must be a string",
+    "WORKING_WEEKLY_REQUIRED": "Weekly working hours are required",
+    "WORKING_WEEKLY_ARRAY": "Weekly working hours must be an array",
+
+    "PHONES_REQUIRED": "Phones are required",
+    "PHONES_ARRAY": "Phones must be an array",
+    "PHONE_STRING": "Phone must be a string",
+
+    "LATITUDE_NUMBER": "Latitude must be a number",
+    "LONGITUDE_NUMBER": "Longitude must be a number",
+    "INVALID_TIME_SLOT": "Invalid time slot for service item. Start time must be before end time.",
+    "OVERLAPPING_SERVICES": "Services have overlapping time slots on the same date",
+
+    "LOGO_STRING": "Logo must be a string",
+    "COVER_IMAGE_STRING": "Cover image must be a string",
+
+    "TICKET_CATEGORY_REQUIRED": "Ticket category is required",
+    "TICKET_CATEGORY_INVALID": "Invalid ticket category",
+
+    "TICKET_SUBJECT_REQUIRED": "Ticket subject is required",
+    "TICKET_SUBJECT_STRING": "Ticket subject must be a string",
+
+    "TICKET_MESSAGE_REQUIRED": "Ticket message is required",
+    "TICKET_MESSAGE_STRING": "Ticket message must be a string",
+
+    "REJECTION_REASON_STRING": "Rejection reason must be a string",
+
+    "UNAUTHORIZED": "Unauthorized access",
+    "BAD_REQUEST": "Bad request",
+
+    "PROVIDER_NOT_FOUND": "Provider not found",
+    "PROVIDER_NOT_APPROVED": "Provider is not approved yet",
+    "COUPON_NOT_FOUND": "Coupon not found",
+    "USER_NOT_FOUND": "User not found",
+    "APPOINTMENT_NOT_FOUND": "Appointment not found",
+    "PACKAGE_NOT_FOUND": "Package not found",
+    "SERVICE_PROVIDER_NOT_FOUND": "Service provider not found",
+    "EMPLOYEE_NOT_FOUND": "Employee not found",
+    "COUPON_NOT_USABLE": "Coupon is not usable",
+    "COUPON_EXPIRED": "Coupon expired",
+    "COUPON_FULLY_USED": "Coupon fully used",
+    "COUPON_SAME_SALON": "Coupon must be used at the same salon where it was purchased",
+    "USER_PHONE_NOT_MATCH_COUPON": "User phone does not match coupon recipient",
+    "INSUFFICIENT_WALLET_BALANCE": "Insufficient wallet balance",
+    "ACCESS_DENIED_ADMINS_ONLY": "Access denied: Admins only",
+    "PACKAGE_FULLY_USED": "This package has been fully used",
+    "SERVICE_NOT_PART_OF_PACKAGE": "Service not part of the package",
+    "PACKAGE_USED_UP_FOR_SERVICE": "Package used up for this service",
+    "EMPLOYEE_NOT_PART_OF_PROVIDER": "Employee not part of provider",
+    "WORKING_HOURS_NOT_CONFIGURED": "Working hours not configured",
+    "APPOINTMENTS_ACCESS_DENIED": "Appointments access denied",
+    "ONLY_CONFIRMED_CAN_BE_MODIFIED": "Only confirmed appointments can be modified",
+    "NO_AVAILABLE_EMPLOYEE": "No available employee for this service/time",
+    "BUSINESS_CLOSED": "Business is closed",
+    "CUSTOMER_ID_REQUIRED": "Customer ID is required for registered users",
+    "YOU_ALREADY_HAVE_ACTIVE_PACKAGE": "You already have an active package of this type",
+    "PACKAGE_NOT_FOUND_OR_NOT_YOURS": "Package not found or not yours",
+    "REJECTION_REASON_REQUIRED": "Rejection reason is required",
+    "TICKET_NOT_FOUND": "Ticket not found",
+    "ACCESS_DENIED": "Access denied",
+    "NOT_YOUR_APPOINTMENT": "Not your appointment",
+    "APPOINTMENT_NOT_COMPLETED_YET": "Appointment not completed yet",
+    "APPOINTMENT_ALREADY_RATED": "Appointment already rated",
+    "FILE_NOT_FOUND": "File not found",
+    "PAYMENT_RECORD_NOT_FOUND": "Payment record not found",
+    "UNEXPECTED": "An unexpected error occurred",
+
+    "NUMBER_REQUIRED": "Value must be a number",
+    "NUMBER_MIN_ZERO": "Value must be greater than or equal to 0",
+    "NUMBER_MIN_ONE": "Value must be greater than or equal to 1",
+
+    "DATE_REQUIRED": "Date is required",
+    "DATE_INVALID": "Date must be a valid ISO date",
+
+    "SERVICE_NOT_FOUND": "Service not found: {{serviceItemId}}",
+
+    "SERVICE_NOT_FOUND_IN_APPOINTMENT": "Service at index {{index}} does not exist in appointment",
+    "NO_AVAILABLE_EMPLOYEE_FOR_THIS_SERVICE_TIME": "No available employee for this service/time",
+    "EMPLOYEE_DOES_NOT_SUPPORT_SERVICE": "Employee does not support this service",
+    "EMPLOYEE_ALREADY_BOOKED_IN_THIS_TIME": "Employee already booked in this time",
+    "CUSTOMER_ALREADY_HAS_APPOINTMENT_AT_THIS_TIME": "Customer already has appointment at this time",
+    "CUSTOMER_OVERLAPPING_SERVICES": "Customer cannot book overlapping services in same appointment",
+    "CLOSED_ON_THIS_DATE": "Closed on this date: {{reason}}",
+    "SPECIAL_OPERATING_HOURS_NOT_DEFINED": "Special operating hours are not fully defined for this date",
+    "TIME_OUTSIDE_SPECIAL_OPERATING_HOURS": "Time is outside special operating hours ({{openTime}} - {{closeTime}})",
+    "BUSINESS_CLOSED_ON_DAY": "Business is closed on {{dayName}}",
+    "WORKING_HOURS_NOT_DEFINED_FOR_DAY": "Working hours are not fully defined for {{dayName}}",
+    "TIME_OUTSIDE_WORKING_HOURS": "Time is outside working hours for {{dayName}} ({{openTime}} - {{closeTime}})",
+    "EXTERNAL_CUSTOMER_NAME_PHONE_REQUIRED": "External customer name and phone are required",
+    "ONLY_EXISTING_CUSTOMERS_BOOK": "You can only book appointments for existing customers",
+    "EMPLOYEE_NOT_FOUND_IN_PROVIDER": "Employee not part of provider",
+
+    "SERVICE_ID_REQUIRED": "Service ID is required",
+    "EMPLOYEE_ID_INVALID": "Employee ID must be a valid Mongo ID",
+    "EMPLOYEE_CANT_LOGID": "The employee cannot log in. Please contact the manager.",
+    "PACKAGE_DISABLED": "This package is currently disabled",
+
+    "PROVIDER_NOT_FOUND_OR_INVALID": "Provider not found or invalid user",
+    "INVALID_EMPLOYEE_POSITION": "Invalid employee position",
+
+    "CANNOT_MODIFY_EMPLOYEE": "You cannot modify this employee",
+    "BREAK_CLOSED_DAY_OPEN_FIRST": "Cannot add/update break on closed day {{day}}. Open the day first.",
+    "BREAK_MUST_HAVE_START_END": "Break on {{day}} must have startTime and endTime",
+    "BREAK_INVALID_RANGE": "Invalid break time range on {{day}} ({{startTime}} - {{endTime}}) - start must be before end",
+    "BREAK_EXCEEDS_WORKING_HOURS": "Break exceeds working hours on {{day}} ({{openTime}} - {{closeTime}})",
+    "BREAK_OVERLAPS_WITH": "Break overlaps with another break on {{day}} ({{startTime}}-{{endTime}}) overlaps with ({{otherStart}}-{{otherEnd}})",
+    "WEEKLY_BREAK_NOT_FOUND": "Weekly break not found",
+    "MAX_BREAKS_REACHED": "Maximum breaks reached on {{day}} ({{max}})",
+    "BREAK_EXCEEDS_MAX_DURATION": "Break exceeds maximum duration on {{day}} ({{minutes}} minutes)",
+    "CUSTOM_BREAK_NOT_FOUND": "Custom break not found",
+    "CANNOT_DELETE_BREAK": "Cannot delete this break",
+    "CUSTOM_BREAK_MUST_HAVE_DATE_START_END": "Custom break on {{date}} must include the following fields: date, startTime, and endTime.",
+
+    "CUSTOM_BREAK_DATE_PAST": "Custom Break date {{date}} cannot be in the past",
+    "CUSTOM_BREAK_CLOSED_DAY": "Cannot add/update custom break on closed day {{dayName}}. Open the day first.",
+    "WORKING_DAY_MUST_HAVE_OPEN_CLOSE": "Working day must have openTime and closeTime",
+    "CUSTOM_BREAK_INVALID_RANGE": "Invalid custom break time range on {{dayName}} {{date}} ({{startTime}} - {{endTime}})",
+    "CUSTOM_BREAK_EXCEEDS_HOURS": "Custom Break exceeds working hours on {{dayName}} ({{openTime}} - {{closeTime}})",
+    "CUSTOM_BREAK_OVERLAPS": "Custom break on {{dayName}} {{date}} ({{startTime}} - {{endTime}}) overlaps with another break from {{existingStart}} to {{existingEnd}}.",
+    "CANNOT_MODIFY_BREAK": "Cannot modify this break",
+    "INVALID_PERMISSION_KEY": "Invalid permission key: {{key}}",
+    "NO_EMPLOYEES_FOR_PROVIDER": "No employees found for this provider",
+    "NO_EMPLOYEES_FOR_SERVICE_PROVIDER": "No employees found for this service in this provider",
+    "NOT_ALLOWED_REQUEST_BREAK": "You are not allowed to request a break",
+    "BREAK_DATE_PAST": "Break date cannot be in the past",
+    "BREAK_CLOSED_DAY_NOT_OPEN": "Cannot add break on closed day {{dayName}}. The day is not open for work.",
+    "BREAK_INVALID_RANGE_START_END": "Invalid break time range ({{startTime}} - {{endTime}}) - start must be before end",
+    "BREAK_OVERLAPS_ANOTHER": "Break overlaps with another break ({{startTime}} - {{endTime}})",
+    "BREAK_REQUEST_NOT_FOUND": "Break request not found",
+    "CANNOT_MODIFY_BREAK_REQUEST": "You cannot modify this break request",
+    "CANNOT_ACCESS_EMPLOYEE": "You cannot access this employee",
+    "CUSTOM_BREAK_DATE_IN_PAST": "Custom break date cannot be in the past ({{date}}",
+    "CANNOT_EDIT_PAST_BREAK":" Cannot edit Custom break in past date ",
+    "CUSTOM_BREAK_HAS_APPOINTMENTS":"Cannot create or modify break on {{date}} from {{startTime}} to {{endTime}} because the employee has appointments during this time.",
+
+    "DUPLICATE_DAY_ENTRY": "Duplicate day entry: {{day}}",
+    "OPEN_DAY_MUST_HAVE_OPEN_CLOSE": "Open day {{day}} must have openTime and closeTime",
+    "INVALID_TIME_FORMAT_HHMM": "Invalid time format for {{day}}. Use HH:mm",
+    "OPEN_BEFORE_CLOSE": "openTime must be before closeTime for {{day}}",
+    "CANNOT_ADD_BREAK_CLOSED_DAY": "Cannot add break on closed day {{day}}. Open the day first to add breaks.",
+    "WEEKLY_BREAK_OVERLAPS": "Weekly break overlaps on {{day}} between {{startTime}} and {{endTime}}",
+    "CANNOT_ADD_CUSTOM_BREAK_CLOSED_DAY": "Cannot add custom break on closed day {{dayName}}. Open the day first to add breaks.",
+    "CUSTOM_BREAK_OVERLAPS_BETWEEN": "Custom break overlaps on {{dayName}} between {{startTime}} and {{endTime}}",
+    "EMPLOYEE_DAY_NOT_IN_PROVIDER": "Employee day {{day}} does not exist in provider schedule",
+    "PROVIDER_CLOSED_EMPLOYEE_CANNOT_OPEN": "Provider is closed on {{day}}, employee cannot be open",
+    "EMPLOYEE_TIME_INSIDE_PROVIDER": "Employee working time {{empOpen}} - {{empClose}} must be within provider working time {{provOpen}} - {{provClose}} for {{day}}",
+
+    "PROVIDER_PROFILE_ALREADY_EXISTS": "Provider profile already exists for this user",
+    "INVALID_PROVIDER_TYPE_SELECTION": "Invalid provider type selection",
+    "INVALID_SERVICE_LOCATION": "Invalid service location",
+    "INVALID_SERVICE_CATEGORY": "Invalid service category",
+    "INVALID_SERVICE_CATEGORY_WITH_NAME": "Invalid service category {{category}}",
+    "INVALID_SERVICE_TYPE_IN_CATEGORY": "Invalid service type {{type}} in category {{category}}",
+    "INVALID_SERVICE_TYPE": "Invalid service type: {{type}}",
+    "CANNOT_UPDATE_THIS_PROVIDER": "You are not allowed to update this provider",
+    "SERVICE_PRICE_MUST_BE_GREATER_THAN_ZERO": "Service price must be greater than 0",
+    "SERVICE_DURATION_MUST_BE_GREATER_THAN_ZERO": "Service duration must be greater than 0",
+    "INVALID_SERVICE_ITEM_IN_PACKAGE": "Invalid serviceItemId {{serviceItemId}} in package {{packageName}}",
+    "WORKING_DAY_OPEN_MUST_HAVE_OPEN_CLOSE_FOR_DAY": "Working day must have openTime and closeTime for {{day}} when the day is open",
+    "CANNOT_UPDATE_DAY_APPOINTMENTS_CONFLICT": "Cannot update {{dayName}} because there are appointments scheduled that conflict with the new working hours",
+    "CANNOT_CLOSE_DAY_HAS_APPOINTMENTS": "Cannot close day {{dayName}} because there are appointments scheduled that conflict with the new working hours",
+    "BREAK_APPOINTMENT_CONFLICT": "Cannot add or update the break on {{day}} from {{startTime}} to {{endTime}} because there is a future appointment during this time.",
+    "CUSTOM_BREAK_APPOINTMENT_CONFLICT": "Cannot add or update a custom break on {{date}} ({{startTime}} - {{endTime}}) because it conflicts with an existing appointment from {{appointmentStart}} to {{appointmentEnd}}.",
+    "LAT_LNG_REQUIRED_TOGETHER": "Both latitude and longitude must be provided together",
+    "INVALID_PROVIDER_TYPE": "Invalid provider type",
+    "INVALID_EMPLOYEE": "Invalid employee",
+    "INVALID_USER_ID": "Invalid user id",
+    "PROVIDER_SALON_NOT_FOUND": "Provider salon not found",
+
+    "NO_CUSTOMER_PROFILE_FOUND": "No customer profile found",
+    "CUSTOMER_PROFILE_NOT_FOUND": "Customer profile not found",
+    "CUSTOMER_PROFILE_ALREADY_EXISTS": "Customer profile already exists",
+    "PROFILE_NOT_FOUND": "Profile not found",
+
+    "CANNOT_MODIFY_SUPER_ADMIN_PERMISSIONS": "Cannot modify SUPER_ADMIN permissions",
+    "ONLY_ADMIN_PERMISSIONS_CAN_BE_MODIFIED": "Only ADMIN permissions can be modified",
+    "INVALID_PERMISSIONS": "Invalid permissions: {permissions}",
+    "REASON_REQUIRED_FOR_REJECT_OR_SUSPEND": "Reason is required for reject or suspend",
+
+    "PURCHASER_NOT_FOUND": "Purchaser (user) not found",
+    "SERVICE_NOT_FOUND_IN_PROVIDER": "Service not found in provider: {serviceId}",
+    "COUPON_VALID_AT_SALON": "This coupon is only valid at '{salonName}'.",
+    "COUPON_NOT_BELONG_TO_USER": "This coupon does not belong to the current user.",
+    "COUPON_VALID_AT_ORIGINAL_PROVIDER": "This coupon is only valid at the original provider",
+    "user_is_not_a_provider_or_employee":"user is not a provider or employee",
+
+
+"SERVICE_PRICE_MUST_BE_NUMBER": "Service price must be a valid number",
+"SERVICE_PRICE_MIN": "Service price must be greater than zero",
+"SERVICE_PRICE_MAX": "Service price exceeds the allowed maximum",
+"SERVICE_PRICE_REQUIRED": "Service price is required",
+
+"PACKAGE_PRICE_MIN": "Package price must be greater than zero",
+"PACKAGE_PRICE_NUMBER": "Package price must be a number",
+"PACKAGE_PRICE_REQUIRED": "Package price is required",
+
+"PACKAGE_NAME_REQUIRED": "Package name is required",
+"PACKAGE_NAME_STRING": "Package name must be a string",
+"PACKAGE_NAME_MUST_START_WITH_LETTER": "Package name must start with a letter",
+"PACKAGE_NAME_MIN_LENGTH": "Package name must be at least 3 characters",
+"PACKAGE_NAME_MAX_LENGTH": "Package name must be at most 255 characters",
+
+
+"SERVICE_DURATION_MUST_BE_NUMBER": "Service duration must be a valid number",
+"SERVICE_DURATION_MIN": "Service duration must be greater than zero",
+"SERVICE_DURATION_MAX": "Service duration must not exceed 1440 minutes",
+"SERVICE_DURATION_REQUIRED": "Service duration is required",
+
+"OPEN_TIME_REQUIRED":"open time is required",
+"CLOSE_TIME_REQUIRED":"close time is required",
+
+"APPOINTMENT_ALREADY_COMPLETED":"This appointment has already been completed and cannot be modified",
+"APPOINTMENT_NOT_CONFIRMED":"Appointment cannot be completed before being confirmed",
+"CANCEL_ONLY_CONFIRMED_OR_PENDING":"Appointment can only be cancelled if it is confirmed or pending",
+
+"CANNOT_CANCEL_COMPLETED_APPOINTMENT":"Cannot cancel a completed or already cancelled appointment",
+"ACCOUNT_ALREADY_DELETED": "Account already deleted",
+"UPCOMING_APPOINTMENTS_EXIST": "You have upcoming appointments, please address them first.",
+"ACTIVE_SUBSCRIPTION_EXISTS":"The current subscription is active; the subscription must end first.",
+"PaymentTransactions_NOT_FOUND": "Payment transaction not found for this appointment",
+"INVALID_PROVIDER_ID": "Invalid provider ID",
+"PLAN_NOT_FOUND": "Plan not found",
+"PLAN_NOT_FOUND_OR_INACTIVE": "Plan not found or inactive",
+"ALREADY_DAYS_SUBSCRIPTION": "Provider already has active DAYS subscription",
+"CANNOT_SWITCH_DAYS_TO_PERCENT": "Cannot switch from DAYS to PERCENT while ACTIVE subscription exists",
+"NO_ACTIVE_SUBSCRIPTION": "No active subscription found",
+"SALON_NOT_FOUND": "Salon not found",
+"INVALID_PROVIDER_ID_FORMAT": "Invalid provider ID",
+"NO_ACTIVE_SUBSCRIPTION_FOUND":"No active subscription found",
+"PROVIDER_ALREADY_HAS_ACTIVE_DAYS_SUBSCRIPTION":"Provider already has active DAYS subscription",
+"FORBIDDEN": "You do not have permission to perform this action",
+"CUSTOM_BREAK_TIME_PAST": "Custom break time cannot be in the past {{date}} {{startTime}} - {{endTime}} -should be after the current time {{time}}"
+
+
+
+  },
+
+  "success": {
+    "OPERATION_SUCCESS": "Operation completed successfully",
+    "OTP_SENT": "OTP sent successfully",
+    "BREAK_DELETED":"Break deleted successfully",
+    "ACCOUNT_DELETED_SUCCESSFULLY": "Account deleted successfully",
+    "ALL_SESSIONS_REVOKED": "All sessions and tokens revoked",
+    "PLAN_DEACTIVATED": "Plan deactivated successfully",
+    "PROFILE_UPDATED": "Profile updated successfully"
+  }
+}

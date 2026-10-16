@@ -1,0 +1,8 @@
+export enum ProviderType {
+  SALOON = 'SALOON',
+  BEAUTY_CENTER = 'BEAUTY_CENTER',
+  BARBER = 'BARBER',
+  SPA = 'SPA',
+  SKIN_CARE_MEN= 'SKIN_CARE_MEN',
+  SKIN_CARE='SKIN_CARE'
+}

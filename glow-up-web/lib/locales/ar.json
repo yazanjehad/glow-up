@@ -1,0 +1,1960 @@
+{
+  "unassigned": "غير مُعيَّن",
+  "internalNote": "ملاحظة داخلية",
+  "adminServices": {
+    "title": "إدارة الخدمات",
+    "subtitle": "مراجعة والموافقة على الخدمات المقدمة من المزودين",
+    "searchPlaceholder": "ابحث عن خدمة أو صالون...",
+    "stats": {
+      "totalPending": "إجمالي الخدمات المعلقة"
+    },
+    "table": {
+      "service": "الخدمة",
+      "salon": "الصالون",
+      "price": "السعر",
+      "duration": "المدة",
+      "actions": "الإجراءات"
+    },
+    "empty": {
+      "title": "لا توجد خدمات معلقة حالياً",
+      "desc": "سيتم عرض الخدمات التي تحتاج إلى مراجعة هنا بمجرد إضافتها من قبل المزودين."
+    }
+  },
+  "loading": "تحميل",
+  "gallery": "معرض الصور",
+  "uploadYourFirstImageToStartYourGallery": "حمّل أول صورة لك لبدء معرضك",
+  "images": "الصور",
+  "noImageUplodedYet": "لا يوجد صورة حتى الان",
+  "coverImage": "صورة الغلاف",
+  "packageServices": "اختيار الخدمة",
+  "noPackages": "لا يوجد باقات متاحة",
+  "myPackages": "باقاتي",
+  "min": "دقيقة",
+  "sar": "ريال",
+  "remaining": "المتبقي",
+  "more": "المزيد",
+  "packageStatus": {
+    "active": "فعال",
+    "used_up": "مستهلكة بالكامل",
+    "used": "مستخدم",
+    "expired": "منتهي"
+  },
+  "upload": "رفع",
+  "change": "تغيير",
+  "removeImage": "حذف الصورة",
+  "clickToSelectPhoto": "اضغط لاختيار صورة",
+  "Processing": "جارٍ المعالجة...",
+  "save": "حفظ",
+  "providerPackages": {
+    "update": "تحديث الباقة"
+  },
+  "dashboardTitle": "قائمة الطلبات",
+  "loadingMessage": "جارٍ التحميل...",
+  "noImageAvailable": "يتم تحميل الصورة",
+  "serviceLocationProvider": {
+    "title": "موقع الخدمة",
+    "subtitle": "أين تقدم خدماتك؟",
+    "options": {
+      "home": "منزلي",
+      "salon": "في الصالون",
+      "both": "كلاهما"
+    }
+  },
+  "header": {
+    "home": "الرئيسية",
+    "salons": "الصالونات",
+    "specialists": "المختصون",
+    "services": "الخدمات",
+    "blog": "المدونة",
+    "about": "عن GlowUp",
+    "contact": "اتصل بنا",
+    "aboutUs": "من نحن",
+    "contactUs": "تواصل معنا",
+    "getApp": "حمل التطبيق",
+    "bookings": "حجوزاتي",
+    "chat": "المحادثات",
+    "searchSalon": "بحث عن صالون",
+    "language": "اللغة",
+    "profile": "ملفي الشخصي",
+    "searchPlaceholder": "ابحث عن صالون...",
+    "notifications": "التنبيهات",
+    "menu": "القائمة",
+    "logout": "تسجيل الخروج",
+    "favorites": "المفضلة",
+    "support": "الدعم الفني",
+    "login": "تسجيل الدخول",
+    "languageEn": "English",
+    "languageAr": "العربية",
+    "packages": "الباقات"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "markAllAsRead": "تحديد الكل كمقروء",
+    "empty": "لا توجد إشعارات",
+    "justNow": "الآن",
+    "minutesAgo": "منذ {{count}} دقيقة",
+    "hoursAgo": "منذ {{count}} ساعة",
+    "daysAgo": "منذ {{count}} يوم",
+    "titles": {
+      "new_message": "رسالة جديدة",
+      "booking_confirmed": "تم تأكيد الحجز",
+      "booking_cancelled": "تم إلغاء الحجز",
+      "booking_completed": "تم اكتمال الحجز",
+      "new_booking": "حجز جديد",
+      "appointment_reminder": "تذكير بالموعد"
+    }
+  },
+  "favoritesPage": {
+    "empty": "لا توجد صالونات مفضلة بعد."
+  },
+  "appName": "GlowUp",
+  "login": "تسجيل الدخول",
+  "signUp": "إنشاء حساب",
+  "active": "نشط",
+  "wallet": "المحفظة",
+  "search": "ابحث عن صالون",
+  "filter": "تصفية",
+  "location": "الموقع",
+  "rating": "التقييم",
+  "price": "السعر",
+  "sort": "ترتيب حسب",
+  "popular": "الأكثر رواجاً",
+  "newest": "الأحدث",
+  "topRated": "الأعلى تقييماً",
+  "bookNow": "احجز الآن",
+  "viewDetails": "عرض التفاصيل",
+  "addToFavorites": "إضافة للمفضلة",
+  "removeFromFavorites": "إزالة من المفضلة",
+  "reviews": "التقييمات",
+  "services": "الخدمات",
+  "schedule": "الجدول",
+  "booking": "الحجز",
+  "confirm": "تأكيد",
+  "cancel": "إلغاء",
+  "back": "رجوع",
+  "next": "التالي",
+  "ok": "حسناً",
+  "phone": "الهاتف",
+  "email": "البريد الإلكتروني",
+  "address": "العنوان",
+  "city": "المدينة",
+  "country": "الدولة",
+  "date": "التاريخ",
+  "time": "الوقت",
+  "duration": "المدة",
+  "total": "الإجمالي",
+  "subtotal": "المجموع الفرعي",
+  "totalDuration": "المدة الإجمالية",
+  "paymentMethod": "طريقة الدفع",
+  "creditCard": "بطاقة ائتمان",
+  "debitCard": "بطاقة مدى",
+  "cashOnArrival": "دفع عند الوصول",
+  "confirmBooking": "تأكيد الحجز",
+  "bookingSuccessful": "تم الحجز بنجاح",
+  "bookingFailed": "فشل الحجز",
+  "specialistProfile": "ملف المختص",
+  "salonProfile": "ملف الصالون",
+  "aboutUs": "من نحن",
+  "contactUs": "اتصل بنا",
+  "shareProfile": "مشاركة الملف",
+  "rate": "تقييم",
+  "writeReview": "اكتب تقييماً",
+  "selectDate": "اختر التاريخ",
+  "selectTime": "اختر الوقت",
+  "selectService": "اختر الخدمة",
+  "selectSpecialist": "اختر المختص",
+  "anySpecialist": "أي متخصص",
+  "allSalons": "كل الصالونات",
+  "nearby": "بالقرب مني",
+  "recentlyVisited": "تمت زيارتها مؤخراً",
+  "messages": "الرسائل",
+  "orders": "الطلبات",
+  "editProfile": "تعديل الملف الشخصي",
+  "changePassword": "تغيير كلمة المرور",
+  "settings": "الإعدادات",
+  "privacy": "سياسة الخصوصية",
+  "terms": "شروط الخدمة",
+  "version": "الإصدار",
+  "noResults": "لا توجد نتائج",
+  "emptyCart": "السلة فارغة",
+  "loading": "جاري التحميل...",
+  "error": "خطأ",
+  "tryAgain": "حاول مرة أخرى",
+  "success": "نجاح",
+  "warning": "تحذير",
+  "info": "معلومات",
+  "nearest": "الأقرب إليك",
+  "highly_rated": "الأعلى تقييماً",
+  "recommended": "موصى به",
+  "profile": "الحساب",
+  "favorites": "المفضلة",
+  "support": "الدعم",
+  "upgrade": "ترقية",
+  "bookings": {
+    "title": "حجوزاتي",
+    "rate_service": "قيم الخدمة",
+    "rate_staff": "قيم الموظف",
+    "all": "كل الحجوزات",
+    "current": "الحجوزات الحالية",
+    "previous": "الحجوزات السابقة",
+    "canceled": "الحجوزات الملغاة",
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "tomorrow": "غداً",
+    "week_ago": "قبل أسبوع",
+    "week_ahead": "بعد أسبوع",
+    "later": "لاحقاً",
+    "this_week": "هذا الأسبوع",
+    "week": "هذا الأسبوع",
+    "month": "هذا الشهر",
+    "lastWeek": "الأسبوع الماضي",
+    "lastMonth": "الشهر الماضي",
+    "older": "الأقدم",
+    "empty": "ليس لديك أي حجوزات",
+    "rebook": "إعادة حجز",
+    "already_rated": "لقد قمت بتقييم هذا مسبقاً",
+    "rating_success": "شكراً لتقييمك!",
+    "rate_when_completed": "يمكنك التقييم بعد أن يُعلّم الصالون الحجز كمكتمل.",
+    "service_placeholder": "رأيك في الخدمة يساعدنا على التحسن...",
+    "staff_placeholder": "كيف كان أداء الموظف معك؟",
+    "cancel": "إلغاء الحجز",
+    "cancel_confirm_message": "هل أنت متأكد من رغبتك في إلغاء هذا الحجز؟",
+    "cancel_success_msg": "تم إلغاء الحجز بنجاح",
+    "error_occurred": "حدث خطأ ما، يرجى المحاولة لاحقاً",
+    "confirm_yes": "تأكيد",
+    "confirm_no": "تراجع",
+    "send_rating": "إرسال التقييم",
+    "status": {
+      "current": "نشط",
+      "previous": "مكتمل",
+      "previous_pending": "قيد المراجعة",
+      "canceled": "ملغي"
+    },
+    "details_title": "تفاصيل الحجز",
+    "section_datetime": "التاريخ والوقت",
+    "day": "اليوم",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "section_venue": "الموقع والفريق",
+    "minutes": "دقيقة",
+    "services": "الخدمات",
+    "currency": "﷼"
+  },
+  "whyChooseUs": {
+    "title": "لماذا تختار ذا قلو هب ؟ ",
+    "easyBooking": {
+      "title": "سهولة الحجز",
+      "desc": "احجز موعدك في ثوانٍ من منزلك"
+    },
+    "genuineReviews": {
+      "title": "تقييمات حقيقية",
+      "desc": "اقرأ تقييمات حقيقية من عملاء حقيقيين"
+    },
+    "realDeals": {
+      "title": "عروض وخصومات حصرية",
+      "desc": "احصل على أفضل العروض والخصومات على خدمات التجميل"
+    }
+  },
+  "hero": {
+    "title_line1": "منصة تجمعك بأقرب صالون يهتم",
+    "title_line2": "بجمالك وصحتك.",
+    "searchPlaceholder": "ابحث عن صالون",
+    "numberOfClient": "عميل جديد",
+    "numberOfSalon": "صالون",
+    "numberOfBookings": "حجز",
+    "appName": "ذا قلو هب... "
+  },
+  "home": {
+    "enableLocationToSeeNearest": "فعّل الموقع لعرض الصالونات الأقرب إليك.",
+    "useMyLocation": "استخدم موقعي",
+    "newest": "الأحدث",
+    "locationNotSupported": "تحديد الموقع غير مدعوم في متصفحك.",
+    "locationDenied": "تعذّر الحصول على موقعك. يرجى السماح بالوصول إلى الموقع."
+  },
+  "userSearch": {
+    "title": "بحث عن مستخدم",
+    "searchUser": "ابحث عن مستخدم",
+    "username": "اسم المستخدم",
+    "searchResults": "نتائج البحث",
+    "noResults": "لا توجد نتائج",
+    "memberSince": "عضو منذ"
+  },
+  "pricing": {
+    "basic": "الخطة الأساسية",
+    "basicPrice": "0",
+    "pro": "الخطة الاحترافية",
+    "proPrice": "30",
+    "vip": "خطة VIP",
+    "vipPrice": "55",
+    "perMonth": "/ شهرياً"
+  },
+  "otpPage": {
+    "topBarTitle": "التحقق",
+    "backAria": "رجوع",
+    "title": "رمز التحقق",
+    "subtitlePrefix": "لقد أرسلنا رمزاً مكوناً من 4 أرقام إلى",
+    "subtitleSuffix": "",
+    "otpAria": "رمز التحقق",
+    "backToPhone": "تغيير رقم الهاتف",
+    "errorRequired": "رمز التحقق مطلوب.",
+    "errorLength": "يجب أن يكون رمز التحقق 4 أرقام.",
+    "errorDigits": "يجب أن يحتوي رمز التحقق على أرقام فقط.",
+    "errorInvalid": "رمز التحقق غير صحيح. يرجى المحاولة مرة أخرى.",
+    "errorSend": "فشل إرسال رمز التحقق. يرجى المحاولة مرة أخرى.",
+    "errorExpired": "انتهت صلاحية رمز التحقق.",
+    "errorInvalidAttempts": "رمز التحقق غير صحيح. المحاولات المتبقية: {{count}}.",
+    "errorTooManyAttempts": "عدد المحاولات كبير جداً. يرجى طلب رمز تحقق جديد.",
+    "errorUserNotProvider": "هذا الحساب غير مسجل كمزود خدمة.",
+    "requestNewOtp": "طلب رمز جديد",
+    "verifyButton": "تحقق",
+    "otpTokenMissing": "انتهت جلسة التحقق. يرجى التحقق من هاتفك مرة أخرى.",
+    "resendWait_zero": "يرجى الانتظار {{count}} ثانية قبل إعادة إرسال رمز التحقق.",
+    "resendWait_one": "يرجى الانتظار ثانية واحدة قبل إعادة إرسال رمز التحقق.",
+    "resendWait_two": "يرجى الانتظار ثانيتين قبل إعادة إرسال رمز التحقق.",
+    "resendWait_few": "يرجى الانتظار {{count}} ثوانٍ قبل إعادة إرسال رمز التحقق.",
+    "resendWait_many": "يرجى الانتظار {{count}} ثانية قبل إعادة إرسال رمز التحقق.",
+    "resendWait_other": "يرجى الانتظار {{count}} ثانية قبل إعادة إرسال رمز التحقق."
+  },
+  "searchBar": {
+    "allDepartments": "كل الأقسام",
+    "service": "الخدمة",
+    "location": "الموقع",
+    "searchButton": "بحث",
+    "The right time": "الوقت المناسب",
+    "searchByName": "ابحث بالاسم"
+  },
+  "categories": {
+    "hair_services": "خدمات الشعر",
+    "skin_care": "العناية بالبشرة",
+    "nails": "الأظافر",
+    "massage_therapy": "المساج والعلاج"
+  },
+  "servicesList": {
+    "vipHaircut": "قص شعر VIP",
+    "vipHaircutBeard": "قص شعر + لحية VIP",
+    "luxuryHairCare": "عناية فاخرة بالشعر",
+    "premiumBeardCare": "عناية مميزة باللحية",
+    "vipHairSpa": "سبا الشعر VIP",
+    "royalVipPackage": "الباقة الملكية VIP",
+    "haircut": "قص شعر",
+    "beardTrim": "تحديد لحية",
+    "haircutBeard": "قص شعر + لحية",
+    "quickHaircut": "قص شعر سريع",
+    "beardExpress": "تحديد لحية سريع",
+    "dailyStyle": "تصفيف يومي",
+    "kidsHaircut": "قص شعر أطفال",
+    "kidsHairStyle": "تسريح شعر أطفال",
+    "kidsFunCut": "قصة أطفال مرحة",
+    "kidsHairWash": "غسيل شعر أطفال",
+    "kidsStyleCombo": "باقة تصفيف للأطفال",
+    "kidsPremiumCare": "عناية مميزة للأطفال",
+    "groomPedicure": "بدكير عريس",
+    "groomPedicureCare": "عناية بدكير للعريس",
+    "fullGroomPackage": "باقة العريس الكاملة",
+    "groomHairStyle": "تسريحة عريس",
+    "groomBeardStyle": "تحديد لحية عريس",
+    "weddingRoyalCare": "العناية الملكية للزفاف",
+    "skinCleaning": "تنظيف بشرة",
+    "hydrationMask": "ماسك ترطيب",
+    "deepSkinCare": "عناية عميقة بالبشرة",
+    "faceRelaxMassage": "مساج استرخائي للوجه",
+    "skinRefresh": "انتعاش البشرة",
+    "goldenSkinCare": "العناية الذهبية بالبشرة"
+  },
+  "serviceSub": {
+    "hair": "شعر",
+    "beard": "لحية",
+    "skin": "بشرة",
+    "nails": "أظافر",
+    "package": "باقة"
+  },
+  "signupPage": {
+    "userTopBarTitle": "تسجيل مستخدم جديد",
+    "salonTopBarTitle": "تسجيل صالون جديد",
+    "tabUser": "مستخدم",
+    "tabSalon": "صالون",
+    "welcomeTitle": "مرحباً بك في ذا قلو هب",
+    "welcomeSubtitle": "أنشئ حسابك الجديد",
+    "phoneLabel": "رقم الجوال",
+    "phonePlaceholder": "أدخل رقم الجوال",
+    "phoneRequired": "رقم الهاتف مطلوب",
+    "errorPhoneRequired": "رقم الجوال مطلوب",
+    "errorPhoneLength": "رقم الجوال يجب أن يتكون من 10 أرقام",
+    "errorPhoneStart": "رقم الجوال يجب أن يبدأ بـ 05",
+    "errorPhoneDigits": "يرجى إدخال أرقام فقط",
+    "errorNameLength": "الاسم يجب أن يكون حرفين على الأقل",
+    "submit": "إنشاء حساب",
+    "haveAccount": "لديك حساب بالفعل؟",
+    "login": "تسجيل الدخول",
+    "homeAria": "الرئيسية"
+  },
+  "nameRegistration": {
+    "title": "إنشاء حساب جديد",
+    "subtitle": "انضم إلى أكثر من 3000 مستخدم",
+    "nameLabel": "الاسم",
+    "namePlaceholder": "أدخل اسمك",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني (اختياري)",
+    "termsText": "لقد قرأت وأوافق على",
+    "termsLink": "الشروط والأحكام",
+    "submit": "إنشاء الحساب"
+  },
+  "bookingFor": {
+    "title": "الحجز لـ نفسي / شخص آخر",
+    "back": "رجوع",
+    "myself": "حجز لنفسي",
+    "myselfDescription": "سيكون الحجز لك باستخدام بيانات حسابك",
+    "gift": "إهداء لشخص آخر",
+    "giftDescription": "سيكون الحجز لشخص آخر كهدية"
+  },
+  "bookingGift": {
+    "title": "الحجز لشخص آخر",
+    "back": "رجوع",
+    "heading": "إهداء كوبون خدمات",
+    "description": "أدخل رقم هاتف الشخص الذي تريد إهداءه الكوبون",
+    "phoneLabel": "رقم هاتف المستلم",
+    "phonePlaceholder": "05xxxxxxxx",
+    "phoneRequired": "رقم الهاتف مطلوب",
+    "phoneInvalid": "رقم الهاتف يجب أن يكون 10 أرقام",
+    "phoneStartInvalid": "يجب أن يبدأ رقم الهاتف بـ 05",
+    "phoneDigitsOnly": "رقم الهاتف يجب أن يحتوي على أرقام فقط",
+    "continue": "متابعة",
+    "giftforglowuser": "هدية لمستخدم The Glow Hubحالي",
+    "giftforglowuserDescription": "إرسال حجز كهدية لمستخدم مسجل في التطبيق",
+    "inviteFriend": "دعوة صديق",
+    "inviteFriendDescription": "ادعُ صديقاً للحصول على نقاط"
+  },
+  "reviewsPage": {
+    "title": "التقييمات",
+    "backAria": "رجوع للرئيسية",
+    "summaryTitle": "التقييمات والمراجعات",
+    "summarySubtitle": "ملخص",
+    "reviewWord": "تقييماً",
+    "noReviewsYet": "لا توجد مراجعات بعد"
+  },
+  "showAll": "عرض الكل",
+  "showedAll": "تم عرض الكل",
+  "durationUnit": "د",
+  "showLess": "عرض أقل",
+  "servicePage": {
+    "services": "الخدمات"
+  },
+  "serviceDetails": {
+    "orderDetails": "تفاصيل الطلب",
+    "emptyOrder": "لم يتم اختيار خدمات بعد",
+    "total": "الإجمالي",
+    "subtotal": "المجموع الفرعي",
+    "totalDuration": "المدة الإجمالية",
+    "goToPay": "الانتقال للدفع"
+  },
+  "welcomeModal": {
+    "title": "مرحباً بعودتك!",
+    "subtitle": "سجل دخولك لإكمال طلبك",
+    "next": "التالي",
+    "phoneLabel": "رقم الهاتف",
+    "phonePlaceholder": "أدخل رقم الهاتف",
+    "invalidCode": "رمز غير صالح",
+    "phoneRequired": "رقم الهاتف مطلوب",
+    "phoneInvalid": "رقم الهاتف يجب أن يكون 10 أرقام",
+    "phoneStartInvalid": "يجب أن يبدأ رقم الهاتف بـ 05",
+    "phoneDigitsOnly": "رقم الهاتف يجب أن يحتوي على أرقام فقط"
+  },
+  "successModal": {
+    "title": "تم تأكيد حجزك",
+    "desc": "تم تأكيد حجزك بنجاح. نتطلع لرؤيتك في الموعد المحدد.",
+    "bookAnother": "حجز موعد آخر",
+    "details": "عرض التفاصيل"
+  },
+  "bookingSlot": {
+    "title": "المواعيد المتاحة",
+    "chooseTime": "اختر الوقت",
+    "selected": "مختار",
+    "available": "متاح",
+    "unavailable": "غير متاح",
+    "backAria": "رجوع",
+    "noSlotsAvailable": "لا توجد أوقات متاحة لهذا اليوم. يرجى اختيار يوم آخر."
+  },
+  "bookingMulti": {
+    "title": "حجز خدمات متعددة",
+    "noServices": "لم يتم اختيار خدمات",
+    "serviceProgress": "الخدمة {{current}} من {{total}}",
+    "serviceLabel": "خدمة {{number}}",
+    "previous": "السابق",
+    "next": "التالي",
+    "proceedToPayment": "متابعة للدفع",
+    "loadingEmployees": "جاري تحميل الموظفين...",
+    "loadEmployeesFailed": "فشل تحميل الموظفين"
+  },
+  "teamPage": {
+    "loadingEmployees": "جاري تحميل الموظفين...",
+    "noEmployeesForService": "لا يوجد موظفون لهذه الخدمة في هذا الصالون",
+    "loadEmployeesFailed": "تعذر تحميل الموظفين. حاول مرة أخرى.",
+    "missingProvider": "بيانات الصالون غير متوفرة. افتح الصالون من جديد واختر خدمة.",
+    "missingService": "بيانات الخدمة غير متوفرة. اختر الخدمة مرة أخرى."
+  },
+  "days": {
+    "sunday": "الأحد",
+    "monday": "الاثنين",
+    "tuesday": "الثلاثاء",
+    "wednesday": "الأربعاء",
+    "thursday": "الخميس",
+    "friday": "الجمعة",
+    "saturday": "السبت"
+  },
+  "salonDetailsInfo": {
+    "noSimilarSalons": "لا توجد صالونات مشابهة",
+    "services": "الخدمات",
+    "reviews": "التقييمات",
+    "ourTeam": "فريقنا",
+    "policy": "سياسة الصالون",
+    "similarSalons": "صالونات مشابهة",
+    "placeholderCard": "محجوز للمحتوى",
+    "viewAll": "عرض الكل",
+    "loadMore": "عرض المزيد",
+    "noReviews": "لا توجد تقييمات بعد",
+    "notFound": "لم يتم العثور على الصالون",
+    "backToHome": "العودة للرئيسية",
+    "packages": "الباقات",
+    "documents": "الوثائق",
+    "noDocuments": "لا توجد وثائق",
+    "document": "وثيقة"
+  },
+  "salonDetails": {
+    "addedToFavorites": "تمت إضافة الصالون إلى المفضلة",
+    "removedFromFavorites": "تمت إزالة الصالون من المفضلة"
+  },
+  "common": {
+    "share": "مشاركة",
+    "favorite": "تفضيل",
+    "men": "رجال",
+    "women": "نساء",
+    "cancel": "إلغاء",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "more": "المزيد",
+    "loading": "جاري التحميل"
+  },
+  "chat": {
+    "withSalon": "محادثة مع الصالون",
+    "pageTitle": "المحادثة",
+    "with": "محادثة مع {{name}}",
+    "typeMessage": "اكتب رسالتك...",
+    "send": "إرسال",
+    "comingSoon": "المحادثة ستكون متاحة قريباً",
+    "loginRequired": "يجب تسجيل الدخول لفتح المحادثة",
+    "goToLogin": "تسجيل الدخول",
+    "backToSalon": "العودة للصالون",
+    "noMessages": "لا توجد رسائل بعد",
+    "noConversations": "لا توجد محادثات بعد",
+    "noConversationsHint": "ابدأ محادثة من صفحة صالون لتظهر هنا",
+    "selectConversation": "اختر محادثة",
+    "browseSalons": "تصفح الصالونات",
+    "demoHint": "الرسائل تُحفظ محلياً حتى يصبح واجهة الشات جاهزة",
+    "demoReply": "شكراً على رسالتك! سنرد في أقرب وقت."
+  },
+  "bookingDetails": {
+    "title": "تفاصيل الحجز",
+    "salonDetails": {
+      "title": "تفاصيل الصالون",
+      "openNow": "مفتوح الآن",
+      "closedNow": "مغلق الآن",
+      "until": "حتى الساعة {{time}}",
+      "location": "الموقع",
+      "noReviews": "لا توجد تقييمات"
+    },
+    "orderDetails": {
+      "title": "تفاصيل الطلب",
+      "empty": "لا توجد خدمات مختارة",
+      "haveCoupon": "هل لديك كوبون خصم؟",
+      "couponPlaceholder": "أدخل رمز الخصم",
+      "subtotal": "المجموع الفرعي",
+      "tax": "الضريبة",
+      "discount": "الخصم",
+      "total": "الإجمالي",
+      "subtotal": "المجموع الفرعي",
+      "totalDuration": "المدة الإجمالية",
+      "couponRequired": "الرجاء إدخال رمز الكوبون",
+      "loginRequired": "الرجاء تسجيل الدخول أولاً",
+      "couponInactive": "الكوبون غير نشط",
+      "couponExpired": "الكوبون منتهي الصلاحية",
+      "couponApplied": "تم تطبيق الكوبون بنجاح!",
+      "couponInvalid": "رمز الكوبون غير صحيح",
+      "couponSavedForCheckout": "تم حفظ الكوبون - سيتم التحقق عند إتمام الحجز"
+    },
+    "notes": {
+      "title": "ملاحظات",
+      "placeholder": "اكتب ملاحظاتك هنا"
+    }
+  },
+  "currentPlanTitle": "استخدام الباقة الحالية",
+  "remainingServices": "متبقي {{count}} من {{name}}",
+  "walletPaymentTitle": "الدفع من المحفظة",
+  "amountDue": "المبلغ المستحق",
+  "addCreditCardTitle": "إضافة بطاقة ائتمان",
+  "addCreditCardDesc": "إضافة بطاقة جديدة",
+  "otherPaymentMethods": "طرق دفع أخرى",
+  "paymentCenterTitle": "الدفع نقدا بمركز الخدمة",
+  "googlePay": "Google Pay",
+  "applePay": "Apple Pay",
+  "payByCoupon": "الدفع بالكوبون",
+  "couponCode": "رمز الكوبون",
+  "couponAppliedSuccess": "تم تطبيق الكوبون بنجاح",
+  "useCurrentPackage": "استخدام الباقة الحالية",
+  "remaining": "المتبقي",
+  "selectPackage": "اختر الباقة",
+  "noPackagesAvailable": "لا توجد باقات متاحة",
+  "paymentDetails": {
+    "errorGeneric": "حدث خطأ. الرجاء المحاولة مرة أخرى.",
+    "errorMissingPackage": "الرجاء الرجوع واختيار باقة أو مزود الخدمة.",
+    "errorAlreadyHasActivePackage": "لديك بالفعل باقة نشطة من هذا النوع. يمكنك استخدامها في حجوزاتك، أو اختيار باقة أخرى للشراء.",
+    "errorAlreadyHasActivePackageUsedUp": "يبدو أن الباقة السابقة من هذا النوع مسجّلة كـ\"نشطة\" رغم استهلاكك لكل الجلسات. جرّب تحديث الصفحة (F5) ثم أعد محاولة الشراء. إن استمرت المشكلة، تواصل مع الدعم الفني.",
+    "errorPackageNotFound": "الباقة غير موجودة. الرجاء الرجوع واختيار باقة مرة أخرى.",
+    "appliedDiscount": "خصم مطبق"
+  },
+  "bookingDetails.orderDetails.couponAlreadyUsed": "هذا الكوبون مستخدم مسبقاً ولا يمكن استخدامه مرة أخرى",
+  "accountPage": {
+    "myAccount": "حسابي",
+    "profileInfo": "بيانات الملف الشخصي",
+    "manageBookings": "إدارة الحجوزات",
+    "paymentMethods": "طرق الدفع",
+    "myWallet": "محفظتي",
+    "settings": "الإعدادات",
+    "helpSupport": "المساعدة والدعم",
+    "logout": "تسجيل الخروج"
+  },
+  "profilePage": {
+    "title": "الملف الشخصي",
+    "firstName": {
+      "label": "الاسم الأول",
+      "placeholder": "أدخل الاسم الأول"
+    },
+    "lastName": {
+      "label": "اسم العائلة",
+      "placeholder": "أدخل اسم العائلة"
+    },
+    "birthDate": {
+      "label": "تاريخ الميلاد",
+      "futureNotAllowed": "تاريخ الميلاد لا يمكن أن يكون في المستقبل."
+    },
+    "gender": {
+      "label": "الجنس",
+      "placeholder": "اختر",
+      "male": "ذكر",
+      "female": "أنثى"
+    },
+    "save": "حفظ"
+  },
+  "settingsPage": {
+    "title": "الإعدادات",
+    "changePassword": "تغيير كلمة المرور",
+    "notifications": "التنبيهات",
+    "deleteAccount": "حذف الحساب",
+    "deleteAccountTitle": "حذف الحساب",
+    "deleteAccountDescription": "يرجى إخبارنا بسبب رغبتك في حذف حسابك. سيساعدنا هذا على تحسين خدمتنا.",
+    "reasonPlaceholder": "يرجى إدخال سبب حذف حسابك...",
+    "pleaseEnterReason": "يرجى إدخال سبب حذف الحساب",
+    "continue": "متابعة",
+    "verifyOTP": "تأكيد رمز التحقق",
+    "otpSentDescription": "لقد أرسلنا رمز تحقق إلى بريدك الإلكتروني. يرجى إدخاله أدناه لتأكيد حذف الحساب.",
+    "otpPlaceholder": "أدخل رمز التحقق",
+    "pleaseEnterOTP": "يرجى إدخال رمز التحقق",
+    "errorRequestingOTP": "فشل في إرسال رمز التحقق. يرجى المحاولة مرة أخرى.",
+    "errorVerifyingOTP": "رمز التحقق غير صالح. يرجى المحاولة مرة أخرى.",
+    "accountDeletedTitle": "تم حذف الحساب بنجاح",
+    "accountDeletedMessage": "لقد تم حذف حسابك بنجاح. نأسف لرحيلك.",
+    "goToLogin": "الذهاب لتسجيل الدخول",
+    "deleteConfirm": "هل أنت متأكد من رغبتك في حذف الحساب؟",
+    "deleteConfirmed": "تم تأكيد حذف الحساب"
+  },
+  "supportPage": {
+    "support": "الدعم",
+    "reportProblem": "الإبلاغ عن مشكلة",
+    "issueType": {
+      "label": "نوع المشكلة",
+      "placeholder": "اختر",
+      "problem1": "مشكلة 1",
+      "problem2": "مشكلة 2"
+    },
+    "description": {
+      "label": "وصف المشكلة",
+      "placeholder": "أدخل وصف المشكلة"
+    },
+    "send": "إرسال"
+  },
+  "plans": {
+    "choose": "اختيار",
+    "free": {
+      "badge": "الباقة الحالية",
+      "title": "الباقة المجانية",
+      "button": "حالية"
+    },
+    "popular": {
+      "badge": "الأكثر رواجاً",
+      "title": "باقة العناية الكاملة"
+    },
+    "vip": {
+      "badge": "مميز",
+      "title": "باقة VIP"
+    },
+    "period": {
+      "month": "شهر",
+      "monthly": "شهرياً"
+    },
+    "features": {
+      "oneServicePerMonth": "إمكانية حجز خدمة واحدة شهرياً",
+      "walletPayment": "الدفع عبر المحفظة",
+      "discounts": "خصومات",
+      "bookings": "حجوزات",
+      "freeSessions2Monthly": "جلستين مجانيتين شهرياً",
+      "freeSessions4OrWeekly": "4 جلسات مجانية أو بديل أسبوعي",
+      "oneGiftOrder": "طلب هدية واحد",
+      "freeSessions4Monthly": "4 جلسات مجانية شهرياً",
+      "freeSessions4OrWeeklyGift": "4 جلسات مجانية أو هدية أسبوعية",
+      "twoGiftOrders": "طلبي هدايا"
+    },
+    "form": {
+      "editPlan": "تعديل الخطة",
+      "createNewPlan": "إنشاء خطة جديدة",
+      "planName": "اسم الخطة",
+      "enterPlanName": "أدخل اسم الخطة",
+      "planType": "نوع الخطة",
+      "durationBased": "مدة زمنية",
+      "commissionBased": "نسبة عمولة",
+      "durationDescription": "اشتراك لفترة زمنية محددة بسعر ثابت",
+      "commissionDescription": "يتم احتساب عمولة على كل حجز",
+      "commissionPercent": "نسبة العمولة (%)",
+      "price": "السعر (ر.س)",
+      "duration": "المدة (بالأيام)",
+      "active": "تفعيل الخطة",
+      "activeDescription": "الخطط النشطة فقط يمكن الاشتراك بها",
+      "cancel": "إلغاء",
+      "saving": "جاري الحفظ...",
+      "saveChanges": "حفظ التعديلات",
+      "createPlan": "إنشاء الخطة",
+      "errors": {
+        "nameRequired": "اسم الخطة مطلوب",
+        "commissionRange": "نسبة العمولة يجب أن تكون بين 1 و 100",
+        "priceRequired": "السعر يجب أن يكون أكبر من صفر",
+        "durationRequired": "المدة يجب أن تكون أكبر من صفر",
+        "generic": "حدث خطأ"
+      }
+    }
+  },
+  "registerPage": {
+    "email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "أدخل البريد الإلكتروني"
+    },
+    "termsPrefix": "لقد قرأت وأوافق على",
+    "termsLink": "الشروط والأحكام",
+    "createAccountButton": "إنشاء حساب",
+    "noAccount": "ليس لديك حساب؟",
+    "createAccountLink": "أنشئ حساباً",
+    "title": "إنشاء حساب جديد",
+    "subtitle": "انضم إلى أكثر من 3000 مستخدم",
+    "salonTitle": "إنشاء حساب صالون جديد"
+  },
+  "activityType": {
+    "title": "نوع النشاط",
+    "subtitle": "اختر نوع النشاط لتخصيص التطبيق وفقاً لخدماتك."
+  },
+  "salonProfileProvider": {
+    "title": "معلومات الصالون",
+    "subtitle": "أدخل معلوماتك الشخصية. ملاحظة: هذه البيانات لا تظهر للمستخدمين"
+  },
+  "serviceLocation": {
+    "title": "أين تقدم خدماتك؟",
+    "subtitle": "هل يأتي العملاء إليك، أم تذهب إليهم، أم كلاهما؟"
+  },
+  "salonName": "اسم الصالون",
+  "salonNamePlaceholder": "مثال: صالون بوب للتجميل",
+  "salonDescription": "وصف الصالون",
+  "salonDescriptionPlaceholder": "اكتب وصفاً مختصراً عن الصالون",
+  "salonPolicy": "سياسة الصالون",
+  "salonPolicyPlaceholder": "مثال: يجب الحضور قبل الموعد بـ 10 دقائق",
+  "charsRemaining": "متبقي {{count}} حرف",
+  "chooseType": "اختر النوع",
+  "types": {
+    "men": "رجال",
+    "women": "نساء",
+    "both": "كلاهما"
+  },
+  "fromStore": "من المتجر",
+  "fromHome": "خدمة منزلية",
+  "fromBoth": "في المتجر وخدمة منزلية",
+  "skip": "تخطي",
+  "provider": {
+    "packages": {
+      "title": "باقات الصالون",
+      "subtitle": "يمكنك إنشاء باقات مميزة تجمع عدة خدمات بسعر خاص"
+    },
+    "providerPackages": {
+      "noServices": "لا توجد خدمات متاحة حالياً. يرجى إضافة الخدمات أولاً لتمكنك  من إنشاء باقات.",
+      "loading": "جاري التحميل...",
+      "saving": "جاري الحفظ...",
+      "next": "التالي",
+      "skip": "تخطي",
+      "providerIdMissing": "معرّف المزود مفقود",
+      "loadFailed": "فشل تحميل البيانات",
+      "saveFailed": "فشل حفظ الباقات",
+      "newPackage": "باقة جديدة",
+      "packageName": "اسم الباقة",
+      "packagePrice": "سعر الباقة",
+      "packageDescription": "وصف الباقة ",
+      "packageItems": "العناصر",
+      "add": "إضافة",
+      "selectService": "اختيار خدمة"
+    },
+    "services": {
+      "title": "الخدمات",
+      "desc": "أضف وعدل خدماتك قبل المتابعة.",
+      "addNew": "إضافة خدمة جديدة",
+      "next": "التالي",
+      "currency": "﷼",
+      "hours": "ساعة",
+      "minutes": "دقيقة",
+      "dialog": {
+        "addTitle": "إضافة خدمة جديدة",
+        "editTitle": "تعديل الخدمة",
+        "subtitle": "",
+        "nameLabel": "اسم الخدمة",
+        "namePlaceholder": "قص شعر",
+        "typeLabel": "نوع الخدمة",
+        "typePlaceholder": "اختر نوع الخدمة",
+        "durationLabel": "المدة المقدرة",
+        "priceLabel": "السعر",
+        "apply": "تطبيق"
+      }
+    },
+    "uploadImages": {
+      "title": "إضافة صور للعمل",
+      "subtitle": "أضف صوراً تعكس جودة خدماتك وتجذب العملاء لصالونك",
+      "uploadBtn": "رفع الصور",
+      "remove": "حذف الصورة",
+      "errors": {
+        "type": "نوع الملف غير مدعوم.",
+        "size": "يجب أن يكون حجم الملف أقل من {{max}} ميجابايت.",
+        "maxFiles": "يمكنك رفع حتى {{max}} صور فقط."
+      }
+    },
+    "providerLocation": {
+      "title": "حدد موقع صالونك",
+      "subtitle": "يمكنك إدخال عنوانك يدوياً أو استخدام موقعك الحالي لتحديده بدقة على الخريطة.",
+      "addressLabel": "العنوان",
+      "addressPlaceholder": "أدخل عنوانك",
+      "addressRequired": "يرجى إدخال عنوان أو اختيار موقعك",
+      "or": "أو",
+      "pickMyLocation": "تحديد موقعي الحالي",
+      "detectingLocation": "جارٍ تحديد الموقع...",
+      "coordinatesDetected": "تم تحديد الموقع",
+      "searchPlaceholder": "ابحث عن مكان...",
+      "placeNotFound": "لم يتم العثور على المكان. جرب بحثاً آخر.",
+      "searchError": "فشل البحث. يرجى المحاولة مرة أخرى.",
+      "locationNotSupported": "تحديد الموقع غير مدعوم في هذا المتصفح",
+      "locationDenied": "تم رفض الوصول إلى الموقع"
+    },
+    "workingHours": {
+      "title": "ساعات العمل",
+      "subtitle": "حدد ساعات عملك لكل يوم، وأضف فترات راحة عند الحاجة.",
+      "closed": "مغلق",
+      "from": "من",
+      "to": "إلى",
+      "addBreaks": "إضافة فترات راحة",
+      "invalidWorkHours": "وقت الانتهاء يجب أن يكون بعد وقت البدء",
+      "invalidBreakHours": "وقت انتهاء فترة الراحة يجب أن يكون بعد وقت البدء",
+      "breakOutsideWorkHours": "فترة الراحة يجب أن تكون ضمن ساعات العمل",
+      "duplicateBreakHours": "لا يمكن إضافة نفس فترة الراحة أكثر من مرة"
+    },
+    "workingHour": {
+      "workHours": "ساعات العمل"
+    },
+    "commons": {
+      "next": "التالي",
+      "skip": "تخطي",
+      "apply": "تطبيق",
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "providerTeam": {
+      "title": "الفريق",
+      "add": "إضافة",
+      "tabs": {
+        "basic": "معلومات أساسية",
+        "login": "معلومات الدخول",
+        "hours": "ساعات العمل"
+      },
+      "modal": {
+        "addTitle": "إضافة عضو جديد",
+        "editAvatar": "تعديل الصورة الشخصية"
+      },
+      "fields": {
+        "name": "الاسم",
+        "email": "البريد الإلكتروني (اختياري)",
+        "jobTitle": "المسمى الوظيفي",
+        "active": "نشط",
+        "phone": "رقم الهاتف"
+      },
+      "placeholders": {
+        "name": "مثال: محمود إبراهيم",
+        "email": "أدخل البريد الإلكتروني (اختياري)",
+        "jobTitle": "مثال: مصفف شعر",
+        "phone": "أدخل رقم الهاتف"
+      },
+      "roles": {
+        "title": "الصلاحيات",
+        "canLogin": "يمكنه تسجيل الدخول",
+        "canViewBookings": "عرض الحجوزات المتعلقة",
+        "canViewStats": "عرض الإحصائيات",
+        "canAddBreak": "يمكنه إضافة وقت راحة"
+      },
+      "validation": {
+        "nameRequired": "الاسم مطلوب",
+        "jobRequired": "المسمى الوظيفي مطلوب",
+        "phoneRequired": "رقم الهاتف مطلوب"
+      },
+      "errors": {
+        "avatarInvalid": "يُسمح فقط بالصور (jpg، png، webp، gif، svg، heic، heif).",
+        "avatarSize": "يجب أن يكون حجم الصورة أقل من {{max}} ميجابايت."
+      }
+    },
+    "supportPage": {
+      "support": "الدعم",
+      "reportProblem": "الإبلاغ عن مشكلة",
+      "issueType": {
+        "label": "نوع المشكلة",
+        "placeholder": "اختر نوع المشكلة"
+      },
+      "subject": {
+        "label": "الموضوع"
+      },
+      "description": {
+        "label": "وصف المشكلة",
+        "placeholder": "أدخل وصف المشكلة"
+      },
+      "send": "إرسال"
+    },
+    "providerProfile": {
+      "title": "معلوماتك",
+      "subtitle": "أدخل معلوماتك الشخصية. ملاحظة: هذه البيانات لا تظهر للمستخدمين.",
+      "nameLabel": "الاسم",
+      "namePlaceholder": "مثال: أحمد أشرف",
+      "termsText": "لقد قرأت ووافقت على",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "أدخل البريد الإلكتروني (اختياري)",
+      "termsLink": "الشروط والأحكام",
+      "submit": "إنشاء حساب",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "loginLink": "تسجيل دخول",
+      "descriptionLabel": "وصف عن الصالون",
+      "policyLabel": "سياسة الصالون",
+      "errors": {
+        "nameRequired": "الاسم مطلوب",
+        "emailInvalid": "البريد الإلكتروني غير صالح",
+        "mustAgree": "يجب الموافقة على الشروط"
+      }
+    },
+    "providerTerms": {
+      "title": "الشروط والأحكام",
+      "closeAria": "إغلاق",
+      "sections": {
+        "acceptTitle": "قبول الشروط",
+        "acceptBody": "باستخدامك لـ The Glow Hub ، فإنك توافق على الامتثال لهذه الشروط والأحكام. إذا كنت لا توافق على أي جزء منها، يجب عليك التوقف عن استخدام الخدمة فوراً.",
+        "accountTitle": "إنشاء الحساب",
+        "accountBullets": [
+          "يجب على المستخدمين تقديم معلومات دقيقة وكاملة عند التسجيل في تطبيق  The Glow Hub .",
+          "المستخدمون مسؤولون عن الحفاظ على سرية بيانات دخولهم وعدم مشاركتها مع أي طرف ثالث.",
+          "تحتفظ إدارة The Glow Hub بالحق في تعليق أو إلغاء أي حساب ينتهك الشروط أو يسيء استخدام الخدمة."
+        ],
+        "paymentTitle": "طرق الدفع",
+        "paymentBullets": [
+          "يجب على المستخدمين دفع كافة الرسوم المتعلقة بالخدمات المقدمة عبر تطبيق The Glow Hub باستخدام الطرق المتاحة (بطاقات بنكية، محافظ إلكترونية، تحويل بنكي، إلخ).",
+          "جميع المدفوعات نهائية وغير قابلة للاسترداد إلا في الحالات التي تحددها إدارة التطبيق."
+        ],
+        "usageTitle": "استخدام الخدمة",
+        "usageBullets": [
+          "يجب على المستخدمين استخدام تطبيق The Glow Hub لأغراض مشروعة فقط.",
+          "يُحظر استخدام التطبيق لأي نشاط غير قانوني، أو إلحاق الضرر بالآخرين، أو انتهاك القوانين المحلية/الدولية.",
+          "قد يتم تعديل التطبيق أو تحديثه من وقت لآخر لتحسين الخدمة دون إشعار مسبق."
+        ],
+        "ipTitle": "حقوق الملكية الفكرية",
+        "ipBullets": [
+          "جميع حقوق الملكية الفكرية (النصوص، التصاميم، الشعار، المحتوى) المتعلقة بتطبيق The Glow Hub مملوكة للإدارة ولا يجوز نسخها أو إعادة استخدامها بدون إذن كتابي مسبق."
+        ],
+        "disclaimerTitle": "إخلاء المسؤولية",
+        "disclaimerBullets": [
+          "يتم توفير تطبيق The Glow Hub \"كما هو\" دون أي ضمانات صريحة أو ضمنية.",
+          "إدارة The Glow Hub غير مسؤولة عن الأعطال الفنية، فقدان البيانات، أو أي أضرار ناتجة عن استخدام التطبيق."
+        ]
+      }
+    },
+    "common": {
+      "next": "التالي",
+      "apply": "تطبيق",
+      "save": "حفظ",
+      "saving": "جاري الحفظ...",
+      "skip": "تخطي",
+      "cancel": "إلغاء",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "loading": "جاري التحميل"
+    },
+    "successMessage": "تم حفظ التغييرات بنجاح",
+    "successMessageSupport": "تم الإرسال بنجاح!",
+    "sidebar": {
+      "home": "الرئيسية",
+      "orders_section": "الطلبات",
+      "orders": "قائمة الطلبات",
+      "business_management": "إدارة النشاط",
+      "salon_details": "تفاصيل الصالون",
+      "service_location": "مكان الخدمة",
+      "location": "الموقع على الخريطة",
+      "working_hours": "ساعات العمل",
+      "services": "الخدمات",
+      "documents": "الوثائق",
+      "gallery": "معرض الصور",
+      "packages": "الباقات",
+      "team": "الفريق",
+      "admin_section": "الإدارة",
+      "users": "المستخدمون",
+      "employee_section": "الموظف",
+      "request_break": "طلب استراحة",
+      "breaks_management": "إدارة الاستراحات",
+      "manage_breaks": "إدارة الاستراحات",
+      "subscription_section": "الاشتراك",
+      "my_subscription": "اشتراكي",
+      "plans_management": "إدارة الخطط",
+      "settings_section": "الإعدادات",
+      "settings": "الإعدادات"
+    },
+    "search_placeholder": "بحث...",
+    "Searchdashboard": "لوحة التحكم",
+    "OrdersDashboard": "بحث",
+    "status": "الحالة",
+    "advancedSearch": "بحث متقدم",
+    "orderNumber": "رقم الطلب",
+    "service": "الخدمة",
+    "orderStatus": "حالة الطلب",
+    "orderDate": "تاريخ الطلب",
+    "serviceValue": "قيمة الخدمة",
+    "inProgress": "قيد التنفيذ",
+    "rowsPerPage": "عدد الصفوف في الصفحة"
+  },
+  "admin-dashboard": {
+    "salonProfileManagement": "إدارة ملف الصالون",
+    "servicesManagement": "إدارة الخدمات",
+    "workingHoursManagement": "إدارة ساعات العمل",
+    "serviceModeManagement": "إدارة نوع الخدمة",
+    "currentSelectionDesc": "خيارك الحالي هو",
+    "updateProfile": "تحديث الملف الشخصي",
+    "updateHours": "تحديث الساعات",
+    "finishEditing": "إنهاء التعديل",
+    "saveChanges": "حفظ التغييرات",
+    "saving": "جارٍ الحفظ...",
+    "documents": {
+      "title": "الوثائق",
+      "subtitle": "قم برفع الوثائق الخاصة بنشاطك التجاري لتوثيق خدماتك",
+      "upload": "رفع وثيقة",
+      "delete": "حذف",
+      "saved": "تم حفظ الوثائق بنجاح",
+      "deleted": "تم حذف الوثيقة بنجاح",
+      "missingProviderId": "تعذر تحديد معرف مقدم الخدمة",
+      "nothingToUpload": "الرجاء اختيار وثيقة واحدة على الأقل",
+      "unsupportedType": "نوع الملف غير مدعوم. (PDF أو صورة)",
+      "failedToLoad": "فشل تحميل أنواع الوثائق"
+    },
+    "serviceTitle": "خدمات الصالون",
+    "serviceDesc": "أضف الخدمات التي يقدمها صالونك مع السعر والمدة",
+    "serviceAddNew": "إضافة خدمة جديدة",
+    "serviceNext": "التالي",
+    "salonImages": "صور الصالون",
+    "updateImages": "تحديث الصور",
+    "currentImages": "الصور الحالية",
+    "imageSelectionDesc": "يمكنك إضافة أو حذف الصور التي تظهر للعملاء في ملفك الشخصي",
+    "updateImagesSubtitle": "قم بتحديث صور الصالون الخاصة بك لتقديم أفضل عرض لعملائك",
+    "imageQualityFooter": "جودة عالية • صيغ مدعومة ",
+    "serviceModeSubtitle": "اختر كيف يظهر مكان تقديم الخدمة لعملائك على المنصة",
+    "updateServiceMode": "تعديل وضع الخدمة",
+    "locationManagement": "إدارة الموقع",
+    "locationSubtitle": "تأكد من دقة موقعك ليتمكن الزبائن من الوصول إليك بسهولة",
+    "changeLocation": "تغيير الموقع",
+    "resetLocation": "إعادة تعيين",
+    "currentSavedLocation": "الموقع المحفوظ حالياً",
+    "locationDisplayPlaceholder": "يتم عرض موقعك الحالي على الخريطة للزبائن بناءً على إحداثيات GPS المحفوظة",
+    "workingHours": "ساعات العمل",
+    "customBreaks": "فترات الراحة المخصصة",
+    "weeklyBreaks": "فترات الراحة الأسبوعية",
+    "addBreak": "إضافة استراحة",
+    "noBreaks": "لا توجد فترات راحة مجدولة",
+    "noCustomBreaks": "لا توجد فترات راحة مخصصة",
+    "customBreaksDescription": "أضف فترات راحة لتواريخ محددة (مثل العطلات والمناسبات)",
+    "addCustomBreak": "إضافة فترة راحة مخصصة",
+    "date": "التاريخ",
+    "reason": "السبب",
+    "reasonPlaceholder": "مثال: عطلة",
+    "startTime": "وقت البدء",
+    "endTime": "وقت الانتهاء",
+    "validationErrors": {
+      "openTimeBeforeCloseTime": "يجب أن يكون وقت الفتح قبل وقت الإغلاق ليوم {{day}}",
+      "breakOverlap": "تتداخل فترة الراحة مع فترة أخرى في {{day}} ({{range}})",
+      "cannotBeInPast": "لا يمكن أن يكون تاريخ فترة الراحة المخصصة في الماضي",
+      "failedToSave": "فشل في حفظ ساعات العمل",
+      "closedDayBreak": "لا يمكن إضافة/تعديل استراحة في يوم مغلق. يرجى فتح اليوم في الجدول الإسبوعي أولاً."
+    }
+  },
+  "providerTeam": {
+    "title": "الفريق",
+    "add": "إضافة",
+    "tabs": {
+      "basic": "معلومات أساسية",
+      "login": "معلومات الدخول",
+      "hours": "ساعات العمل"
+    },
+    "modal": {
+      "addTitle": "إضافة عضو جديد",
+      "editAvatar": "تعديل الصورة الشخصية"
+    },
+    "fields": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني (اختياري)",
+      "jobTitle": "المسمى الوظيفي",
+      "active": "نشط",
+      "phone": "رقم الهاتف"
+    },
+    "placeholders": {
+      "name": "مثال: محمود إبراهيم",
+      "email": "أدخل البريد الإلكتروني (اختياري)",
+      "jobTitle": "مثال: مصفف شعر",
+      "phone": "أدخل رقم الهاتف"
+    },
+    "roles": {
+      "title": "الصلاحيات",
+      "canLogin": "يمكنه تسجيل الدخول",
+      "canViewBookings": "عرض الحجوزات المتعلقة",
+      "canViewStats": "عرض الإحصائيات",
+      "canAddBreak": "يمكنه إضافة وقت راحة"
+    },
+    "validation": {
+      "nameRequired": "الاسم مطلوب",
+      "jobRequired": "المسمى الوظيفي مطلوب",
+      "phoneRequired": "رقم الهاتف مطلوب"
+    }
+  },
+  "supportPage": {
+    "support": "الدعم",
+    "reportProblem": "الإبلاغ عن مشكلة",
+    "issueType": {
+      "label": "نوع المشكلة",
+      "placeholder": "اختر نوع المشكلة"
+    },
+    "subject": {
+      "label": "الموضوع"
+    },
+    "description": {
+      "label": "وصف المشكلة",
+      "placeholder": "أدخل وصف المشكلة"
+    },
+    "send": "إرسال"
+  },
+  "providerProfile": {
+    "title": "معلوماتك",
+    "subtitle": "أدخل معلوماتك الشخصية. ملاحظة: هذه البيانات لا تظهر للمستخدمين.",
+    "nameLabel": "الاسم",
+    "namePlaceholder": "مثال: أحمد أشرف",
+    "termsText": "لقد قرأت ووافقت على",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل البريد الإلكتروني (اختياري)",
+    "termsLink": "الشروط والأحكام",
+    "submit": "إنشاء حساب",
+    "haveAccount": "لديك حساب بالفعل؟",
+    "loginLink": "تسجيل دخول",
+    "errors": {
+      "nameRequired": "الاسم مطلوب",
+      "emailInvalid": "البريد الإلكتروني غير صالح",
+      "mustAgree": "يجب الموافقة على الشروط"
+    }
+  },
+  "providerTerms": {
+    "title": "الشروط والأحكام",
+    "closeAria": "إغلاق",
+    "sections": {
+      "acceptTitle": "قبول الشروط",
+      "acceptBody": "باستخدامك لـ The Glow Hub فإنك توافق على الامتثال لهذه الشروط والأحكام. إذا كنت لا توافق على أي جزء منها، يجب عليك التوقف عن استخدام الخدمة فوراً.",
+      "accountTitle": "إنشاء الحساب",
+      "accountBullets": [
+        "يجب على المستخدمين تقديم معلومات دقيقة وكاملة عند التسجيل في تطبيق The Glow Hub.",
+        "المستخدمون مسؤولون عن الحفاظ على سرية بيانات دخولهم وعدم مشاركتها مع أي طرف ثالث.",
+        "تحتفظ إدارة The Glow Hub بالحق في تعليق أو إلغاء أي حساب ينتهك الشروط أو يسيء استخدام الخدمة."
+      ],
+      "paymentTitle": "طرق الدفع",
+      "paymentBullets": [
+        "يجب على المستخدمين دفع كافة الرسوم المتعلقة بالخدمات المقدمة عبر تطبيق The Glow Hub باستخدام الطرق المتاحة (بطاقات بنكية، محافظ إلكترونية، تحويل بنكي، إلخ).",
+        "جميع المدفوعات نهائية وغير قابلة للاسترداد إلا في الحالات التي تحددها إدارة التطبيق."
+      ],
+      "usageTitle": "استخدام الخدمة",
+      "usageBullets": [
+        "يجب على المستخدمين استخدام تطبيق The Glow Hub لأغراض مشروعة فقط.",
+        "يُحظر استخدام التطبيق لأي نشاط غير قانوني، أو إلحاق الضرر بالآخرين، أو انتهاك القوانين المحلية/الدولية.",
+        "قد يتم تعديل التطبيق أو تحديثه من وقت لآخر لتحسين الخدمة دون إشعار مسبق."
+      ],
+      "ipTitle": "حقوق الملكية الفكرية",
+      "ipBullets": [
+        "جميع حقوق الملكية الفكرية (النصوص، التصاميم، الشعار، المحتوى) المتعلقة بتطبيق The Glow Hub مملوكة للإدارة ولا يجوز نسخها أو إعادة استخدامها بدون إذن كتابي مسبق."
+      ],
+      "disclaimerTitle": "إخلاء المسؤولية",
+      "disclaimerBullets": [
+        "يتم توفير تطبيق The Glow Hub \"كما هو\" دون أي ضمانات صريحة أو ضمنية.",
+        "إدارة The Glow Hub غير مسؤولة عن الأعطال الفنية، فقدان البيانات، أو أي أضرار ناتجة عن استخدام التطبيق."
+      ]
+    }
+  },
+  "common": {
+    "next": "التالي",
+    "apply": "تطبيق",
+    "save": "حفظ",
+    "skip": "تخطي",
+    "cancel": "إلغاء",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "loading": "جاري التحميل"
+  },
+  "successMessage": "تم حفظ التغييرات بنجاح",
+  "successMessageSupport": "تم الإرسال بنجاح!",
+  "sidebar": {
+    "home": "الرئيسية",
+    "orders_section": "الطلبات",
+    "orders": "الطلبات الواردة",
+    "salons_section": "إدارة الصالونات",
+    "salons": "الصالونات",
+    "employees": "الموظفون",
+    "ratings": "التقييمات",
+    "customers": "العملاء",
+    "bookings_section": "إدارة الحجوزات",
+    "bookings": "الحجوزات",
+    "tickets_section": "إدارة التذاكر",
+    "tickets": "التذاكر",
+    "content_section": "إدارة المحتوى",
+    "lookups": "القوائم",
+    "ads": "الإعلانات",
+    "coupons": "الكوبونات",
+    "subscription_section": "الاشتراكات",
+    "plans_management": "إدارة الخطط",
+    "admin_section": "الإدارة",
+    "users": "المستخدمون",
+    "services_admin_section": "إدارة الخدمات",
+    "services_admin": "الخدمات"
+  },
+  "search_placeholder": "بحث...",
+  "Searchdashboard": "لوحة التحكم",
+  "OrdersDashboard": "بحث",
+  "status": "الحالة",
+  "advancedSearch": "بحث متقدم",
+  "orderNumber": "رقم الطلب",
+  "service": "الخدمة",
+  "orderStatus": "حالة الطلب",
+  "orderDate": "تاريخ الطلب",
+  "serviceValue": "قيمة الخدمة",
+  "inProgress": "قيد التنفيذ",
+  "rowsPerPage": "عدد الصفوف في الصفحة",
+  "commonD": {
+    "search": "ابحث بالاسم أو رقم الهاتف",
+    "minutes": "دقيقة",
+    "edit": "تعديل",
+    "closed": "مغلق",
+    "page": "الصفحة",
+    "of": "من",
+    "showing": "عرض",
+    "all": "الكل",
+    "pending": "قيد المراجعة",
+    "approved": "مقبول",
+    "rejected": "مرفوض",
+    "status": "الحالة",
+    "suspended": "موقوف",
+    "loading": "جاري التحميل",
+    "actions": "الإجراءات"
+  },
+  "salons": {
+    "allSalons": "كل الصالونات",
+    "name": "الصالون",
+    "type": "النوع",
+    "city": "المدينة",
+    "status": "الحالة",
+    "rating": "التقييم",
+    "employees": "الموظفين",
+    "details": "تفاصيل",
+    "description": "الوصف",
+    "phones": "أرقام الاتصال",
+    "workingHours": "ساعات العمل",
+    "services": "الخدمات"
+  },
+  "actions": {
+    "view": "عرض",
+    "edit": "تعديل",
+    "delete": "حذف"
+  },
+  "status": {
+    "approved": "مقبول",
+    "pending": "قيد المراجعة",
+    "rejected": "مرفوض"
+  },
+  "appointments": {
+    "totalPrice": "السعر الإجمالي",
+    "services": "الخدمات",
+    "totalAmount": "المبلغ الإجمالي",
+    "bookingType": "نوع الحجز",
+    "viewProfile": "عرض الملف الشخصي",
+    "manage": "إدارة",
+    "min": "دقيقة",
+    "title": "الحجوزات",
+    "approved": "المؤكدة",
+    "completed": "المكتملة",
+    "cancelled": "الملغاة",
+    "description": "مراقبة وإدارة جميع حجوزات الخدمة",
+    "search": "ابحث بالمزود أو العميل",
+    "searchProvider": "المزود",
+    "searchCustomer": "العميل",
+    "total": "الإجمالي",
+    "subtotal": "المجموع الفرعي",
+    "totalDuration": "المدة الإجمالية",
+    "pending": "قيد الانتظار",
+    "confirmed": "مؤكد",
+    "providers": "المزودون",
+    "employee": "الموظف",
+    "time": "الوقت",
+    "note": "ملاحظة",
+    "noNote": "لا توجد ملاحظات",
+    "view": "عرض",
+    "delete": "حذف",
+    "details": "التفاصيل",
+    "provider": "المزود",
+    "customer": "العميل",
+    "date": "التاريخ",
+    "noAppointments": "لا توجد مواعيد",
+    "statusLabel": "الحالة",
+    "status": {
+      "ALL": "جميع المواعيد",
+      "PENDING": "قيد الانتظار",
+      "CONFIRMED": "مؤكد",
+      "COMPLETED": "مكتمل",
+      "CANCELLED": "ملغى"
+    }
+  },
+  "supportCenter": {
+    "title": "مركز الدعم",
+    "manageTickets": "إدارة والرد على استفسارات العملاء",
+    "searchTickets": "ابحث عن التذاكر...",
+    "allTickets": "جميع التذاكر",
+    "critical": "حرج",
+    "open": "مفتوحة",
+    "resolved": "تم حلها",
+    "RESOLVED": "تم حلها",
+    "issue": "المشكلة",
+    "priority": "الأولوية",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "noTicketsFound": "لم يتم العثور على تذاكر مطابقة لمعاييرك.",
+    "ALL": "الكل",
+    "OPEN": "مفتوحة",
+    "IN_PROGRESS": "قيد التنفيذ",
+    "CLOSED": "مغلقة",
+    "LOW": "منخفضة",
+    "MEDIUM": "متوسطة",
+    "HIGH": "عالية",
+    "typeResponse": "اكتب ردك...",
+    "metadata": "بيانات التذكرة",
+    "createdAt": "تاريخ الإنشاء",
+    "category": "الفئة",
+    "assignedAdmin": "المسؤول",
+    "none": "لا يوجد",
+    "assignToMe": "تعيين لي",
+    "markUrgent": "تحديد عاجلة",
+    "manageProviders": "إدارة ومراقبة مزوّدي الخدمة",
+    "totalSalons": "إجمالي الصالونات",
+    "active": "نشط",
+    "avgRating": "متوسط التقييم",
+    "categoriess": "الفئات",
+    "assignToAdmin": "تعيين لمسؤول",
+    "URGENT": "عاجلة",
+    "selectAdmin": "اختيار ادمن",
+    "categories": {
+      "PAYMENT_ISSUE": "مشكلة دفع",
+      "TECHNICAL_ISSUE": "مشكلة تقنية",
+      "BOOKING_ISSUE": "مشكلة حجز",
+      "ACCOUNT_ISSUE": "مشكلة حساب",
+      "REPORT_PROVIDER": "بلاغ على مزود",
+      "REPORT_EMPLOYEE": "بلاغ على موظف",
+      "GENERAL_INQUIRY": "أخرى"
+    }
+  },
+  "noAdminsFound": "لا يوجد مسؤولون",
+  "adminLogin": {
+    "title": "تسجيل الدخول",
+    "welcomeTitle": "مرحباً بك في لوحة التحكم",
+    "welcomeSubtitle": "الرجاء إدخال رقم هاتفك للمتابعة",
+    "phoneLabel": "رقم الهاتف",
+    "phonePlaceholder": "0555123456",
+    "sendOtp": "إرسال رمز التحقق",
+    "otpTitle": "أدخل رمز التحقق",
+    "otpSentTo": "تم إرسال الرمز إلى",
+    "otpAria": "رمز التحقق",
+    "next": "التالي",
+    "loading": "جاري التحميل...",
+    "back": "رجوع",
+    "backToChangePhone": "العودة لتغيير الرقم",
+    "errorInvalidPhone": "رقم الهاتف غير صحيح",
+    "errorOtpFailed": "فشل إرسال رمز التحقق",
+    "errorLoginFailed": "فشل تسجيل الدخول",
+    "errorInvalidOtp": "رمز التحقق غير صحيح أو منتهي الصلاحية",
+    "errorPhoneNotFound": "رقم الهاتف غير مسجل",
+    "errorNotAllowed": "غير مصرح لك بالدخول"
+  },
+  "loginPage": {
+    "errorEmailExists": "هذا البريد الإلكتروني مستخدم مسبقًا",
+    "topBarTitle": "تسجيل دخول المستخدم",
+    "tabUser": "مستخدم",
+    "tabSalon": "صالون",
+    "welcomeTitle": "مرحباً بعودتك!",
+    "welcomeSubtitle": "سجل الدخول إلى حسابك",
+    "welcomeSubtitleUser": "أدخل رقم هاتفك للوصول إلى حسابك",
+    "welcomeSubtitleSalon": "أدخل رقم هاتف الصالون لإدارة نشاطك التجاري",
+    "phoneLabel": "رقم الهاتف",
+    "phonePlaceholder": "0555123456",
+    "submit": "تسجيل الدخول",
+    "noAccount": "ليس لديك حساب؟",
+    "createAccount": "إنشاء حساب",
+    "homeAria": "الرئيسية",
+    "sessionExpired": "انتهت الجلسة، يرجى تسجيل الدخول مرة أخرى",
+    "errorInvalidPhone": "رقم الهاتف غير صحيح",
+    "errorUnknown": "حدث خطأ غير متوقع",
+    "errorOtpMissing": "رمز التحقق مفقود، يرجى التحقق من هاتفك أولاً",
+    "errorFirstName": "الاسم الأول مطلوب",
+    "errorLastName": "الاسم الأخير مطلوب",
+    "errorEmail": "البريد الإلكتروني غير صالح",
+    "errorPassword": "كلمة المرور يجب أن تكون 6 أحرف على الأقل",
+    "errorGender": "الجنس يجب أن يكون ذكر أو أنثى",
+    "errorBirthDate": "تاريخ الميلاد مطلوب",
+    "errorCreateProfile": "فشل في إنشاء الملف الشخصي"
+  },
+  "orders": "الطلبات",
+  "manageYourAppointmentsAndOrders": "إدارة المواعيد والطلبات الخاصة بك ومتابعتها.",
+  "searchPlaceholder": "البحث برقم الطلب أو اسم العميل...",
+  "date": "التاريخ",
+  "filterByDate": "فلترة حسب التاريخ",
+  "from": "من",
+  "to": "إلى",
+  "clear": "مسح",
+  "apply": "تطبيق",
+  "allStatus": "كل الحالات",
+  "all": "الكل",
+  "orderNumber": "رقم الطلب",
+  "service": "الخدمة",
+  "orderStatus": "حالة الطلب",
+  "orderDate": "تاريخ الطلب",
+  "serviceValue": "قيمة الخدمة",
+  "actions": "الإجراءات",
+  "loading": "جاري التحميل...",
+  "noDataAvailable": "لا توجد بيانات متاحة حالياً",
+  "show": "عرض",
+  "rowsPerPage": "عدد الصفوف",
+  "confirmed": "مؤكد",
+  "completed": "مكتمل",
+  "cancelled": "ملغي",
+  "pending": "قيد الانتظار",
+  "cancel": "إلغاء",
+  "changeTimeSlot": "تغيير الفترة الزمنية",
+  "providerDashboard": {
+    "pageTitle": "التقارير",
+    "generalStats": "إحصائيات عامة",
+    "services": "الخدمات",
+    "products": "المنتجات",
+    "customers": "عملاء",
+    "teamMembers": "اعضاء فريق",
+    "bookings": "الحجوزات",
+    "packages": "الباقات",
+    "appointmentsChart": "الحجوزات",
+    "completed": "مكتملة",
+    "confirmed": "مؤكدة",
+    "cancelled": "ملغية",
+    "pending": "جارية",
+    "revenueChart": "الإيرادات",
+    "revenue": "الإيرادات",
+    "days": {
+      "sunday": "أحد",
+      "monday": "اثنين",
+      "tuesday": "ثلاثاء",
+      "wednesday": "أربعاء",
+      "thursday": "خميس",
+      "friday": "جمعة",
+      "saturday": "سبت"
+    },
+    "periods": {
+      "week": "أسبوع",
+      "month": "شهر",
+      "year": "سنة"
+    },
+    "months": {
+      "01": "يناير",
+      "02": "فبراير",
+      "03": "مارس",
+      "04": "أبريل",
+      "05": "مايو",
+      "06": "يونيو",
+      "07": "يوليو",
+      "08": "أغسطس",
+      "09": "سبتمبر",
+      "10": "أكتوبر",
+      "11": "نوفمبر",
+      "12": "ديسمبر"
+    }
+  },
+  "employeePage": {
+    "title": "عضو الفريق",
+    "services": "الخدمات",
+    "ratings": "التقييمات",
+    "totalRatings": "إجمالي التقييمات",
+    "averageRating": "متوسط التقييم",
+    "noServices": "لا توجد خدمات متاحة",
+    "noRatings": "لا توجد تقييمات بعد",
+    "role": "الدور",
+    "position": "المنصب",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف"
+  },
+  "walletPage": {
+    "title": "محفظتي",
+    "balance": "الرصيد الحالي",
+    "addMoney": "إضافة رصيد",
+    "transactions": "المعاملات",
+    "noTransactions": "لا توجد معاملات بعد",
+    "amount": "المبلغ",
+    "description": "الوصف",
+    "descriptionPlaceholder": "أدخل الوصف (اختياري)",
+    "defaultDescription": "شحن رصيد",
+    "fetchError": "فشل في تحميل المحفظة",
+    "addError": "فشل في إضافة الرصيد",
+    "invalidAmount": "الرجاء إدخال مبلغ صحيح",
+    "retry": "حاول مرة أخرى"
+  },
+  "adminUsers": {
+    "title": "إدارة المستخدمين",
+    "subtitle": "إدارة مستخدمي النظام وصلاحياتهم",
+    "addUser": "إضافة مستخدم",
+    "noUsers": "لا يوجد مستخدمون",
+    "noPermissions": "بدون صلاحيات",
+    "permissionsCount": "صلاحية",
+    "managePermissions": "الصلاحيات",
+    "table": {
+      "name": "الاسم",
+      "phone": "الهاتف",
+      "role": "الدور",
+      "status": "الحالة",
+      "permissions": "الصلاحيات",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "pagination": {
+      "showing": "عرض {{from}} إلى {{to}} من {{total}}"
+    },
+    "fields": {
+      "name": "الاسم",
+      "phone": "رقم الهاتف",
+      "email": "البريد الإلكتروني",
+      "note": "ملاحظة (اختياري)"
+    },
+    "placeholders": {
+      "name": "مثال: أحمد المدير",
+      "phone": "0555123456",
+      "email": "admin@example.com",
+      "note": "مدير العمليات"
+    },
+    "validation": {
+      "nameRequired": "الاسم مطلوب",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "phoneLength": "رقم الهاتف يجب أن يكون 10 أرقام بالضبط",
+      "phoneStart": "رقم الهاتف يجب أن يبدأ بـ 05",
+      "phoneDigits": "رقم الهاتف يجب أن يحتوي على أرقام فقط",
+      "emailRequired": "البريد الإلكتروني مطلوب"
+    },
+    "errors": {
+      "loadFailed": "فشل في تحميل المستخدمين",
+      "createFailed": "فشل في إنشاء المستخدم",
+      "updateFailed": "فشل في تحديث الصلاحيات",
+      "forbidden": "لا توجد لديك صلاحية لعرض قائمة المستخدمين. حسابك يحتاج صلاحية إدارة المستخدمين. راجع مدير النظام.",
+      "unauthorized": "انتهت جلستك أو أنك غير مسجل الدخول. يرجى تسجيل الدخول مرة أخرى.",
+      "serverError": "حدث خطأ في الخادم. يرجى المحاولة لاحقاً."
+    },
+    "addUserModal": {
+      "title": "إضافة مستخدم جديد",
+      "submit": "إضافة المستخدم"
+    },
+    "permissionsModal": {
+      "title": "إدارة الصلاحيات",
+      "save": "حفظ الصلاحيات"
+    },
+    "permissions": {
+      "APPOINTMENT_VIEW": "عرض المواعيد",
+      "PROVIDER_VIEW": "عرض مقدمي الخدمة",
+      "USER_MANAGE": "إدارة المستخدمين",
+      "PROVIDER_APPROVE": "الموافقة على مقدمي الخدمة",
+      "TICKET_VIEW": "عرض التذاكر",
+      "TICKET_REPLY": "الرد على التذاكر",
+      "VIEW_CUSTOMERS": "عرض العملاء",
+      "VIEW_EMPLOYEES": "عرض الموظفين",
+      "VIEW_RATINGS": "عرض التقييمات",
+      "DELETE_RATING": "حذف التقييمات",
+      "VIEW_COUPONS": "عرض الكوبونات",
+      "VIEW_LOOKUPS": "عرض القوائم",
+      "ADD_LOOKUPS": "إضافة القوائم",
+      "VIEW_ADS": "عرض الإعلانات",
+      "ADD_ADS": "إضافة الإعلانات",
+      "PLAN_MANAGE": "إدارة الخطط",
+      "SUBSCRIPTION_MANAGE": "إدارة الاشتراكات"
+    }
+  },
+
+  "breakRequest": {
+    "title": "طلب إجازة",
+    "subtitle": "قدّم طلب استراحة للموافقة عليه",
+    "noAccess": "تم رفض وصول المستخدم",
+    "noAccessDescription": "ليس لديك إذن لطلب فترات راحة. يرجى الاتصال بمديرك.",
+    "providerOnly": "هذه الصفحة متاحة فقط لتقديم طلبات استراحة للمزودين.",
+    "success": "تم تقديم طلب الاستراحة بنجاح",
+    "newRequest": "طلب جديد",
+    "myRequests": "طلباتي",
+    "noRequests": "لا يوجد طلبات",
+    "manageTitle": "إدارة طلبات الاستراحة",
+    "manageSubtitle": "مراجعة وإدارة طلبات استراحة الموظفين",
+    "searchPlaceholder": "البحث باستخدام اسم الموظف...",
+    "employee": "موظف",
+    "approve": "قبول",
+    "reject": "رفض",
+    "fields": {
+      "date": "التاريخ",
+      "startTime": "البداية",
+      "endTime": "النهاية",
+      "reason": "السبب"
+    },
+    "placeholders": {
+      "reason": "أدخل سبب طلب الاستراحة..."
+    },
+    "validation": {
+      "dateRequired": "الرجاء اختيار تاريخ",
+      "startTimeRequired": "الرجاء اختيار وقت البدء",
+      "endTimeRequired": "الرجاء اختيار وقت الانتهاء",
+      "reasonRequired": "الرجاء إدخال سبب طلب الاستراحة",
+      "endTimeAfterStart": "الوقت الانتهاء يجب أن يكون بعد الوقت البدء"
+    },
+    "errors": {
+      "submitFailed": "فشل في تقديم طلب الاستراحة"
+    },
+    "status": {
+      "pending": "قيد المراجعة",
+      "approved": "مقبول",
+      "rejected": "مرفوض"
+    },
+    "submit": "إرسال طلب"
+  },
+  "ads": {
+    "title": "إدارة الإعلانات",
+    "subtitle": "إدارة إعلانات المنصة",
+    "addAd": "إضافة إعلان",
+    "noAds": "لا توجد إعلانات",
+    "viewProvider": "عرض المزود",
+    "status": {
+      "pending": "قيد المراجعة",
+      "approved": "مقبول",
+      "rejected": "مرفوض"
+    },
+    "fields": {
+      "title": "العنوان",
+      "description": "الوصف",
+      "providerId": "معرف المزود",
+      "banner": "رابط صورة البانر",
+      "linkTo": "الرابط إلى (معرف المزود)"
+    },
+    "placeholders": {
+      "title": "مثال: أفضل عرض لرمضان",
+      "description": "مثال: احصل على خصم 50% على جميع القصات",
+      "providerId": "أدخل معرف المزود",
+      "banner": "https://example.com/image.jpg",
+      "linkTo": "معرف المزود للربط"
+    },
+    "validation": {
+      "titleRequired": "العنوان مطلوب",
+      "descriptionRequired": "الوصف مطلوب",
+      "providerIdRequired": "معرف المزود مطلوب",
+      "bannerRequired": "رابط صورة البانر مطلوب"
+    },
+    "errors": {
+      "loadFailed": "فشل في تحميل الإعلانات",
+      "createFailed": "فشل في إنشاء الإعلان"
+    },
+    "modal": {
+      "title": "إضافة إعلان جديد",
+      "submit": "إنشاء الإعلان"
+    }
+  },
+  "coupons": {
+    "title": "الكوبونات",
+    "total": "الإجمالي",
+    "subtotal": "المجموع الفرعي",
+    "totalDuration": "المدة الإجمالية",
+    "create": "إنشاء كوبون",
+    "createTitle": "إنشاء كوبون جديدة",
+    "code": "الرمز",
+    "provider": "مزود الخدمة",
+    "purchaser": "المشتري",
+    "phone": "الهاتف",
+    "totalPrice": "السعر الإجمالي",
+    "remaining": "المتبقي",
+    "status": "الحالة",
+    "expiredAt": "تنتهي في",
+    "createdAt": "تاريخ الإنشاء",
+    "currency": "﷼",
+    "empty": "لا توجد كوبونات",
+    "page": "صفحة",
+    "of": "من",
+    "selectProvider": "اختر مزود الخدمة",
+    "loadingProviders": "جاري التحميل...",
+    "chooseProvider": "اختر مزود خدمة",
+    "receivesPhone": "هاتف المستلم",
+    "serviceIds": "معرفات الخدمات",
+    "paymentMethod": "طريقة الدفع",
+    "cancel": "إلغاء",
+    "submit": "إنشاء",
+    "statuses": {
+      "ACTIVE": "نشط",
+      "PARTIAL_USED": "مستخدم جزئياً",
+      "USED": "مستخدم",
+      "EXPIRED": "منتهي"
+    },
+    "found_results_few": "تم العثور على {{count}} نتائج",
+    "found_results_many": "تم العثور على {{count}} نتيجة",
+    "found_results_other": "تم العثور على {{count}} نتيجة",
+    "clear_search": "إلغاء البحث",
+    "no_results_found": "عذراً، لم نجد نتائج مطابقة",
+    "try_adjusting_filters": "حاول تعديل خيارات البحث أو الفلاتر للعثور على ما تبحث عنه.",
+    "view_all_salons": "كل الصالونات",
+    "myPackages": "باقاتي",
+    "packageServices": "الخدمات داخل الباقة",
+    "min": "دقيقة",
+    "sar": "ريال",
+    "appointmentDetails": "تفاصيل الحجز"
+  },
+  "status": {
+    "active": "نشط",
+    "inactive": "غير نشط"
+  },
+  "pagination": {
+    "showing": "عرض {{from}} إلى {{to}} من {{total}}"
+  },
+  "fields": {
+    "name": "الاسم",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني",
+    "note": "ملاحظة (اختياري)"
+  },
+  "placeholders": {
+    "name": "مثال: أحمد المدير",
+    "phone": "0555123456",
+    "email": "admin@example.com",
+    "note": "مدير العمليات"
+  },
+  "validation": {
+    "nameRequired": "الاسم مطلوب",
+    "phoneRequired": "رقم الهاتف مطلوب"
+  },
+  "errors": {
+    "loadFailed": "فشل في تحميل المستخدمين",
+    "createFailed": "فشل في إنشاء المستخدم",
+    "updateFailed": "فشل في تحديث الصلاحيات"
+  },
+  "addUserModal": {
+    "title": "إضافة مستخدم جديد",
+    "submit": "إضافة المستخدم"
+  },
+  "permissionsModal": {
+    "title": "إدارة الصلاحيات",
+    "save": "حفظ الصلاحيات"
+  },
+  "permissions": {
+    "APPOINTMENT_VIEW": "عرض المواعيد",
+    "PROVIDER_VIEW": "عرض مقدمي الخدمة",
+    "USER_MANAGE": "إدارة المستخدمين",
+    "PROVIDER_APPROVE": "الموافقة على مقدمي الخدمة",
+    "TICKET_VIEW": "عرض التذاكر",
+    "TICKET_REPLY": "الرد على التذاكر",
+    "VIEW_CUSTOMERS": "عرض العملاء",
+    "VIEW_EMPLOYEES": "عرض الموظفين",
+    "VIEW_RATINGS": "عرض التقييمات",
+    "DELETE_RATING": "حذف التقييمات",
+    "VIEW_COUPONS": "عرض الكوبونات",
+    "VIEW_LOOKUPS": "عرض القوائم",
+    "ADD_LOOKUPS": "إضافة القوائم",
+    "VIEW_ADS": "عرض الإعلانات",
+    "ADD_ADS": "إضافة الإعلانات"
+  },
+  "lookups": {
+    "title": "إدارة القوائم",
+    "subtitle": "إدارة القوائم والتصنيفات في النظام",
+    "addLookup": "إضافة قائمة",
+    "noLookups": "لا توجد قوائم",
+    "edit": "تعديل",
+    "table": {
+      "key": "النوع",
+      "code": "الكود",
+      "name": "الاسم",
+      "status": "الحالة",
+      "order": "الترتيب",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "filters": {
+      "all": "الكل"
+    },
+    "keys": {
+      "PROVIDER_TYPE": "نوع المزود",
+      "EMPLOYEE_POSITION": "منصب الموظف",
+      "SERVICE_CATEGORY": "تصنيف الخدمة",
+      "SERVICE_TYPE": "نوع الخدمة"
+    },
+    "pagination": {
+      "showing": "عرض {{from}} إلى {{to}} من {{total}}"
+    },
+    "fields": {
+      "key": "نوع القائمة",
+      "code": "الكود",
+      "nameEn": "الاسم (إنجليزي)",
+      "nameAr": "الاسم (عربي)",
+      "order": "ترتيب العرض",
+      "isActive": "نشط"
+    },
+    "placeholders": {
+      "code": "مثال: HAIRCUT",
+      "nameEn": "مثال: Haircut",
+      "nameAr": "مثال: قص الشعر"
+    },
+    "validation": {
+      "codeRequired": "الكود مطلوب",
+      "nameEnRequired": "الاسم بالإنجليزية مطلوب",
+      "nameArRequired": "الاسم بالعربية مطلوب"
+    },
+    "errors": {
+      "loadFailed": "فشل في تحميل القوائم",
+      "saveFailed": "فشل في حفظ القائمة"
+    },
+    "modal": {
+      "addTitle": "إضافة قائمة جديدة",
+      "editTitle": "تعديل القائمة",
+      "save": "حفظ"
+    }
+  },
+  "ads": {
+    "title": "إدارة الإعلانات",
+    "subtitle": "إدارة إعلانات المنصة",
+    "addAd": "إضافة إعلان",
+    "noAds": "لا توجد إعلانات",
+    "viewProvider": "عرض المزود",
+    "status": {
+      "pending": "قيد المراجعة",
+      "approved": "مقبول",
+      "rejected": "مرفوض"
+    },
+    "fields": {
+      "title": "العنوان",
+      "description": "الوصف",
+      "providerId": "معرف المزود",
+      "banner": "رابط صورة البانر",
+      "linkTo": "الرابط إلى (معرف المزود)"
+    },
+    "placeholders": {
+      "title": "مثال: أفضل عرض لرمضان",
+      "description": "مثال: احصل على خصم 50% على جميع القصات",
+      "providerId": "أدخل معرف المزود",
+      "banner": "https://example.com/image.jpg",
+      "linkTo": "معرف المزود للربط"
+    },
+    "validation": {
+      "titleRequired": "العنوان مطلوب",
+      "descriptionRequired": "الوصف مطلوب",
+      "providerIdRequired": "معرف المزود مطلوب"
+    },
+    "errors": {
+      "loadFailed": "فشل في تحميل الإعلانات",
+      "createFailed": "فشل في إنشاء الإعلان"
+    },
+    "modal": {
+      "title": "إضافة إعلان جديد",
+      "submit": "إنشاء الإعلان"
+    }
+  },
+  "errorsAuth": {
+    "emailAlreadyExists": "هذا البريد الإلكتروني مستخدم مسبقًا"
+  },
+  "filterMessage": {
+    "enter_search_query": "الرجاء إدخال نص أو اختيار خدمة للبحث",
+    "view_all_salons": "عرض كل الصالونات",
+    "searching": "جاري البحث...",
+    "search_results": "نتائج البحث",
+    "no_results_found": "لا توجد نتائج",
+    "try_adjusting_filters": "حاول تعديل البحث أو الفلاتر للعثور على ما تبحث عنه"
+  },
+  "found_results_one": "تم العثور على نتيجة واحدة",
+  "found_results_few": "تم العثور على {{count}} نتائج",
+  "found_results_many": "تم العثور على {{count}} نتيجة",
+  "found_results_other": "تم العثور على {{count}} نتيجة",
+  "clear_search": "إلغاء البحث",
+  "footer": {
+    "description": "منصتك الأولى لحجز خدمات التجميل والعناية. نجمع أفضل الصالونات والخبراء في مكان واحد لتجربة حجز سلسة.",
+    "about_title": "عن المنصة",
+    "about_us": "من نحن",
+    "join_us": "انضم كمزود خدمة",
+    "faq": "الأسئلة الشائعة",
+    "contact_us": "تواصل معنا",
+    "legal_title": "قانوني",
+    "privacy_policy": "سياسة الخصوصية",
+    "terms_of_service": "شروط الخدمة",
+    "cancellation_policy": "سياسة الإلغاء",
+    "download_title": "حمّل التطبيق الآن",
+    "download_desc": "استمتع بتجربة حجز أسرع وعروض حصرية عبر تطبيقنا.",
+    "download_btn": "تحميل التطبيق",
+    "rights": "© 2026 ذا قلو هب. جميع الحقوق محفوظة."
+  },
+  "noPermission": {
+    "title": "غير مصرح بالوصول",
+    "message": "ليس لديك صلاحية لعرض هذه الصفحة.",
+    "viewTitle": {
+      "default": "صلاحية العرض مطلوبة",
+      "ads": "لا يمكن عرض الإعلانات",
+      "lookups": "لا يمكن عرض البيانات المرجعية",
+      "tickets": "لا يمكن عرض التذاكر",
+      "salons": "لا يمكن عرض الصالونات",
+      "plans": "لا يمكن عرض الخطط",
+      "bookings": "لا يمكن عرض الحجوزات",
+      "coupons": "لا يمكن عرض الكوبونات",
+      "users": "لا يمكن عرض المستخدمين"
+    },
+    "viewMessage": {
+      "default": "ليس لديك صلاحية لعرض هذا المحتوى. يمكنك استخدام الإجراءات المتاحة أعلاه.",
+      "ads": "ليس لديك صلاحية لعرض قائمة الإعلانات. يمكنك إضافة إعلانات جديدة باستخدام الزر أعلاه.",
+      "lookups": "ليس لديك صلاحية لعرض قائمة البيانات المرجعية. يمكنك إضافة بيانات جديدة باستخدام الزر أعلاه.",
+      "tickets": "ليس لديك صلاحية لعرض قائمة التذاكر.",
+      "salons": "ليس لديك صلاحية لعرض قائمة الصالونات.",
+      "plans": "ليس لديك صلاحية لعرض قائمة الخطط.",
+      "bookings": "ليس لديك صلاحية لعرض قائمة الحجوزات.",
+      "coupons": "ليس لديك صلاحية لعرض قائمة الكوبونات.",
+      "users": "ليس لديك صلاحية لعرض قائمة المستخدمين."
+    }
+  },
+  "salonNameMustStartWithLetter": "اسم الصالون يجب أن يبدأ بحرف",
+  "choseAction": "اختر إجراء",
+  "close": "إغلاق",
+  "am": "ص",
+  "pm": "م",
+  "englishOnly": "أحرف إنجليزية فقط"
+}

@@ -1,0 +1,13 @@
+// import { Injectable, NestMiddleware } from '@nestjs/common';
+
+// @Injectable()
+// export class LanguageMiddleware implements NestMiddleware {
+//   use(req: any, res: any, next: () => void) {
+//      req.lang =
+//       req.headers['accept-language'] ||
+//       req.query.lang ||
+//       'en';
+
+//     next();
+//   }
+// }
