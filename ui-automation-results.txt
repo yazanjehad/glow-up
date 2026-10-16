@@ -1,0 +1,75 @@
+[2026-08-22T00:10:02.256Z] =====================================================
+[2026-08-22T00:10:02.257Z] UI E2E AUTOMATION v2 — Glow Up
+[2026-08-22T00:10:02.257Z] Frontend: http://localhost:3001 | Dynamic user: 0589065740 / ui.tester.1787357402255@example.com
+[2026-08-22T00:10:02.257Z] =====================================================
+[2026-08-22T00:10:02.470Z] 
+--- STEP 1: Registration via UI ---
+[2026-08-22T00:10:02.564Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:04.517Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-01-login-page.png
+[2026-08-22T00:10:04.537Z] ✅ Entered phone: 0589065740
+[2026-08-22T00:10:04.607Z] ✅ Clicked login/continue
+[2026-08-22T00:10:04.664Z] ✅ Entered OTP: 1234
+[2026-08-22T00:10:07.212Z] ✅ Entered names: Sara Nasser
+[2026-08-22T00:10:07.227Z] ✅ Entered email: ui.tester.1787357402255@example.com
+[2026-08-22T00:10:07.236Z] ✅ Entered birth date
+[2026-08-22T00:10:07.245Z] ✅ Selected gender FEMALE
+[2026-08-22T00:10:07.278Z] ✅ Accepted terms
+[2026-08-22T00:10:07.305Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-02-registration-form-filled.png
+[2026-08-22T00:10:07.349Z] ✅ Submitted registration form
+[2026-08-22T00:10:10.617Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-03-registration-complete-home.png
+[2026-08-22T00:10:10.617Z] ✅ PASS: UI registration lands on /home — http://localhost:3001/home
+[2026-08-22T00:10:10.618Z] ✅ PASS: create-profile API returned 201 — 201 POST /auth/customer/create-profile
+[2026-08-22T00:10:10.618Z] 
+--- STEP 2: Profile update via UI ---
+[2026-08-22T00:10:10.700Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:13.631Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-04-profile-page.png
+[2026-08-22T00:10:13.635Z]    Visible inputs on profile page: 5
+[2026-08-22T00:10:13.648Z] ✅ Updated last name to Nasser-QA
+[2026-08-22T00:10:13.707Z] ✅ Clicked Save on profile
+[2026-08-22T00:10:16.280Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-05-profile-updated.png
+[2026-08-22T00:10:16.281Z] ✅ PASS: PATCH /customer/me returned 200 from UI save — 200 PATCH /customer/me
+[2026-08-22T00:10:16.281Z] 
+--- STEP 3: Services exploration via UI ---
+[2026-08-22T00:10:16.400Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:19.553Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-06-services-page.png
+[2026-08-22T00:10:19.553Z] ✅ PASS: Services page loads — http://localhost:3001/home
+[2026-08-22T00:10:22.577Z] ✅ Performed services search: "Glow QA"
+[2026-08-22T00:10:22.610Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-07-services-search-results.png
+[2026-08-22T00:10:22.715Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:25.760Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-08-home-browse.png
+[2026-08-22T00:10:25.760Z] ✅ PASS: Home page loads after login
+[2026-08-22T00:10:25.760Z] 
+--- STEP 4: Booking lifecycle via UI ---
+[2026-08-22T00:10:25.845Z]    Using seeded providerId: 6a88dda29e91865c75c2f0cb
+[2026-08-22T00:10:25.934Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:26.378Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:26.391Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:26.402Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:26.414Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:26.423Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:30.017Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-09-salon-page.png
+[2026-08-22T00:10:30.017Z] ✅ PASS: Salon detail page renders — http://localhost:3001/salon/6a88dda29e91865c75c2f0cb
+[2026-08-22T00:10:31.595Z] ✅ Selected first service on salon page
+[2026-08-22T00:10:31.675Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-10-salon-service-selected.png
+[2026-08-22T00:10:34.238Z] ✅ Clicked pay/booking CTA -> http://localhost:3001/booking-for?id=6a88dda29e91865c75c2f0cb
+[2026-08-22T00:10:34.278Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-11-booking-for.png
+[2026-08-22T00:10:36.827Z] ✅ Selected "Booking for myself" (حجز لنفسي) -> http://localhost:3001/team/6a88dda29e91865c75c2f0cb
+[2026-08-22T00:10:36.862Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-12-booking-flow.png
+[2026-08-22T00:10:39.414Z]    Picked "Any Specialist" on team page
+[2026-08-22T00:10:39.446Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-12-booking-flow-step-1.png
+[2026-08-22T00:10:42.486Z]    Picked time slot -> http://localhost:3001/booking-details
+[2026-08-22T00:10:42.539Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-12-booking-flow-step-2.png
+[2026-08-22T00:10:42.573Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-13-booking-details.png
+[2026-08-22T00:10:45.281Z] ✅ Proceeded to payment page -> http://localhost:3001/payment-details
+[2026-08-22T00:10:45.307Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-13b-payment-details.png
+[2026-08-22T00:10:45.440Z]    📤 POST /appointments request body: {"providerId":"6a88dda29e91865c75c2f0cb","bookingType":"SELF","paymentMethod":"CASH","services":[{"serviceItemId":"6a88dda39e91865c75c2f0d5","date":"2026-08-22","anyEmployee":true,"numberOfCustomers":1,"timeSlot":{"start":"10:00","end":"10:00"}}]}
+[2026-08-22T00:10:45.444Z]    📥 POST /appointments response: {"providerId":"6a88dda29e91865c75c2f0cb","customerId":"6a88e8df5b0882b20dd3a79b","reminderSent":false,"totalDurationMinutes":45,"services":[{"serviceItemId":"6a88dda39e91865c75c2f0d5","employeeId":"6a88dda39e91865c75c2f0f7","numberOfCustomers":1,"date":"2026-08-22T00:00:00.000Z","anyEmployee":true,"timeSlot":{"start":"10:00","end":"10:45"},"name":"Classic Haircut","price":25,"durationMinutes":45,"usedUserPackageId":null,"packageDiscountApplied":0}],"price":{"servicesTotal":25,"discount":0,"final
+[2026-08-22T00:10:50.356Z] ✅ Clicked "تأكيد الحجز" (confirm booking) -> http://localhost:3001/booking-success
+[2026-08-22T00:10:50.393Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-14-booking-result.png
+[2026-08-22T00:10:50.393Z] ✅ PASS: UI booking POST /appointments succeeded — 201 POST /appointments
+[2026-08-22T00:10:50.393Z] 
+--- STEP 5: Login as existing user via UI ---
+[2026-08-22T00:10:50.583Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-22T00:10:53.531Z] ✅ Entered OTP: 1234
+[2026-08-22T00:10:55.746Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\ui-15-existing-user-login-home.png
+[2026-08-22T00:10:55.747Z] ✅ PASS: Existing user OTP login lands on /home — http://localhost:3001/home

@@ -1,0 +1,89 @@
+[2026-08-21T23:24:20.867Z] =====================================================
+[2026-08-21T23:24:20.871Z] API E2E TEST v2 - Glow Up Full Customer Journey
+[2026-08-21T23:24:20.872Z] Customer: phone=0556559678 email=qa.customer.1787354660867@example.com
+[2026-08-21T23:24:20.872Z] Provider: phone=0566128513 email=qa.salon.1787354660867@example.com
+[2026-08-21T23:24:20.872Z] =====================================================
+[2026-08-21T23:24:20.872Z] 
+--- STEP 1: Customer Registration & Authentication ---
+[2026-08-21T23:24:20.954Z]    POST /auth/otp/request -> 201
+[2026-08-21T23:24:20.966Z]    POST /auth/customer/verify-otp -> 201
+[2026-08-21T23:24:21.058Z]    POST /auth/customer/create-profile -> 201
+[2026-08-21T23:24:21.058Z] ✅ PASS: Customer registration (create-profile 201) — userId=6a88de259e91865c75c2f17c
+[2026-08-21T23:24:21.058Z] 
+--- STEP 2: Customer Profile Management ---
+[2026-08-21T23:24:21.066Z]    GET /customer/me -> 200
+[2026-08-21T23:24:21.066Z] ✅ PASS: GET /customer/me returns profile
+[2026-08-21T23:24:21.113Z]    PATCH /customer/me -> 200
+[2026-08-21T23:24:21.114Z] ✅ PASS: PATCH /customer/me updates profile — {"id":"6a88de259e91865c75c2f180","firstName":"Layla","lastName":"Hassan-QA","gender":"FEMALE","birthDate":"1995-05-15T00:00:00.000Z","email":"qa.custo
+[2026-08-21T23:24:21.127Z]    GET /customer/me -> 200
+[2026-08-21T23:24:21.127Z] ✅ PASS: Profile update persisted (lastName=Hassan-QA)
+[2026-08-21T23:24:21.127Z] 
+--- STEP 3: Provider Registration ---
+[2026-08-21T23:24:21.152Z]    POST /auth/otp/request -> 201
+[2026-08-21T23:24:21.183Z]    POST /auth/provider/verify-otp -> 201
+[2026-08-21T23:24:21.226Z]    POST /auth/provider/create-profile -> 201
+[2026-08-21T23:24:21.226Z] ✅ PASS: Provider registration (create-profile 201) — userId=6a88de259e91865c75c2f197
+[2026-08-21T23:24:21.226Z] 
+--- STEP 4: Seed lookup refs & approve provider (DB) ---
+[2026-08-21T23:24:21.494Z]    Lookups ready: providerType=6a88dc100b57d12a54d3c3c1, category=6a88dc100b57d12a54d3c3c2, type=6a88dc100b57d12a54d3c3c3, position=6a88dda3099fcf03491cbe9f
+[2026-08-21T23:24:21.506Z]    Provider approval matched=1 modified=1
+[2026-08-21T23:24:21.506Z] ✅ PASS: Provider approved in DB
+[2026-08-21T23:24:21.506Z] 
+--- STEP 5: Provider Service Setup (PATCH /providers/:id) ---
+[2026-08-21T23:24:21.515Z]    GET /providers/me -> 200
+[2026-08-21T23:24:21.515Z] ✅ PASS: GET /providers/me returns provider doc — providerId=6a88de259e91865c75c2f19b
+[2026-08-21T23:24:21.537Z]    Seeded ACTIVE provider subscription
+[2026-08-21T23:24:21.586Z]    PATCH /providers/6a88de259e91865c75c2f19b -> 200
+[2026-08-21T23:24:21.586Z] ✅ PASS: PATCH /providers/:id adds services + hours
+[2026-08-21T23:24:21.588Z] ✅ PASS: Embedded service item present in DB after PATCH — itemId=6a88de259e91865c75c2f1a5 name=Classic Haircut
+[2026-08-21T23:24:21.665Z]    POST /employees -> 201
+[2026-08-21T23:24:21.666Z] ✅ PASS: POST /employees creates stylist assigned to service
+[2026-08-21T23:24:21.666Z] 
+--- STEP 6: Services Exploration (public browsing) ---
+[2026-08-21T23:24:21.674Z]    GET /providers?page=1&limit=10&name=Glow%20QA -> 200
+[2026-08-21T23:24:21.674Z] ✅ PASS: GET /providers lists the QA salon — found=5
+[2026-08-21T23:24:21.688Z]    GET /providers/6a88de259e91865c75c2f19b -> 200
+[2026-08-21T23:24:21.688Z] ✅ PASS: GET /providers/:id exposes embedded services — serviceItemId=6a88de259e91865c75c2f1a5 name=Classic Haircut
+[2026-08-21T23:24:21.698Z]    GET /providers/6a88de259e91865c75c2f19b/slots?date=2026-08-22&serviceId=6a88de259e91865c75c2f1a5 -> 200
+[2026-08-21T23:24:21.698Z] ✅ PASS: GET /providers/:id/slots returns availability — {"date":"2026-08-22","day":"SATURDAY","isOpen":true,"openTime":"10:00","closeTime":"16:00","slotDuration":45,"slots":[{"time":"10:00","available":true
+[2026-08-21T23:24:21.698Z] 
+--- STEP 7: Booking Lifecycle ---
+[2026-08-21T23:24:21.756Z]    POST /appointments -> 201
+[2026-08-21T23:24:21.756Z] ✅ PASS: POST /appointments creates booking (201) — apptId=6a88de259e91865c75c2f1e1
+[2026-08-21T23:24:21.767Z]    GET /appointments/me -> 200
+[2026-08-21T23:24:21.767Z] ✅ PASS: GET /appointments/me shows the booking — count=1
+[2026-08-21T23:24:21.816Z]    PATCH /appointments/6a88de259e91865c75c2f1e1/cancel?reason=QA%20lifecycle%20complete -> 500
+[2026-08-21T23:24:21.817Z]       Error body: {"success":false,"statusCode":500,"path":"/appointments/6a88de259e91865c75c2f1e1/cancel?reason=QA%20lifecycle%20complete","timestamp":"2026-08-21T23:24:21.815Z","errorCode":"UNEXPECTED","message":"Payment transaction not found for this appointment"}
+[2026-08-21T23:24:21.817Z] ❌ FAIL: PATCH /appointments/:id/cancel completes lifecycle
+[2026-08-21T23:24:21.820Z] ✅ PASS: Appointment persisted in MongoDB — status=CONFIRMED
+[2026-08-21T23:24:21.821Z] 
+--- STEP 8: MongoDB Persistence Verification ---
+[2026-08-21T23:24:21.824Z] ✅ PASS: users: customer user persisted — _id=6a88de259e91865c75c2f17c
+[2026-08-21T23:24:21.828Z] ✅ PASS: customer_profiles: profile persisted — gender=FEMALE birthDate=1995-05-15
+[2026-08-21T23:24:21.830Z] ✅ PASS: users.name update persisted (no schema validation errors)
+[2026-08-21T23:24:21.831Z] ✅ PASS: users: provider user persisted
+[2026-08-21T23:24:21.833Z] ✅ PASS: service_providers: provider + embedded services persisted — status=APPROVED categories=1
+[2026-08-21T23:24:21.835Z]    refreshtokens docs: 12
+[2026-08-21T23:24:21.837Z]    errorlogs docs: 15
+[2026-08-21T23:24:21.844Z] 
+===== SUMMARY: 21 passed, 1 failed =====
+[2026-08-21T23:24:21.845Z] 
+---- API CALL LOG ----
+[2026-08-21T23:24:21.845Z]   201 POST /auth/otp/request
+[2026-08-21T23:24:21.845Z]   201 POST /auth/customer/verify-otp
+[2026-08-21T23:24:21.845Z]   201 POST /auth/customer/create-profile
+[2026-08-21T23:24:21.845Z]   200 GET /customer/me
+[2026-08-21T23:24:21.845Z]   200 PATCH /customer/me
+[2026-08-21T23:24:21.845Z]   200 GET /customer/me
+[2026-08-21T23:24:21.845Z]   201 POST /auth/otp/request
+[2026-08-21T23:24:21.845Z]   201 POST /auth/provider/verify-otp
+[2026-08-21T23:24:21.845Z]   201 POST /auth/provider/create-profile
+[2026-08-21T23:24:21.846Z]   200 GET /providers/me
+[2026-08-21T23:24:21.846Z]   200 PATCH /providers/6a88de259e91865c75c2f19b
+[2026-08-21T23:24:21.846Z]   201 POST /employees
+[2026-08-21T23:24:21.846Z]   200 GET /providers?page=1&limit=10&name=Glow%20QA
+[2026-08-21T23:24:21.846Z]   200 GET /providers/6a88de259e91865c75c2f19b
+[2026-08-21T23:24:21.846Z]   200 GET /providers/6a88de259e91865c75c2f19b/slots?date=2026-08-22&serviceId=6a88de259e91865c75c2f1a5
+[2026-08-21T23:24:21.847Z]   201 POST /appointments
+[2026-08-21T23:24:21.847Z]   200 GET /appointments/me
+[2026-08-21T23:24:21.847Z]   500 PATCH /appointments/6a88de259e91865c75c2f1e1/cancel?reason=QA%20lifecycle%20complete

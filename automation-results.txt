@@ -1,0 +1,449 @@
+[2026-08-21T22:02:59.915Z] 🚀 Starting UI Automation for Glow Up App
+[2026-08-21T22:02:59.916Z] Base URL: http://localhost:3001
+[2026-08-21T22:03:00.168Z] === STEP 1: Customer Registration ===
+[2026-08-21T22:03:00.317Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:03:03.953Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\01-login-page.png
+[2026-08-21T22:03:03.975Z] ✅ Entered phone number: 0551234569
+[2026-08-21T22:03:04.045Z] ✅ Clicked login button
+[2026-08-21T22:03:07.075Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\02-otp-screen.png
+[2026-08-21T22:03:07.085Z] ✅ Entered OTP: 1234
+[2026-08-21T22:03:12.186Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\03-name-registration.png
+[2026-08-21T22:03:12.291Z] ✅ Entered first name: سارة
+[2026-08-21T22:03:12.318Z] ✅ Entered last name: أحمد
+[2026-08-21T22:03:12.360Z] ✅ Entered email: sara.ahmed2@example.com
+[2026-08-21T22:03:12.384Z] ✅ Entered birth date: 1995-05-15
+[2026-08-21T22:03:12.416Z] ✅ Selected gender: FEMALE
+[2026-08-21T22:03:12.489Z] ✅ Accepted terms
+[2026-08-21T22:03:13.162Z] ✅ Submitted registration form
+[2026-08-21T22:03:13.289Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:03:18.264Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\04-customer-home.png
+[2026-08-21T22:03:18.266Z] ✅ Customer registration complete!
+[2026-08-21T22:03:18.269Z] 
+=== STEP 2: Provider Registration ===
+[2026-08-21T22:03:18.424Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:03:22.560Z] ✅ Switched to Salon tab
+[2026-08-21T22:03:22.604Z] ✅ Entered provider phone: 0559876545
+[2026-08-21T22:03:22.725Z] ✅ Clicked login button
+[2026-08-21T22:03:25.744Z] ✅ Entered OTP: 1234
+[2026-08-21T22:03:32.800Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\05-provider-profile.png
+[2026-08-21T22:03:32.810Z] ✅ Entered salon name: صالون الجمال
+[2026-08-21T22:03:32.822Z] ✅ Entered salon email: salon2@example.com
+[2026-08-21T22:03:32.867Z] ✅ Checked agree terms
+[2026-08-21T22:03:32.903Z] ✅ Submitted provider profile
+[2026-08-21T22:03:32.918Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:03:37.976Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\06-provider-activity-type.png
+[2026-08-21T22:03:37.976Z] ✅ Provider registration complete!
+[2026-08-21T22:03:37.977Z] 
+=== STEP 3: Explore Services Page ===
+[2026-08-21T22:03:38.623Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:03:43.455Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\07-services-page.png
+[2026-08-21T22:03:43.457Z] ✅ Services page loaded
+[2026-08-21T22:03:43.458Z] 
+=== STEP 4: Explore Home Page ===
+[2026-08-21T22:03:43.691Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:03:49.625Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\08-home-page.png
+[2026-08-21T22:03:49.627Z] ✅ Home page loaded
+[2026-08-21T22:03:49.627Z] 
+=== STEP 5: Explore Packages Page ===
+[2026-08-21T22:03:51.464Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:03:55.537Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\09-packages-page.png
+[2026-08-21T22:03:55.537Z] ✅ Packages page loaded
+[2026-08-21T22:03:55.537Z] 
+=== STEP 6: Explore Contact Page ===
+[2026-08-21T22:03:56.022Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:00.087Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\10-contact-page.png
+[2026-08-21T22:04:00.087Z] ✅ Contact page loaded
+[2026-08-21T22:04:00.087Z] 
+=== STEP 7: Explore Support Page ===
+[2026-08-21T22:04:00.496Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:04.491Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\11-support-page.png
+[2026-08-21T22:04:04.491Z] ✅ Support page loaded
+[2026-08-21T22:04:04.492Z] 
+=== STEP 8: Explore Favorites Page ===
+[2026-08-21T22:04:04.915Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:08.839Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\12-favorites-page.png
+[2026-08-21T22:04:08.839Z] ✅ Favorites page loaded
+[2026-08-21T22:04:08.839Z] 
+=== STEP 9: Explore Wallet Page ===
+[2026-08-21T22:04:09.216Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:09.560Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:09.563Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:09.569Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:09.574Z] ❌ Console error: [refreshAccessToken] Error: AxiosError: Request failed with status code 401
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async refreshAccessToken (webpack-internal:///(app-pages-browser)/./integration/http/interceptor.ts:36:26)
+    at async eval (webpack-internal:///(app-pages-browser)/./integration/http/interceptor.ts:105:34)
+    at async Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:51:14)
+    at async Object.getWallet (webpack-internal:///(app-pages-browser)/./integration/services/wallet/wallet.service.ts:9:26)
+    at async fetchWallet (webpack-internal:///(app-pages-browser)/./app/wallet/page.tsx:40:26)
+[2026-08-21T22:04:09.581Z] ❌ Console error: Failed to fetch wallet: AxiosError: Request failed with status code 401
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async Object.getWallet (webpack-internal:///(app-pages-browser)/./integration/services/wallet/wallet.service.ts:9:26)
+    at async fetchWallet (webpack-internal:///(app-pages-browser)/./app/wallet/page.tsx:40:26)
+[2026-08-21T22:04:09.581Z] ❌ Console error: Failed to fetch wallet: AxiosError: Request failed with status code 401
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async Object.getWallet (webpack-internal:///(app-pages-browser)/./integration/services/wallet/wallet.service.ts:9:26)
+    at async fetchWallet (webpack-internal:///(app-pages-browser)/./app/wallet/page.tsx:40:26)
+[2026-08-21T22:04:09.635Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:13.595Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\13-wallet-page.png
+[2026-08-21T22:04:13.595Z] ✅ Wallet page loaded
+[2026-08-21T22:04:13.595Z] 
+=== STEP 10: Explore My Bookings Page ===
+[2026-08-21T22:04:15.295Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:15.742Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:15.743Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:15.744Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:15.749Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:15.752Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:15.756Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:15.757Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:04:15.758Z] ❌ Console error: [refreshAccessToken] Error: AxiosError: Request failed with status code 401
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async refreshAccessToken (webpack-internal:///(app-pages-browser)/./integration/http/interceptor.ts:36:26)
+    at async eval (webpack-internal:///(app-pages-browser)/./integration/http/interceptor.ts:105:34)
+    at async Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:51:14)
+    at async eval (webpack-internal:///(app-pages-browser)/./integration/services/appointments-my-booking/appointments.service.ts:23:25)
+    at async Promise.all (index 0)
+    at async getMyBookings (webpack-internal:///(app-pages-browser)/./integration/services/appointments-my-booking/appointments.service.ts:22:25)
+    at async load (webpack-internal:///(app-pages-browser)/./app/my-booking/page.tsx:51:30)
+[2026-08-21T22:04:15.879Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:19.813Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\14-my-bookings-page.png
+[2026-08-21T22:04:19.813Z] ✅ My bookings page loaded
+[2026-08-21T22:04:19.813Z] 
+=== STEP 11: Explore Profile Page ===
+[2026-08-21T22:04:20.333Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:24.272Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\15-profile-page.png
+[2026-08-21T22:04:24.273Z] ✅ Profile page loaded
+[2026-08-21T22:04:24.273Z] 
+=== STEP 12: Explore Booking Flow ===
+[2026-08-21T22:04:24.857Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:29.084Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\16-booking-for-page.png
+[2026-08-21T22:04:29.084Z] ✅ Booking-for page loaded
+[2026-08-21T22:04:29.792Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:34.002Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\17-booking-details-page.png
+[2026-08-21T22:04:34.002Z] ✅ Booking-details page loaded
+[2026-08-21T22:04:34.824Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:39.085Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\18-booking-multi-page.png
+[2026-08-21T22:04:39.086Z] ✅ Booking-multi page loaded
+[2026-08-21T22:04:39.671Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:43.635Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\19-booking-gift-page.png
+[2026-08-21T22:04:43.635Z] ✅ Booking-gift page loaded
+[2026-08-21T22:04:44.178Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:48.147Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\20-booking-success-page.png
+[2026-08-21T22:04:48.147Z] ✅ Booking-success page loaded
+[2026-08-21T22:04:48.147Z] 
+=== STEP 13: Explore Glow Gift Page ===
+[2026-08-21T22:04:49.446Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:53.417Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\21-glow-gift-page.png
+[2026-08-21T22:04:53.418Z] ✅ Glow gift page loaded
+[2026-08-21T22:04:53.418Z] 
+=== STEP 14: Explore Payment Details Page ===
+[2026-08-21T22:04:54.277Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:04:58.503Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\22-payment-details-page.png
+[2026-08-21T22:04:58.503Z] ✅ Payment details page loaded
+[2026-08-21T22:04:58.503Z] 
+=== STEP 15: Explore About Page ===
+[2026-08-21T22:04:59.182Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:03.188Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\23-about-page.png
+[2026-08-21T22:05:03.188Z] ✅ About page loaded
+[2026-08-21T22:05:03.188Z] 
+=== STEP 16: Explore Terms Page ===
+[2026-08-21T22:05:03.779Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:07.832Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\24-terms-page.png
+[2026-08-21T22:05:07.832Z] ✅ Terms page loaded
+[2026-08-21T22:05:07.832Z] 
+=== STEP 17: Explore Privacy Page ===
+[2026-08-21T22:05:08.397Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:12.452Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\25-privacy-page.png
+[2026-08-21T22:05:12.452Z] ✅ Privacy page loaded
+[2026-08-21T22:05:12.452Z] 
+=== STEP 18: Explore Chat Page ===
+[2026-08-21T22:05:13.052Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:17.192Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\26-chat-page.png
+[2026-08-21T22:05:17.192Z] ✅ Chat page loaded
+[2026-08-21T22:05:17.192Z] 
+=== STEP 19: Explore Accounts Page ===
+[2026-08-21T22:05:17.931Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:22.814Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\27-accounts-page.png
+[2026-08-21T22:05:22.814Z] ✅ Accounts page loaded
+[2026-08-21T22:05:22.814Z] 
+=== STEP 20: Explore Admin Login Page ===
+[2026-08-21T22:05:23.403Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:27.314Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\28-admin-login-page.png
+[2026-08-21T22:05:27.314Z] ✅ Admin login page loaded
+[2026-08-21T22:05:27.314Z] 
+=== STEP 21: Explore Provider Login Page ===
+[2026-08-21T22:05:27.987Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:31.891Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\29-provider-login-page.png
+[2026-08-21T22:05:31.892Z] ✅ Provider login page loaded
+[2026-08-21T22:05:31.892Z] 
+=== STEP 22: Explore Provider Pages ===
+[2026-08-21T22:05:32.486Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:35.474Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-1--provider-activityType.png
+[2026-08-21T22:05:35.474Z] ✅ Provider page loaded: /provider/activityType
+[2026-08-21T22:05:36.059Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:38.995Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-2--provider-documents.png
+[2026-08-21T22:05:38.995Z] ✅ Provider page loaded: /provider/documents
+[2026-08-21T22:05:39.875Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:42.807Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-3--provider-location.png
+[2026-08-21T22:05:42.807Z] ✅ Provider page loaded: /provider/location
+[2026-08-21T22:05:43.587Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:44.020Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:05:44.027Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:05:44.033Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:05:44.036Z] ❌ Console error: [refreshAccessToken] Error: AxiosError: Request failed with status code 401
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async refreshAccessToken (webpack-internal:///(app-pages-browser)/./integration/http/interceptor.ts:36:26)
+    at async eval (webpack-internal:///(app-pages-browser)/./integration/http/interceptor.ts:105:34)
+    at async Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:51:14)
+    at async Object.getMeRaw (webpack-internal:///(app-pages-browser)/./integration/services/provider/providerService.ts:116:29)
+    at async loadData (webpack-internal:///(app-pages-browser)/./app/provider/packages/page.tsx:42:29)
+[2026-08-21T22:05:44.122Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:05:47.138Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-4--provider-packages.png
+[2026-08-21T22:05:47.140Z] ✅ Provider page loaded: /provider/packages
+[2026-08-21T22:05:54.329Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:00.876Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-5--provider-salon-profile.png
+[2026-08-21T22:06:00.877Z] ✅ Provider page loaded: /provider/salon-profile
+[2026-08-21T22:06:02.572Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:05.522Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-6--provider-salon-service.png
+[2026-08-21T22:06:05.523Z] ✅ Provider page loaded: /provider/salon-service
+[2026-08-21T22:06:06.870Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:09.800Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-7--provider-service.png
+[2026-08-21T22:06:09.800Z] ✅ Provider page loaded: /provider/service
+[2026-08-21T22:06:10.405Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:13.409Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-8--provider-terms.png
+[2026-08-21T22:06:13.409Z] ✅ Provider page loaded: /provider/terms
+[2026-08-21T22:06:14.024Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:19.004Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-9--provider-upload-images.png
+[2026-08-21T22:06:19.004Z] ✅ Provider page loaded: /provider/upload-images
+[2026-08-21T22:06:20.069Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:23.117Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-10--provider-workingHours.png
+[2026-08-21T22:06:23.117Z] ✅ Provider page loaded: /provider/workingHours
+[2026-08-21T22:06:23.982Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:27.052Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\30-provider-11--provider-provider-team.png
+[2026-08-21T22:06:27.052Z] ✅ Provider page loaded: /provider/provider-team
+[2026-08-21T22:06:27.052Z] 
+=== STEP 23: Explore Admin Dashboard Pages ===
+[2026-08-21T22:06:31.553Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:34.807Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-1--admin-dashboard-home.png
+[2026-08-21T22:06:34.808Z] ✅ Admin dashboard page loaded: /admin-dashboard/home
+[2026-08-21T22:06:38.115Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:43.049Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-2--admin-dashboard-services.png
+[2026-08-21T22:06:43.050Z] ✅ Admin dashboard page loaded: /admin-dashboard/services
+[2026-08-21T22:06:46.007Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:49.112Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-3--admin-dashboard-team.png
+[2026-08-21T22:06:49.112Z] ✅ Admin dashboard page loaded: /admin-dashboard/team
+[2026-08-21T22:06:50.118Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:06:53.335Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-4--admin-dashboard-orders.png
+[2026-08-21T22:06:53.336Z] ✅ Admin dashboard page loaded: /admin-dashboard/orders
+[2026-08-21T22:06:56.251Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:07:00.903Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-5--admin-dashboard-packages.png
+[2026-08-21T22:07:00.903Z] ✅ Admin dashboard page loaded: /admin-dashboard/packages
+[2026-08-21T22:07:04.817Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:07:09.022Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-6--admin-dashboard-profile.png
+[2026-08-21T22:07:09.023Z] ✅ Admin dashboard page loaded: /admin-dashboard/profile
+[2026-08-21T22:07:12.408Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:07:17.176Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-7--admin-dashboard-settings.png
+[2026-08-21T22:07:17.176Z] ✅ Admin dashboard page loaded: /admin-dashboard/settings
+[2026-08-21T22:07:20.153Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:07:24.981Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-8--admin-dashboard-working-hours.png
+[2026-08-21T22:07:24.983Z] ✅ Admin dashboard page loaded: /admin-dashboard/working-hours
+[2026-08-21T22:07:27.427Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:07:32.375Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-9--admin-dashboard-manage-breaks.png
+[2026-08-21T22:07:32.376Z] ✅ Admin dashboard page loaded: /admin-dashboard/manage-breaks
+[2026-08-21T22:07:35.091Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:07:39.534Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-10--admin-dashboard-request-break.png
+[2026-08-21T22:07:39.534Z] ✅ Admin dashboard page loaded: /admin-dashboard/request-break
+[2026-08-21T22:07:42.939Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:07:48.998Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-11--admin-dashboard-salon-details.png
+[2026-08-21T22:07:48.998Z] ✅ Admin dashboard page loaded: /admin-dashboard/salon-details
+[2026-08-21T22:07:50.187Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:07:53.252Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-12--admin-dashboard-map-location.png
+[2026-08-21T22:07:53.252Z] ✅ Admin dashboard page loaded: /admin-dashboard/map-location
+[2026-08-21T22:07:54.370Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:07:57.486Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-13--admin-dashboard-location-settings.png
+[2026-08-21T22:07:57.486Z] ✅ Admin dashboard page loaded: /admin-dashboard/location-settings
+[2026-08-21T22:07:58.927Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:01.888Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-14--admin-dashboard-gallery.png
+[2026-08-21T22:08:01.888Z] ✅ Admin dashboard page loaded: /admin-dashboard/gallery
+[2026-08-21T22:08:02.555Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:05.603Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-15--admin-dashboard-documents.png
+[2026-08-21T22:08:05.603Z] ✅ Admin dashboard page loaded: /admin-dashboard/documents
+[2026-08-21T22:08:07.011Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:10.050Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-16--admin-dashboard-chat.png
+[2026-08-21T22:08:10.050Z] ✅ Admin dashboard page loaded: /admin-dashboard/chat
+[2026-08-21T22:08:11.113Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:14.350Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\31-admin-17--admin-dashboard-my-subscription.png
+[2026-08-21T22:08:14.350Z] ✅ Admin dashboard page loaded: /admin-dashboard/my-subscription
+[2026-08-21T22:08:14.350Z] 
+=== STEP 24: Explore Super Admin Dashboard Pages ===
+[2026-08-21T22:08:15.238Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:18.622Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-1--super-admin-dashboard.png
+[2026-08-21T22:08:18.623Z] ✅ Super admin page loaded: /super-admin-dashboard
+[2026-08-21T22:08:19.431Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:22.466Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-2--super-admin-dashboard-users.png
+[2026-08-21T22:08:22.466Z] ✅ Super admin page loaded: /super-admin-dashboard/users
+[2026-08-21T22:08:23.298Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:26.372Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-3--super-admin-dashboard-salons.png
+[2026-08-21T22:08:26.372Z] ✅ Super admin page loaded: /super-admin-dashboard/salons
+[2026-08-21T22:08:27.118Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:30.185Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-4--super-admin-dashboard-services.png
+[2026-08-21T22:08:30.185Z] ✅ Super admin page loaded: /super-admin-dashboard/services
+[2026-08-21T22:08:30.915Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:33.966Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-5--super-admin-dashboard-bookings.png
+[2026-08-21T22:08:33.966Z] ✅ Super admin page loaded: /super-admin-dashboard/bookings
+[2026-08-21T22:08:34.952Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:37.981Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-6--super-admin-dashboard-customers.png
+[2026-08-21T22:08:37.981Z] ✅ Super admin page loaded: /super-admin-dashboard/customers
+[2026-08-21T22:08:38.841Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:41.881Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-7--super-admin-dashboard-employees.png
+[2026-08-21T22:08:41.881Z] ✅ Super admin page loaded: /super-admin-dashboard/employees
+[2026-08-21T22:08:43.060Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:46.213Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-8--super-admin-dashboard-plans.png
+[2026-08-21T22:08:46.213Z] ✅ Super admin page loaded: /super-admin-dashboard/plans
+[2026-08-21T22:08:46.942Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:49.983Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-9--super-admin-dashboard-coupons.png
+[2026-08-21T22:08:49.983Z] ✅ Super admin page loaded: /super-admin-dashboard/coupons
+[2026-08-21T22:08:50.941Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:54.036Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-10--super-admin-dashboard-ads.png
+[2026-08-21T22:08:54.036Z] ✅ Super admin page loaded: /super-admin-dashboard/ads
+[2026-08-21T22:08:54.906Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:08:57.966Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-11--super-admin-dashboard-ratings.png
+[2026-08-21T22:08:57.966Z] ✅ Super admin page loaded: /super-admin-dashboard/ratings
+[2026-08-21T22:08:59.011Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:02.113Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-12--super-admin-dashboard-tickets.png
+[2026-08-21T22:09:02.113Z] ✅ Super admin page loaded: /super-admin-dashboard/tickets
+[2026-08-21T22:09:02.847Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:05.883Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\32-super-admin-13--super-admin-dashboard-lookups.png
+[2026-08-21T22:09:05.883Z] ✅ Super admin page loaded: /super-admin-dashboard/lookups
+[2026-08-21T22:09:05.883Z] 
+=== STEP 25: Explore Salon Pages ===
+[2026-08-21T22:09:08.057Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:08.417Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:09:08.426Z] ❌ Console error: fetchSalon error: AxiosError: Request failed with status code 500
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async Object.getById (webpack-internal:///(app-pages-browser)/./integration/services/provider/providerService.ts:95:29)
+    at async fetchSalon (webpack-internal:///(app-pages-browser)/./app/salon/[id]/page.tsx:131:26)
+[2026-08-21T22:09:08.427Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:09:08.428Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:09:08.429Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:09:08.430Z] ❌ Console error: fetchSalon error: AxiosError: Request failed with status code 500
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async Object.getById (webpack-internal:///(app-pages-browser)/./integration/services/provider/providerService.ts:95:29)
+    at async fetchSalon (webpack-internal:///(app-pages-browser)/./app/salon/[id]/page.tsx:131:26)
+[2026-08-21T22:09:08.434Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:09:08.435Z] ❌ Console error: Failed to load provider services AxiosError: Request failed with status code 500
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async Object.getServicesItems (webpack-internal:///(app-pages-browser)/./integration/services/provider/providerService.ts:225:21)
+    at async eval (webpack-internal:///(app-pages-browser)/./components/services/ServiceCardsList.tsx:44:31)
+[2026-08-21T22:09:12.015Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\33-salon-page.png
+[2026-08-21T22:09:12.015Z] ✅ Salon page loaded
+[2026-08-21T22:09:12.015Z] 
+=== STEP 26: Explore Reviews Page ===
+[2026-08-21T22:09:13.257Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:13.619Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:09:13.621Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:09:17.224Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\34-reviews-page.png
+[2026-08-21T22:09:17.224Z] ✅ Reviews page loaded
+[2026-08-21T22:09:17.225Z] 
+=== STEP 27: Explore Team Page ===
+[2026-08-21T22:09:18.679Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:23.304Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\35-team-page.png
+[2026-08-21T22:09:23.304Z] ✅ Team page loaded
+[2026-08-21T22:09:23.304Z] 
+=== STEP 28: Explore Booking Slot Page ===
+[2026-08-21T22:09:24.475Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:24.908Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:09:24.910Z] ❌ Console error: Failed to fetch provider working hours: AxiosError: Request failed with status code 500
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async Object.getById (webpack-internal:///(app-pages-browser)/./integration/services/provider/providerService.ts:95:29)
+    at async fetchProvider (webpack-internal:///(app-pages-browser)/./components/booking-slot/BookingSlotClient.tsx:32:34)
+[2026-08-21T22:09:24.914Z] ❌ Console error: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[2026-08-21T22:09:24.916Z] ❌ Console error: Failed to fetch provider working hours: AxiosError: Request failed with status code 500
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async Object.getById (webpack-internal:///(app-pages-browser)/./integration/services/provider/providerService.ts:95:29)
+    at async fetchProvider (webpack-internal:///(app-pages-browser)/./components/booking-slot/BookingSlotClient.tsx:32:34)
+[2026-08-21T22:09:28.644Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\36-booking-slot-page.png
+[2026-08-21T22:09:28.644Z] ✅ Booking slot page loaded
+[2026-08-21T22:09:28.644Z] 
+=== STEP 29: Explore Chat with Salon ===
+[2026-08-21T22:09:30.503Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:34.532Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\37-chat-salon-page.png
+[2026-08-21T22:09:34.532Z] ✅ Chat with salon page loaded
+[2026-08-21T22:09:34.533Z] 
+=== STEP 30: Explore Accounts Sub-pages ===
+[2026-08-21T22:09:34.993Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:38.078Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\38-account-1--accounts-profile.png
+[2026-08-21T22:09:38.079Z] ✅ Account page loaded: /accounts/profile
+[2026-08-21T22:09:38.850Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:42.032Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\38-account-2--accounts-settings.png
+[2026-08-21T22:09:42.032Z] ✅ Account page loaded: /accounts/settings
+[2026-08-21T22:09:42.856Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:43.185Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:09:43.194Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:09:43.202Z] ❌ Console error: Failed to load resource: the server responded with a status of 401 (Unauthorized)
+[2026-08-21T22:09:43.204Z] ❌ Console error: [refreshAccessToken] Error: AxiosError: Request failed with status code 401
+    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)
+    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:75:68)
+    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:56:41)
+    at async refreshAccessToken (webpack-internal:///(app-pages-browser)/./integration/http/interceptor.ts:36:26)
+    at async eval (webpack-internal:///(app-pages-browser)/./integration/http/interceptor.ts:105:34)
+    at async Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:51:14)
+    at async Object.getFavorites (webpack-internal:///(app-pages-browser)/./integration/services/customer/customer.service.ts:53:29)
+    at async getFavorites (webpack-internal:///(app-pages-browser)/./app/accounts/favorites/page.tsx:30:25)
+[2026-08-21T22:09:43.338Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:46.281Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\38-account-3--accounts-favorites.png
+[2026-08-21T22:09:46.281Z] ✅ Account page loaded: /accounts/favorites
+[2026-08-21T22:09:47.127Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:50.109Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\38-account-4--accounts-packages.png
+[2026-08-21T22:09:50.110Z] ✅ Account page loaded: /accounts/packages
+[2026-08-21T22:09:50.933Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:53.928Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\38-account-5--accounts-wallet.png
+[2026-08-21T22:09:53.928Z] ✅ Account page loaded: /accounts/wallet
+[2026-08-21T22:09:54.745Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:09:57.823Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\38-account-6--accounts-support.png
+[2026-08-21T22:09:57.824Z] ✅ Account page loaded: /accounts/support
+[2026-08-21T22:09:58.814Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:10:01.804Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\38-account-7--accounts-upgrade.png
+[2026-08-21T22:10:01.804Z] ✅ Account page loaded: /accounts/upgrade
+[2026-08-21T22:10:01.804Z] 
+=== STEP 31: Explore Login_ Page ===
+[2026-08-21T22:10:02.662Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:10:06.765Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\39-login_alt-page.png
+[2026-08-21T22:10:06.765Z] ✅ Login_ page loaded
+[2026-08-21T22:10:06.765Z] 
+=== STEP 32: Explore Provider Page ===
+[2026-08-21T22:10:07.626Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:10:12.067Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\40-provider-page.png
+[2026-08-21T22:10:12.067Z] ✅ Provider page loaded
+[2026-08-21T22:10:12.067Z] 
+=== STEP 33: Explore Home Page (Root) ===
+[2026-08-21T22:10:13.044Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:10:17.244Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\41-root-page.png
+[2026-08-21T22:10:17.244Z] ✅ Root page loaded
+[2026-08-21T22:10:17.245Z] 
+=== STEP 34: Explore Not Found Page ===
+[2026-08-21T22:10:18.050Z] ❌ Console error: Failed to load resource: the server responded with a status of 404 (Not Found)
+[2026-08-21T22:10:18.059Z] ❌ Console error: Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-08-21T22:10:22.045Z] 📸 Screenshot saved: C:\Users\HP\OneDrive\Desktop\New folder\screenshots\42-not-found-page.png
+[2026-08-21T22:10:22.045Z] ✅ Not found page loaded

@@ -1,0 +1,122 @@
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.2s
+ ○ Compiling /login ...
+
+[1m[33mwarn[39m[22m - The class `duration-[2000ms]` is ambiguous and matches multiple utilities.
+[1m[33mwarn[39m[22m - If this is content and not a class, replace it with `duration-&lsqb;2000ms&rsqb;` to silence this warning.
+ ✓ Compiled /login in 4.7s (946 modules)
+🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+ GET /login 200 in 4987ms
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'C:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\typescript\lib\typescript.js', but to 'c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected C:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack-config.js
+<w>  at file c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'C:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\typescript\lib\typescript.js', but to 'c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected C:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack-config.js
+<w>  at file c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs c:\Users\HP\OneDrive\Desktop\New folder\glow-up-web\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ ○ Compiling /home ...
+ ✓ Compiled /home in 812ms (1008 modules)
+ ○ Compiling /accounts/profile ...
+ ✓ Compiled /accounts/profile in 886ms (1151 modules)
+ GET /accounts/profile 200 in 1137ms
+ ✓ Compiled /services in 401ms (1179 modules)
+ GET /services 200 in 476ms
+ GET /home 200 in 74ms
+ ○ Compiling /salon/[id] ...
+ ✓ Compiled /salon/[id] in 1342ms (1351 modules)
+ GET /salon/6a88dc109e91865c75c2f034 200 in 2017ms
+ ✓ Compiled /booking-for in 335ms (1323 modules)
+ GET /booking-for?id=6a88dc109e91865c75c2f034 200 in 436ms
+ ✓ Compiled /team/[providerId] in 425ms (1335 modules)
+ GET /login 200 in 100ms
+ ✓ Compiled in 1073ms (1324 modules)
+ GET /login 200 in 180ms
+ GET /accounts/profile 200 in 81ms
+ ✓ Compiled /services in 280ms (706 modules)
+ GET /services 200 in 468ms
+ GET /home 200 in 49ms
+ GET /salon/6a88dc109e91865c75c2f034 200 in 78ms
+ GET /login 200 in 66ms
+ GET /login 200 in 45ms
+ GET /accounts/profile 200 in 100ms
+ GET /services 200 in 59ms
+ GET /home 200 in 63ms
+ GET /salon/6a88dda29e91865c75c2f0cb 200 in 75ms
+ GET /login 200 in 50ms
+ GET /login 200 in 51ms
+ GET /accounts/profile 200 in 55ms
+ GET /services 200 in 73ms
+ GET /home 200 in 57ms
+ GET /salon/6a88dda29e91865c75c2f0cb 200 in 106ms
+ GET /login 200 in 87ms
+ GET /login 200 in 79ms
+ GET /accounts/profile 200 in 66ms
+ GET /services 200 in 77ms
+ GET /home 200 in 70ms
+ GET /salon/6a88dda29e91865c75c2f0cb 200 in 69ms
+ ✓ Compiled /team/[providerId] in 288ms (713 modules)
+ GET /login 200 in 136ms
+ GET /login 200 in 165ms
+ GET /accounts/profile 200 in 80ms
+ GET /services 200 in 84ms
+ GET /home 200 in 75ms
+ GET /salon/6a88dda29e91865c75c2f0cb 200 in 105ms
+ ○ Compiling /booking-slot/[id] ...
+ ✓ Compiled /booking-slot/[id] in 911ms (1351 modules)
+ GET /login 200 in 79ms
+ GET /login 200 in 136ms
+ GET /login 200 in 73ms
+ GET /accounts/profile 200 in 64ms
+ GET /services 200 in 43ms
+ GET /home 200 in 91ms
+ GET /salon/6a88dda29e91865c75c2f0cb 200 in 90ms
+ ○ Compiling /booking-details ...
+ ✓ Compiled /booking-details in 1571ms (1383 modules)
+ GET /login 200 in 143ms
+ GET /login 200 in 54ms
+ GET /accounts/profile 200 in 106ms
+ GET /services 200 in 54ms
+ GET /home 200 in 61ms
+ GET /salon/6a88dda29e91865c75c2f0cb 200 in 79ms
+ GET /login 200 in 68ms
+ GET /login 200 in 78ms
+ GET /accounts/profile 200 in 77ms
+ GET /services 200 in 75ms
+ GET /home 200 in 85ms
+ GET /salon/6a88dda29e91865c75c2f0cb 200 in 107ms
+ ○ Compiling /payment-details ...
+ ✓ Compiled /payment-details in 1174ms (1407 modules)
+ GET /login 200 in 121ms
+ GET /login 200 in 67ms
+ GET /accounts/profile 200 in 97ms
+ GET /services 200 in 55ms
+ GET /home 200 in 78ms
+ GET /salon/6a88dda29e91865c75c2f0cb 200 in 105ms
+ GET /login 200 in 58ms
+ GET /login 200 in 65ms
+ GET /accounts/profile 200 in 61ms
+ GET /services 200 in 82ms
+ GET /home 200 in 79ms
+ GET /salon/6a88dda29e91865c75c2f0cb 200 in 70ms
+ ○ Compiling /booking-success ...
+ ✓ Compiled /booking-success in 1209ms (1427 modules)
+ GET /login 200 in 150ms
+ GET /home 200 in 81ms
+ GET /home 200 in 73ms
+ ○ Compiling /salon/[id]/employee/[employeeId] ...
+ ✓ Compiled /salon/[id]/employee/[employeeId] in 4.3s (1368 modules)
